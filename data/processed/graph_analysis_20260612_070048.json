@@ -1,0 +1,437 @@
+{
+  "timestamp": "20260612_070048",
+  "graph_metrics": {
+    "total_nodes": 1140,
+    "total_edges": 3319,
+    "isolated_threats": 1,
+    "connected_components": 5,
+    "largest_component": 657,
+    "avg_component_size": 228.0,
+    "top_connected_threats": [
+      {
+        "value": "45.67.222.21:3389",
+        "centrality": 0.0149
+      },
+      {
+        "value": "45.67.84.76:3389",
+        "centrality": 0.0149
+      },
+      {
+        "value": "mlcos.cdnupdate.net",
+        "centrality": 0.014
+      },
+      {
+        "value": "T1078.004",
+        "centrality": 0.014
+      },
+      {
+        "value": "185.212.170.93:443",
+        "centrality": 0.0123
+      },
+      {
+        "value": "1364170351-9enmkvd46p.ap-guangzhou.tencentscf.com",
+        "centrality": 0.0123
+      },
+      {
+        "value": "175.98.132.116:9443",
+        "centrality": 0.0123
+      },
+      {
+        "value": "139.5.108.17:443",
+        "centrality": 0.0123
+      },
+      {
+        "value": "193.233.130.136:3389",
+        "centrality": 0.0123
+      },
+      {
+        "value": "T1078",
+        "centrality": 0.0123
+      }
+    ],
+    "isolated_sample": [
+      "6e08a9b19df98e36da4409a8ae5990bde3ed6dc583fbea9f112cbc55421aec59"
+    ]
+  },
+  "geographic_clusters": [
+    {
+      "malware_family": "unknown",
+      "countries": [
+        "CA",
+        "URL that is used for botnet Command&control (C&C)",
+        "Domain that is used for botnet Command&control (C&C)",
+        "URL that delivers a malware payload",
+        "Domain name that delivers a malware payload",
+        "ip:port combination that is used for botnet Command&control (C&C)",
+        "ip:port combination that delivery a malware payload",
+        "SHA256 hash of a malware sample (payload)"
+      ],
+      "country_count": 8,
+      "threat_count": 75,
+      "types": {
+        "ip:port": 51,
+        "url": 10,
+        "sha256_hash": 7,
+        "domain": 6,
+        "file_hash": 1
+      },
+      "sources": {
+        "threatfox": 74,
+        "malwarebazaar": 1
+      },
+      "global_spread_score": 60.0
+    },
+    {
+      "malware_family": "win.cobalt_strike",
+      "countries": [
+        "ip:port combination that is used for botnet Command&control (C&C)",
+        "Domain that is used for botnet Command&control (C&C)"
+      ],
+      "country_count": 2,
+      "threat_count": 66,
+      "types": {
+        "ip:port": 64,
+        "domain": 2
+      },
+      "sources": {
+        "threatfox": 66
+      },
+      "global_spread_score": 13.2
+    },
+    {
+      "malware_family": "win.vidar",
+      "countries": [
+        "URL that is used for botnet Command&control (C&C)",
+        "Domain that is used for botnet Command&control (C&C)"
+      ],
+      "country_count": 2,
+      "threat_count": 14,
+      "types": {
+        "url": 7,
+        "domain": 7
+      },
+      "sources": {
+        "threatfox": 14
+      },
+      "global_spread_score": 2.8
+    },
+    {
+      "malware_family": "win.firecrypt",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 9,
+      "types": {
+        "sha1_hash": 3,
+        "md5_hash": 3,
+        "sha256_hash": 3
+      },
+      "sources": {
+        "threatfox": 9
+      },
+      "global_spread_score": 2.7
+    },
+    {
+      "malware_family": "win.strelastealer",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "Domain name that delivers a malware payload",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 4,
+      "threat_count": 6,
+      "types": {
+        "domain": 3,
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "sha256_hash": 1
+      },
+      "sources": {
+        "threatfox": 6
+      },
+      "global_spread_score": 2.4
+    },
+    {
+      "malware_family": "js.kongtuke",
+      "countries": [
+        "URL that delivers a malware payload",
+        "Domain name that delivers a malware payload"
+      ],
+      "country_count": 2,
+      "threat_count": 11,
+      "types": {
+        "url": 8,
+        "domain": 3
+      },
+      "sources": {
+        "threatfox": 11
+      },
+      "global_spread_score": 2.2
+    },
+    {
+      "malware_family": "win.coinminer",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 6,
+      "types": {
+        "sha256_hash": 2,
+        "sha1_hash": 2,
+        "md5_hash": 2
+      },
+      "sources": {
+        "threatfox": 6
+      },
+      "global_spread_score": 1.8
+    },
+    {
+      "malware_family": "win.phorpiex",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 6,
+      "types": {
+        "md5_hash": 2,
+        "sha1_hash": 2,
+        "sha256_hash": 2
+      },
+      "sources": {
+        "threatfox": 6
+      },
+      "global_spread_score": 1.8
+    },
+    {
+      "malware_family": "win.nanocore",
+      "countries": [
+        "ip:port combination that is used for botnet Command&control (C&C)",
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 4,
+      "threat_count": 4,
+      "types": {
+        "sha256_hash": 1,
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "ip:port": 1
+      },
+      "sources": {
+        "threatfox": 4
+      },
+      "global_spread_score": 1.6
+    },
+    {
+      "malware_family": "js.smartapesg",
+      "countries": [
+        "URL that delivers a malware payload",
+        "Domain name that delivers a malware payload"
+      ],
+      "country_count": 2,
+      "threat_count": 7,
+      "types": {
+        "url": 5,
+        "domain": 2
+      },
+      "sources": {
+        "threatfox": 7
+      },
+      "global_spread_score": 1.4
+    },
+    {
+      "malware_family": "QakBot",
+      "countries": [
+        "JP",
+        "US",
+        "GB"
+      ],
+      "country_count": 3,
+      "threat_count": 4,
+      "types": {
+        "ip:port": 4
+      },
+      "sources": {
+        "feodo_tracker": 4
+      },
+      "global_spread_score": 1.2
+    },
+    {
+      "malware_family": "win.pure_rat",
+      "countries": [
+        "ip:port combination that is used for botnet Command&control (C&C)",
+        "SHA256 hash of a malware sample (payload)"
+      ],
+      "country_count": 2,
+      "threat_count": 6,
+      "types": {
+        "ip:port": 3,
+        "sha256_hash": 3
+      },
+      "sources": {
+        "threatfox": 6
+      },
+      "global_spread_score": 1.2
+    },
+    {
+      "malware_family": "osx.amos",
+      "countries": [
+        "SHA256 hash of a malware sample (payload)",
+        "Domain name that delivers a malware payload"
+      ],
+      "country_count": 2,
+      "threat_count": 5,
+      "types": {
+        "sha256_hash": 3,
+        "domain": 2
+      },
+      "sources": {
+        "threatfox": 5
+      },
+      "global_spread_score": 1.0
+    },
+    {
+      "malware_family": "win.agent_tesla",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "sha1_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.darktortilla",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "sha1_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.gcleaner",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "sha256_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.gootkit",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "sha256_hash": 1,
+        "sha1_hash": 1,
+        "md5_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.masslogger",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "sha1_hash": 1,
+        "md5_hash": 1,
+        "sha256_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.tinyloader",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "sha1_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    },
+    {
+      "malware_family": "win.troystealer",
+      "countries": [
+        "SHA1 hash of a malware sample (payload)",
+        "SHA256 hash of a malware sample (payload)",
+        "MD5 hash of a malware sample (payload)"
+      ],
+      "country_count": 3,
+      "threat_count": 3,
+      "types": {
+        "md5_hash": 1,
+        "sha256_hash": 1,
+        "sha1_hash": 1
+      },
+      "sources": {
+        "threatfox": 3
+      },
+      "global_spread_score": 0.9
+    }
+  ],
+  "temporal_patterns": []
+}

@@ -1,0 +1,1524 @@
+[
+  {
+    "cluster_id": 1,
+    "size": 55,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 55
+    },
+    "threat_types": {
+      "domain": 55
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "js.clearfake": 43,
+      "win.strelastealer": 11,
+      "win.vidar": 1
+    },
+    "dominant_malware": "js.clearfake",
+    "tags": {
+      "ClearFake": 43,
+      "StrelaStealer": 11,
+      "Vidar": 1
+    },
+    "avg_anomaly_score": -0.4708,
+    "sample_values": [
+      "x6veozdp.ganuneasasi.xyz",
+      "9w0va69z.shansbartar.bet",
+      "4y04a82z.hattrickbetkade.com",
+      "k96h8q0b.fubet24.net",
+      "8gl6eqnn.fubet24.net"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.647018"
+  },
+  {
+    "cluster_id": 2,
+    "size": 175,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 175
+    },
+    "threat_types": {
+      "domain": 175
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.strelastealer": 108,
+      "js.clearfake": 53,
+      "js.kongtuke": 4,
+      "js.ether_rat": 4,
+      "js.smartapesg": 3,
+      "unknown": 2,
+      "win.vidar": 1
+    },
+    "dominant_malware": "win.strelastealer",
+    "tags": {
+      "StrelaStealer": 108,
+      "ClearFake": 53,
+      "Kongtuke": 4,
+      "EtherRat": 4,
+      "SmartApeSG": 3
+    },
+    "avg_anomaly_score": -0.4301,
+    "sample_values": [
+      "trqyckok.ganuneasasi.xyz",
+      "sjgnfsm.megaparikade.com",
+      "hkhyaprc.betyek.net",
+      "divinenarratives.org",
+      "geirvzju.betxane.com"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.647018"
+  },
+  {
+    "cluster_id": 5,
+    "size": 42,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 42
+    },
+    "threat_types": {
+      "ip:port": 42
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.vshell": 10,
+      "win.vidar": 9,
+      "win.adaptix_c2": 6,
+      "win.asyncrat": 5,
+      "unknown": 4,
+      "win.quasar_rat": 3,
+      "win.cobalt_strike": 3,
+      "elf.mirai": 1,
+      "win.dcrat": 1
+    },
+    "dominant_malware": "win.vshell",
+    "tags": {
+      "Vshell": 10,
+      "Vidar": 9,
+      "Adaptix": 6,
+      "asyncrat": 5,
+      "Supershell": 4
+    },
+    "avg_anomaly_score": -0.4896,
+    "sample_values": [
+      "114.132.227.144:8084",
+      "134.175.250.157:18088",
+      "8.138.103.47:8888",
+      "102.46.221.148:8808",
+      "45.137.99.3:8080"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.653219"
+  },
+  {
+    "cluster_id": 12,
+    "size": 6,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 6
+    },
+    "threat_types": {
+      "ip:port": 6
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.cobalt_strike": 5,
+      "win.nanocore": 1
+    },
+    "dominant_malware": "win.cobalt_strike",
+    "tags": {
+      "CobaltStrike,cs-watermark-987654321": 3,
+      "CobaltStrike,cs-watermark-666666666": 2,
+      "NanoCore,RAT": 1
+    },
+    "avg_anomaly_score": -0.4836,
+    "sample_values": [
+      "64.89.161.185:5566",
+      "154.198.49.31:1234",
+      "45.116.14.13:8111",
+      "95.182.114.29:443",
+      "60.205.126.246:8443"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.693405"
+  },
+  {
+    "cluster_id": 20,
+    "size": 99,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "mitre_attack": 99
+    },
+    "threat_types": {
+      "attack_technique": 99
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Extra Window Memory Injection": 1,
+      "Keylogging": 1,
+      "Path Interception by PATH Environment Variable": 1,
+      "PowerShell Profile": 1,
+      "LC_LOAD_DYLIB Addition": 1,
+      "System Firmware": 1,
+      "Services Registry Permissions Weakness": 1,
+      "Bootkit": 1,
+      "Active Setup": 1,
+      "Trust Modification": 1,
+      "TFTP Boot": 1,
+      "Windows Service": 1,
+      "System Checks": 1,
+      "Additional Cloud Roles": 1,
+      "Print Processors": 1,
+      "DLL": 1,
+      "AppDomainManager": 1,
+      "Additional Container Cluster Roles": 1,
+      "Additional Local or Domain Groups": 1,
+      "Thread Execution Hijacking": 1,
+      "Application Shimming": 1,
+      "Port Monitors": 1,
+      "Login Hook": 1,
+      "Evil Twin": 1,
+      "Shortcut Modification": 1,
+      "Time Based Checks": 1,
+      "Security Support Provider": 1,
+      "Launch Daemon": 1,
+      "Path Interception by Search Order Hijacking": 1,
+      "DHCP Spoofing": 1,
+      "Group Policy Modification": 1,
+      "Time Providers": 1,
+      "Trap": 1,
+      "Dynamic Linker Hijacking": 1,
+      "Name Resolution Poisoning and SMB Relay": 1,
+      "Create Process with Token": 1,
+      "Winlogon Helper DLL": 1,
+      "Web Portal Capture": 1,
+      "SSH Authorized Keys": 1,
+      "Image File Execution Options Injection": 1,
+      "Process Doppelg\u00e4nging": 1,
+      "Executable Installer File Permissions Weakness": 1,
+      "Accessibility Features": 1,
+      "Component Firmware": 1,
+      "Asynchronous Procedure Call": 1,
+      "JamPlus": 1,
+      "AppCert DLLs": 1,
+      "Device Registration": 1,
+      "Portable Executable Injection": 1,
+      "Login Items": 1,
+      "Token Impersonation/Theft": 1,
+      "Additional Cloud Credentials": 1,
+      "Make and Impersonate Token": 1,
+      "Windows Management Instrumentation Event Subscription": 1,
+      "User Activity Based Checks": 1,
+      "Parent PID Spoofing": 1,
+      "Change Default File Association": 1,
+      "VDSO Hijacking": 1,
+      "Emond": 1,
+      "Services File Permissions Weakness": 1,
+      "Registry Run Keys / Startup Folder": 1,
+      "Kernel Modules and Extensions": 1,
+      "GUI Input Capture": 1,
+      "KernelCallbackTable": 1,
+      "ROMMONkit": 1,
+      "Container Service": 1,
+      "Process Hollowing": 1,
+      "Unix Shell Configuration Modification": 1,
+      "SID-History Injection": 1,
+      "Authentication Package": 1,
+      "Component Object Model Hijacking": 1,
+      "Path Interception by Unquoted Path": 1,
+      "Startup Items": 1,
+      "Python Startup Hooks": 1,
+      "Network Logon Script": 1,
+      "MSBuild": 1,
+      "ARP Cache Poisoning": 1,
+      "ClickOnce": 1,
+      "AppInit DLLs": 1,
+      "Screensaver": 1,
+      "Launch Agent": 1,
+      "Proc Memory": 1,
+      "Installer Packages": 1,
+      "RC Scripts": 1,
+      "Systemd Service": 1,
+      "XDG Autostart Entries": 1,
+      "Thread Local Storage": 1,
+      "Re-opened Applications": 1,
+      "Additional Email Delegate Permissions": 1,
+      "Ptrace System Calls": 1,
+      "Logon Script (Windows)": 1,
+      "ListPlanting": 1,
+      "LSASS Driver": 1,
+      "Dynamic-link Library Injection": 1,
+      "Udev Rules": 1,
+      "Credential API Hooking": 1,
+      "Netsh Helper DLL": 1,
+      "Dylib Hijacking": 1,
+      "COR_PROFILER": 1
+    },
+    "dominant_malware": "Extra Window Memory Injection",
+    "tags": {
+      "persistence,privilege-escalation": 33,
+      "stealth,privilege-escalation": 17,
+      "privilege-escalation,persistence": 16,
+      "stealth,execution": 15,
+      "stealth,persistence": 5
+    },
+    "avg_anomaly_score": -0.4401,
+    "sample_values": [
+      "T1055.011",
+      "T1056.001",
+      "T1574.007",
+      "T1546.013",
+      "T1546.006"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.718125"
+  },
+  {
+    "cluster_id": 21,
+    "size": 17,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "mitre_attack": 17
+    },
+    "threat_types": {
+      "attack_technique": 17
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Scheduled Task": 1,
+      "Socket Filters": 1,
+      "Pluggable Authentication Modules": 1,
+      "Container Orchestration Job": 1,
+      "Cron": 1,
+      "Password Filter DLL": 1,
+      "Hybrid Identity": 1,
+      "Port Knocking": 1,
+      "Launchd": 1,
+      "Network Provider DLL": 1,
+      "Systemd Timers": 1,
+      "Multi-Factor Authentication": 1,
+      "Conditional Access Policies": 1,
+      "Domain Controller Authentication": 1,
+      "Reversible Encryption": 1,
+      "At": 1,
+      "Network Device Authentication": 1
+    },
+    "dominant_malware": "Scheduled Task",
+    "tags": {
+      "defense-impairment,persistence,credential-access": 9,
+      "execution,persistence,privilege-escalation": 6,
+      "stealth,persistence,command-and-control": 2
+    },
+    "avg_anomaly_score": -0.4916,
+    "sample_values": [
+      "T1053.005",
+      "T1205.002",
+      "T1556.003",
+      "T1053.007",
+      "T1053.003"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.726151"
+  },
+  {
+    "cluster_id": 22,
+    "size": 356,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "mitre_attack": 356
+    },
+    "threat_types": {
+      "attack_technique": 356
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Digital Certificates": 3,
+      "Serverless": 2,
+      "DNS": 2,
+      "DNS Server": 2,
+      "Malware": 2,
+      "Domain Account": 2,
+      "Local Account": 2,
+      "Social Media Accounts": 2,
+      "Spearphishing Link": 2,
+      "Spearphishing Attachment": 2,
+      "Botnet": 2,
+      "Code Signing Certificates": 2,
+      "Virtual Private Server": 2,
+      "Cloud Accounts": 2,
+      "Email Accounts": 2,
+      "Domains": 2,
+      "Server": 2,
+      "Spearphishing Voice": 2,
+      "Code Repositories": 2,
+      "Web Services": 2,
+      "Cloud Account": 2,
+      "Exploits": 2,
+      "Steganography": 2,
+      "Archive via Utility": 1,
+      "VNC": 1,
+      "Fileless Storage": 1,
+      "Rundll32": 1,
+      "Standard Encoding": 1,
+      "Embedded Payloads": 1,
+      "Revert Cloud Instance": 1,
+      "File/Path Exclusions": 1,
+      "Linux and Mac Permissions": 1,
+      "Password Guessing": 1,
+      "PubPrn": 1,
+      "Purchase Technical Data": 1,
+      "Disk Structure Wipe": 1,
+      "Direct Network Flood": 1,
+      "Sharepoint": 1,
+      "Artificial Intelligence": 1,
+      "Email Hiding Rules": 1,
+      "External Defacement": 1,
+      "Encrypted/Encoded File": 1,
+      "IP Addresses": 1,
+      "OS Exhaustion Flood": 1,
+      "JavaScript": 1,
+      "Modify or Spoof Tool UI": 1,
+      "Lifecycle-Triggered Deletion": 1,
+      "Domain Generation Algorithms": 1,
+      "Double File Extension": 1,
+      "Bypass User Account Control": 1,
+      "SMS Pumping": 1,
+      "Internet Connection Discovery": 1,
+      "Sudo and Sudo Caching": 1,
+      "Disable or Modify Windows Event Log": 1,
+      "Archive via Custom Method": 1,
+      "Network Devices": 1,
+      "Malvertising": 1,
+      "Security Account Manager": 1,
+      "WHOIS": 1,
+      "Cloud Groups": 1,
+      "DNS/Passive DNS": 1,
+      "Application Exhaustion Flood": 1,
+      "Compromise Software Dependencies and Development Tools": 1,
+      "Cloud Instance Metadata API": 1,
+      "Securityd Memory": 1,
+      "Mavinject": 1,
+      "Local Data Staging": 1,
+      "Match Legitimate Resource Name or Location": 1,
+      "Stored Data Manipulation": 1,
+      "Password Cracking": 1,
+      "Local Email Collection": 1,
+      "Keychain": 1,
+      "LSA Secrets": 1,
+      "SAML Tokens": 1,
+      "Masquerade File Type": 1,
+      "Dynamic Data Exchange": 1,
+      "Malicious File": 1,
+      "Identify Business Tempo": 1,
+      "Disable or Modify Linux Audit System Log": 1,
+      "Publish/Subscribe Protocols": 1,
+      "Hardware": 1,
+      "Databases": 1,
+      "Symmetric Cryptography": 1,
+      "Browser Extensions": 1,
+      "Windows Host Firewall": 1,
+      "Fast Flux DNS": 1,
+      "Domain Groups": 1,
+      "Vulnerabilities": 1,
+      "Application or System Exploitation": 1,
+      "InstallUtil": 1,
+      "SSH": 1,
+      "Stripped Payloads": 1,
+      "Component Object Model": 1,
+      "Proc Filesystem": 1,
+      "Password Managers": 1,
+      "Gatekeeper Bypass": 1,
+      "Drive-by Target": 1,
+      "Code Signing": 1,
+      "Runtime Data Manipulation": 1,
+      "Credentials in Registry": 1,
+      "Break Process Trees": 1,
+      "Network Topology": 1,
+      "Windows Permissions": 1,
+      "Add-ins": 1,
+      "Disable or Modify Cloud Log": 1,
+      "Transport Agent": 1,
+      "Remote Data Staging": 1,
+      "Msiexec": 1,
+      "Network Trust Dependencies": 1,
+      "Reflection Amplification": 1,
+      "Terminal Services DLL": 1,
+      "AppleScript": 1,
+      "Service Exhaustion Flood": 1,
+      "Compromise Hardware Supply Chain": 1,
+      "Ccache Files": 1,
+      "Clear Network Connection History and Configurations": 1,
+      "AS-REP Roasting": 1,
+      "AutoHotKey & AutoIT": 1,
+      "Reduce Key Space": 1,
+      "Clear Command History": 1,
+      "Outlook Rules": 1,
+      "Upload Malware": 1,
+      "Archive via Library": 1,
+      "Clear Mailbox Data": 1,
+      "Exfiltration Over Webhook": 1,
+      "Direct Cloud VM Connections": 1,
+      "Timestomp": 1,
+      "Wi-Fi Discovery": 1,
+      "Mutual Exclusion": 1,
+      "Ignore Process Interrupts": 1,
+      "Backup Software Discovery": 1,
+      "Systemctl": 1,
+      "Email Account": 1,
+      "CMSTP": 1,
+      "SSH Hijacking": 1,
+      "SMB/Windows Admin Shares": 1,
+      "Control Panel": 1,
+      "Network Address Translation Traversal": 1,
+      "Upload Tool": 1,
+      "Overwrite Process Arguments": 1,
+      "Threat Intel Vendors": 1,
+      "Network Device Configuration Dump": 1,
+      "SIP and Trust Provider Hijacking": 1,
+      "Mail Protocols": 1,
+      "Vulnerability Scanning": 1,
+      "Cloud API": 1,
+      "Electron Applications": 1,
+      "Code Signing Policy Modification": 1,
+      "Credentials from Web Browsers": 1,
+      "Bind Mounts": 1,
+      "Binary Padding": 1,
+      "Web Shell": 1,
+      "Clear Linux or Mac System Logs": 1,
+      "Private Keys": 1,
+      "Windows Remote Management": 1,
+      "Exfiltration Over Bluetooth": 1,
+      "LSASS Memory": 1,
+      "IDE Extensions": 1,
+      "Junk Code Insertion": 1,
+      "Setuid and Setgid": 1,
+      "Distributed Component Object Model": 1,
+      "Password Spraying": 1,
+      "External Proxy": 1,
+      "Email Addresses": 1,
+      "Written Content": 1,
+      "Cached Domain Credentials": 1,
+      "Network Security Appliances": 1,
+      "Odbcconf": 1,
+      "Search Engines": 1,
+      "Business Relationships": 1,
+      "Temporary Elevated Cloud Access": 1,
+      "Delete Cloud Instance": 1,
+      "Bandwidth Hijacking": 1,
+      "Malicious Library": 1,
+      "Clear Windows Event Logs": 1,
+      "Extended Attributes": 1,
+      "Employee Names": 1,
+      "Golden Ticket": 1,
+      "Client Configurations": 1,
+      "IDE Tunneling": 1,
+      "Right-to-Left Override": 1,
+      "SVG Smuggling": 1,
+      "Exfiltration Over Symmetric Encrypted Non-C2 Protocol": 1,
+      "Office Template Macros": 1,
+      "Confluence": 1,
+      "Pass the Ticket": 1,
+      "Masquerade Task or Service": 1,
+      "Traffic Duplication": 1,
+      "Email Forwarding Rule": 1,
+      "Mark-of-the-Web Bypass": 1,
+      "Disable Crypto Hardware": 1,
+      "Verclsid": 1,
+      "Launchctl": 1,
+      "Network Device CLI": 1,
+      "Shell History": 1,
+      "XPC Services": 1,
+      "Credentials In Files": 1,
+      "DNS Calculation": 1,
+      "Mshta": 1,
+      "Link Target": 1,
+      "Web Cookies": 1,
+      "Exfiltration to Code Repository": 1,
+      "Cloud Services": 1,
+      "LNK Icon Smuggling": 1,
+      "Internal Defacement": 1,
+      "Hidden Users": 1,
+      "Group Policy Preferences": 1,
+      "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol": 1,
+      "Audio-Visual Content": 1,
+      "CDNs": 1,
+      "Cloud Service Hijacking": 1,
+      "Chat Messages": 1,
+      "PowerShell": 1,
+      "File Transfer Protocols": 1,
+      "One-Way Communication": 1,
+      "Local Groups": 1,
+      "Network Device Firewall": 1,
+      "Tool": 1,
+      "Exfiltration over USB": 1,
+      "Compiled HTML File": 1,
+      "Compute Hijacking": 1,
+      "Network Share Connection Removal": 1,
+      "Multi-hop Proxy": 1,
+      "Unix Shell": 1,
+      "Outlook Forms": 1,
+      "Remote Access Hardware": 1,
+      "Browser Fingerprint": 1,
+      "Lua": 1,
+      "Indicator Removal from Tools": 1,
+      "Malicious Image": 1,
+      "Resource Forking": 1,
+      "Credential Stuffing": 1,
+      "Remote Email Collection": 1,
+      "IIS Components": 1,
+      "Invalid Code Signature": 1,
+      "Run Virtual Instance": 1,
+      "Polymorphic Code": 1,
+      "Elevated Execution with Prompt": 1,
+      "Firmware": 1,
+      "Regsvr32": 1,
+      "Exfiltration to Text Storage Sites": 1,
+      "Software": 1,
+      "Social Media": 1,
+      "Customer Relationship Management Software": 1,
+      "Credentials": 1,
+      "Compromise Software Supply Chain": 1,
+      "Rename Legitimate Utilities": 1,
+      "Bidirectional Communication": 1,
+      "Wordlist Scanning": 1,
+      "Outlook Home Page": 1,
+      "Asymmetric Cryptography": 1,
+      "Exfiltration to Cloud Storage": 1,
+      "Install Digital Certificate": 1,
+      "System Language Discovery": 1,
+      "Container CLI/API": 1,
+      "Protocol or Service Impersonation": 1,
+      "Web Session Cookie": 1,
+      "Regsvcs/Regasm": 1,
+      "Install Root Certificate": 1,
+      "Compile After Delivery": 1,
+      "VBA Stomping": 1,
+      "Modify Cloud Compute Configurations": 1,
+      "Domain Fronting": 1,
+      "Security Software Discovery": 1,
+      "Hidden Window": 1,
+      "Python": 1,
+      "Relocate Malware": 1,
+      "Identify Roles": 1,
+      "Impersonation": 1,
+      "Create Cloud Instance": 1,
+      "Cloud Secrets Management Stores": 1,
+      "Transmitted Data Manipulation": 1,
+      "/etc/passwd and /etc/shadow": 1,
+      "Windows Command Shell": 1,
+      "Patch System Image": 1,
+      "Silver Ticket": 1,
+      "Clear Persistence": 1,
+      "Hypervisor CLI": 1,
+      "Windows Credential Manager": 1,
+      "Masquerade Account Name": 1,
+      "Remote Desktop Software": 1,
+      "Non-Standard Encoding": 1,
+      "HTML Smuggling": 1,
+      "Command Obfuscation": 1,
+      "File Deletion": 1,
+      "Scanning IP Blocks": 1,
+      "Software Packing": 1,
+      "Web Protocols": 1,
+      "Visual Basic": 1,
+      "Hidden File System": 1,
+      "RDP Hijacking": 1,
+      "Malicious Copy and Paste": 1,
+      "Domain Properties": 1,
+      "Space after Filename": 1,
+      "SEO Poisoning": 1,
+      "Pass the Hash": 1,
+      "SyncAppvPublishingServer": 1,
+      "TCC Manipulation": 1,
+      "Invisible Unicode": 1,
+      "Dynamic API Resolution": 1,
+      "Remote Desktop Protocol": 1,
+      "Scan Databases": 1,
+      "Hidden Files and Directories": 1,
+      "Create Snapshot": 1,
+      "Determine Physical Locations": 1,
+      "Office Test": 1,
+      "NTDS": 1,
+      "Cloud Firewall": 1,
+      "SNMP (MIB Dump)": 1,
+      "Malicious Link": 1,
+      "Application Access Token": 1,
+      "Service Execution": 1,
+      "Environmental Keying": 1,
+      "NTFS File Attributes": 1,
+      "Kerberoasting": 1,
+      "DCSync": 1,
+      "Spearphishing via Service": 1,
+      "Internal Proxy": 1,
+      "Dead Drop Resolver": 1,
+      "Junk Data": 1,
+      "Spearphishing Service": 1,
+      "vSphere Installation Bundles": 1,
+      "Container API": 1,
+      "SQL Stored Procedures": 1,
+      "Disk Content Wipe": 1,
+      "Messaging Applications": 1,
+      "Exfiltration Over Unencrypted Non-C2 Protocol": 1,
+      "Compression": 1,
+      "Downgrade System Image": 1,
+      "Email Spoofing": 1,
+      "MMC": 1,
+      "Process Argument Spoofing": 1
+    },
+    "dominant_malware": "Digital Certificates",
+    "tags": {
+      "stealth": 72,
+      "resource-development": 41,
+      "reconnaissance": 34,
+      "credential-access": 33,
+      "defense-impairment": 27
+    },
+    "avg_anomaly_score": -0.4065,
+    "sample_values": [
+      "T1560.001",
+      "T1021.005",
+      "T1027.011",
+      "T1218.011",
+      "T1583.007"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.726151"
+  },
+  {
+    "cluster_id": 23,
+    "size": 203,
+    "anomaly_percentage": 3.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "mitre_attack": 203
+    },
+    "threat_types": {
+      "attack_technique": 203
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Windows Management Instrumentation": 1,
+      "Exploitation for Defense Impairment": 1,
+      "Screen Capture": 1,
+      "System Owner/User Discovery": 1,
+      "Acquire Infrastructure": 1,
+      "Container and Resource Discovery": 1,
+      "Gather Victim Host Information": 1,
+      "OS Credential Dumping": 1,
+      "Shared Modules": 1,
+      "Data from Configuration Repository": 1,
+      "Direct Volume Access": 1,
+      "Modify Cloud Resource Hierarchy": 1,
+      "Rootkit": 1,
+      "Audio Capture": 1,
+      "Steal Web Session Cookie": 1,
+      "Query Public AI Services": 1,
+      "Modify Cloud Compute Infrastructure": 1,
+      "Permission Groups Discovery": 1,
+      "Email Collection": 1,
+      "Search Victim-Owned Websites": 1,
+      "Disk Wipe": 1,
+      "Group Policy Discovery": 1,
+      "Data from Removable Media": 1,
+      "Weaken Encryption": 1,
+      "Service Stop": 1,
+      "Device Driver Discovery": 1,
+      "Hide Artifacts": 1,
+      "Taint Shared Content": 1,
+      "Office Application Startup": 1,
+      "Automated Collection": 1,
+      "Downgrade Attack": 1,
+      "Clipboard Data": 1,
+      "ESXi Administration Command": 1,
+      "System Service Discovery": 1,
+      "Data from Cloud Storage": 1,
+      "Network Share Discovery": 1,
+      "Peripheral Device Discovery": 1,
+      "System Information Discovery": 1,
+      "Application Layer Protocol": 1,
+      "Software Extensions": 1,
+      "Native API": 1,
+      "Indirect Command Execution": 1,
+      "Data from Local System": 1,
+      "Deobfuscate/Decode Files or Information": 1,
+      "Supply Chain Compromise": 1,
+      "Exploit Public-Facing Application": 1,
+      "Steal or Forge Kerberos Tickets": 1,
+      "Credentials from Password Stores": 1,
+      "Exfiltration Over Web Service": 1,
+      "Remote Access Tools": 1,
+      "Social Engineering": 1,
+      "Masquerading": 1,
+      "Unsecured Credentials": 1,
+      "System Binary Proxy Execution": 1,
+      "Source": 1,
+      "Reflective Code Loading": 1,
+      "Escape to Host": 1,
+      "Application Window Discovery": 1,
+      "Hypervisor": 1,
+      "Scheduled Transfer": 1,
+      "Implant Internal Image": 1,
+      "Protocol Tunneling": 1,
+      "Use Alternate Authentication Material": 1,
+      "Exfiltration Over Other Network Medium": 1,
+      "Gather Victim Identity Information": 1,
+      "Archive Collected Data": 1,
+      "Browser Session Hijacking": 1,
+      "Remote Services": 1,
+      "Search Open Technical Databases": 1,
+      "Rogue Domain Controller": 1,
+      "Deploy Container": 1,
+      "Cloud Infrastructure Discovery": 1,
+      "Defacement": 1,
+      "Unused/Unsupported Cloud Regions": 1,
+      "Remote Service Session Hijacking": 1,
+      "Browser Information Discovery": 1,
+      "Search Threat Vendor Data": 1,
+      "Input Injection": 1,
+      "Communication Through Removable Media": 1,
+      "File and Directory Permissions Modification": 1,
+      "Active Scanning": 1,
+      "Abuse Elevation Control Mechanism": 1,
+      "Virtual Machine Discovery": 1,
+      "Video Capture": 1,
+      "System Network Configuration Discovery": 1,
+      "Account Discovery": 1,
+      "Proxy": 1,
+      "Command and Scripting Interpreter": 1,
+      "Poisoned Pipeline Execution": 1,
+      "Domain Trust Discovery": 1,
+      "Automated Exfiltration": 1,
+      "Indicator Removal": 1,
+      "Container Administration Command": 1,
+      "File and Directory Discovery": 1,
+      "Dynamic Resolution": 1,
+      "Plist File Modification": 1,
+      "Data Staged": 1,
+      "Steal or Forge Authentication Certificates": 1,
+      "System Network Connections Discovery": 1,
+      "Compromise Infrastructure": 1,
+      "Build Image on Host": 1,
+      "Shared Webroot": 1,
+      "Compromise Accounts": 1,
+      "Web Service": 1,
+      "Stage Capabilities": 1,
+      "Multi-Stage Channels": 1,
+      "Financial Theft": 1,
+      "Execution Guardrails": 1,
+      "Cloud Storage Object Discovery": 1,
+      "Log Enumeration": 1,
+      "Steal Application Access Token": 1,
+      "User Execution": 1,
+      "Process Discovery": 1,
+      "Exfiltration Over C2 Channel": 1,
+      "Gather Victim Org Information": 1,
+      "Forge Web Credentials": 1,
+      "Multi-Factor Authentication Request Generation": 1,
+      "Compromise Host Software Binary": 1,
+      "Multiband Communication": 1,
+      "Selective Exclusion": 1,
+      "Exploitation for Credential Access": 1,
+      "Gather Victim Network Information": 1,
+      "Exploitation of Remote Services": 1,
+      "Internal Spearphishing": 1,
+      "Trusted Relationship": 1,
+      "LC_MAIN Hijacking": 1,
+      "Search Open Websites/Domains": 1,
+      "Exfiltration Over Alternative Protocol": 1,
+      "Delay Execution": 1,
+      "Search Closed Sources": 1,
+      "Phishing": 1,
+      "Graphical User Interface": 1,
+      "Brute Force": 1,
+      "Data Manipulation": 1,
+      "Inter-Process Communication": 1,
+      "Data Obfuscation": 1,
+      "Data from Network Shared Drive": 1,
+      "Modify System Image": 1,
+      "Non-Standard Port": 1,
+      "Exploitation for Privilege Escalation": 1,
+      "Account Access Removal": 1,
+      "Obfuscated Files or Information": 1,
+      "Generate Content": 1,
+      "Password Policy Discovery": 1,
+      "Forced Authentication": 1,
+      "Network Boundary Bridging": 1,
+      "Data Encrypted for Impact": 1,
+      "Prevent Command History Logging": 1,
+      "Subvert Trust Controls": 1,
+      "Encrypted Channel": 1,
+      "Disable or Modify Tools": 1,
+      "Exploitation for Client Execution": 1,
+      "Email Bombing": 1,
+      "Lateral Tool Transfer": 1,
+      "Non-Application Layer Protocol": 1,
+      "Cloud Application Integration": 1,
+      "Query Registry": 1,
+      "Data Transfer Size Limits": 1,
+      "Endpoint Denial of Service": 1,
+      "Safe Mode Boot": 1,
+      "System Location Discovery": 1,
+      "Data Encoding": 1,
+      "Phishing for Information": 1,
+      "Resource Hijacking": 1,
+      "Establish Accounts": 1,
+      "Obtain Capabilities": 1,
+      "System Services": 1,
+      "Acquire Access": 1,
+      "Data from Information Repositories": 1,
+      "Hardware Additions": 1,
+      "Server Software Component": 1,
+      "Data Destruction": 1,
+      "Transfer Data to Cloud Account": 1,
+      "Drive-by Compromise": 1,
+      "Network Denial of Service": 1,
+      "Cloud Administration Command": 1,
+      "Template Injection": 1,
+      "Multi-Factor Authentication Interception": 1,
+      "Exclusive Control": 1,
+      "Create Account": 1,
+      "Cloud Service Discovery": 1,
+      "Remote System Discovery": 1,
+      "Network Service Discovery": 1,
+      "Software Discovery": 1,
+      "Cloud Service Dashboard": 1,
+      "Exfiltration Over Physical Medium": 1,
+      "Ingress Tool Transfer": 1,
+      "Serverless Execution": 1,
+      "Power Settings": 1,
+      "Hide Infrastructure": 1,
+      "XSL Script Processing": 1,
+      "Develop Capabilities": 1,
+      "Disable or Modify System Firewall": 1,
+      "Fallback Channels": 1,
+      "Local Storage Discovery": 1,
+      "System Time Discovery": 1,
+      "Firmware Corruption": 1,
+      "Inhibit System Recovery": 1,
+      "System Script Proxy Execution": 1,
+      "Commonly Used Port": 1,
+      "Wi-Fi Networks": 1,
+      "Exploitation for Stealth": 1,
+      "System Shutdown/Reboot": 1
+    },
+    "dominant_malware": "Windows Management Instrumentation",
+    "tags": {
+      "discovery": 31,
+      "stealth": 21,
+      "command-and-control": 18,
+      "execution": 17,
+      "defense-impairment": 15
+    },
+    "avg_anomaly_score": -0.4528,
+    "sample_values": [
+      "T1047",
+      "T1687",
+      "T1113",
+      "T1033",
+      "T1583"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.726151"
+  },
+  {
+    "cluster_id": 24,
+    "size": 25,
+    "anomaly_percentage": 32.0,
+    "cosmos_confidence": 89.7,
+    "sources": {
+      "mitre_attack": 25
+    },
+    "threat_types": {
+      "attack_technique": 25
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Boot or Logon Initialization Scripts": 1,
+      "Adversary-in-the-Middle": 1,
+      "Create or Modify System Process": 1,
+      "External Remote Services": 1,
+      "Boot or Logon Autostart Execution": 1,
+      "Network Sniffing": 1,
+      "Replication Through Removable Media": 1,
+      "Content Injection": 1,
+      "Process Injection": 1,
+      "Modify Registry": 1,
+      "Redundant Access": 1,
+      "Component Object Model and Distributed COM": 1,
+      "Pre-OS Boot": 1,
+      "Scripting": 1,
+      "Virtualization/Sandbox Evasion": 1,
+      "Software Deployment Tools": 1,
+      "Account Manipulation": 1,
+      "Hijack Execution Flow": 1,
+      "Event Triggered Execution": 1,
+      "Input Capture": 1,
+      "Path Interception": 1,
+      "Access Token Manipulation": 1,
+      "Debugger Evasion": 1,
+      "Domain or Tenant Policy Modification": 1,
+      "Trusted Developer Utilities Proxy Execution": 1
+    },
+    "dominant_malware": "Boot or Logon Initialization Scripts",
+    "tags": {
+      "persistence,privilege-escalation": 5,
+      "stealth,execution": 3,
+      "stealth,privilege-escalation": 2,
+      "stealth,persistence": 2,
+      "stealth,discovery": 2
+    },
+    "avg_anomaly_score": -0.5253,
+    "sample_values": [
+      "T1037",
+      "T1557",
+      "T1543",
+      "T1133",
+      "T1547"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.726151"
+  },
+  {
+    "cluster_id": 13,
+    "size": 116,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 82.5,
+    "sources": {
+      "threatfox": 116
+    },
+    "threat_types": {
+      "domain": 116
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.strelastealer": 116
+    },
+    "dominant_malware": "win.strelastealer",
+    "tags": {
+      "StrelaStealer": 116
+    },
+    "avg_anomaly_score": -0.4257,
+    "sample_values": [
+      "willkoai.com",
+      "winninggoaltips.com",
+      "www.inmark.cz",
+      "www.yosushimania.com",
+      "yourlifegym.com"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.693405"
+  },
+  {
+    "cluster_id": 6,
+    "size": 32,
+    "anomaly_percentage": 9.4,
+    "cosmos_confidence": 77.1,
+    "sources": {
+      "threatfox": 32
+    },
+    "threat_types": {
+      "ip:port": 32
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.remcos": 16,
+      "elf.redtail": 7,
+      "win.asyncrat": 6,
+      "win.phorpiex": 1,
+      "win.dcrat": 1,
+      "elf.kinsing": 1
+    },
+    "dominant_malware": "win.remcos",
+    "tags": {
+      "drb-ra,RAT,RemcosRAT": 16,
+      "asyncrat,drb-ra,RAT": 6,
+      "CVE-2017-9841,libredtail-http,Redtail": 5,
+      "docker-api,Redtail,ssh-key-plant": 2,
+      "Loader,phorpiex,Worm": 1
+    },
+    "avg_anomaly_score": -0.5101,
+    "sample_values": [
+      "69.172.210.50:8808",
+      "31.76.32.161:9405",
+      "198.23.177.222:14641",
+      "182.23.2.163:7649",
+      "172.94.18.103:72"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.668549"
+  },
+  {
+    "cluster_id": 3,
+    "size": 11,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 75.8,
+    "sources": {
+      "threatfox": 11
+    },
+    "threat_types": {
+      "ip:port": 11
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.adaptix_c2": 8,
+      "win.cobalt_strike": 2,
+      "win.bianlian": 1
+    },
+    "dominant_malware": "win.adaptix_c2",
+    "tags": {
+      "AdaptixC2,drb-ra": 8,
+      "CobaltStrike,drb-ra": 2,
+      "BianLian,drb-ra": 1
+    },
+    "avg_anomaly_score": -0.5042,
+    "sample_values": [
+      "153.0.197.184:8555",
+      "39.96.188.57:4321",
+      "194.213.18.93:991",
+      "149.104.28.77:4321",
+      "8.217.12.212:48080"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.653219"
+  },
+  {
+    "cluster_id": 14,
+    "size": 13,
+    "anomaly_percentage": 7.7,
+    "cosmos_confidence": 73.7,
+    "sources": {
+      "threatfox": 13
+    },
+    "threat_types": {
+      "domain": 13
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.strelastealer": 13
+    },
+    "dominant_malware": "win.strelastealer",
+    "tags": {
+      "StrelaStealer": 13
+    },
+    "avg_anomaly_score": -0.4924,
+    "sample_values": [
+      "xn--80ab8a.xn--p1ai",
+      "xn--80acbdmb6beobuw5lnb.xn--p1acf",
+      "xn--80adivde2b1a1hp.xn--p1ai",
+      "xn--fachbersetzungen-mg-89b.de",
+      "xn--j1aicadfb0a3g.xn--p1ai"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.702079"
+  },
+  {
+    "cluster_id": 26,
+    "size": 4,
+    "anomaly_percentage": 75.0,
+    "cosmos_confidence": 70.4,
+    "sources": {
+      "mitre_attack": 4
+    },
+    "threat_types": {
+      "attack_technique": 4
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Default Accounts": 1,
+      "Domain Accounts": 1,
+      "Cloud Accounts": 1,
+      "Local Accounts": 1
+    },
+    "dominant_malware": "Default Accounts",
+    "tags": {
+      "stealth,persistence,privilege-escalation,initial-access": 4
+    },
+    "avg_anomaly_score": -0.5431,
+    "sample_values": [
+      "T1078.001",
+      "T1078.002",
+      "T1078.004",
+      "T1078.003"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.741820"
+  },
+  {
+    "cluster_id": 9,
+    "size": 8,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.8,
+    "sources": {
+      "threatfox": 8
+    },
+    "threat_types": {
+      "url": 8
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "js.kongtuke": 8
+    },
+    "dominant_malware": "js.kongtuke",
+    "tags": {
+      "Kongtuke": 8
+    },
+    "avg_anomaly_score": -0.6334,
+    "sample_values": [
+      "https://oliveiaa.icu/api/v1/status",
+      "https://oliveiaa.icu/api/v1/session",
+      "https://oliveiaa.icu/api/v1/verify",
+      "https://sartora.lol/api/v1/session",
+      "https://sartora.lol/api/v1/verify"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.670912"
+  },
+  {
+    "cluster_id": 10,
+    "size": 7,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.7,
+    "sources": {
+      "threatfox": 7
+    },
+    "threat_types": {
+      "domain": 7
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.lumma": 7
+    },
+    "dominant_malware": "win.lumma",
+    "tags": {
+      "domain,Lumma,Lumma Stealer,stealer": 7
+    },
+    "avg_anomaly_score": -0.537,
+    "sample_values": [
+      "claimsj.cyou",
+      "passedt.cyou",
+      "cohesrc.cyou",
+      "montgqd.cyou",
+      "familbi.cyou"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.685400"
+  },
+  {
+    "cluster_id": 7,
+    "size": 19,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.6,
+    "sources": {
+      "threatfox": 19
+    },
+    "threat_types": {
+      "url": 19
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "win.vidar": 11,
+      "unknown": 4,
+      "js.kongtuke": 4
+    },
+    "dominant_malware": "win.vidar",
+    "tags": {
+      "Vidar": 11,
+      "ClickFix": 4,
+      "Kongtuke": 4
+    },
+    "avg_anomaly_score": -0.6213,
+    "sample_values": [
+      "https://bge-visa.com/",
+      "https://secure-code.lol/o",
+      "https://slivkishow.asia/",
+      "https://misterslivker.asia/",
+      "https://oliveiaa.icu/file.js"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.670912"
+  },
+  {
+    "cluster_id": 15,
+    "size": 6,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.6,
+    "sources": {
+      "threatfox": 6
+    },
+    "threat_types": {
+      "domain": 6
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.rhysida": 6
+    },
+    "dominant_malware": "win.rhysida",
+    "tags": {
+      "Ransomware,Rhysida": 6
+    },
+    "avg_anomaly_score": -0.6018,
+    "sample_values": [
+      "rhysidaeoxtkejwuheks3a7htk4zn3dfuynt5mqw6oawlcx6kcxjdeyd.onion",
+      "rhysidaqho36b6i6mvpmy5di4ro5zglovtxixrirky6q3fgack7q5uyd.onion",
+      "rhysida6qqkj5ahjfshlepbhk7m2sgqc25y5iznmabcch2i7pbw4g6yd.onion",
+      "rhysidaiqemmlrvn2jvncdwhkvuiv7s2iu342xnrpeynxoe6r2dtjfyd.onion",
+      "rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.702079"
+  },
+  {
+    "cluster_id": 8,
+    "size": 5,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.5,
+    "sources": {
+      "threatfox": 5
+    },
+    "threat_types": {
+      "url": 5
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "js.smartapesg": 5
+    },
+    "dominant_malware": "js.smartapesg",
+    "tags": {
+      "SmartApeSG": 5
+    },
+    "avg_anomaly_score": -0.6511,
+    "sample_values": [
+      "https://bronzepavilion.top/signin/auth-json",
+      "https://bronzepavilion.top/signin/route-script.js",
+      "https://linenvoyage.top/signin/profile-parser.js",
+      "https://linenvoyage.top/signin/auth-json",
+      "https://linenvoyage.top/signin/route-script.js"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.670912"
+  },
+  {
+    "cluster_id": 4,
+    "size": 4,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.4,
+    "sources": {
+      "threatfox": 4
+    },
+    "threat_types": {
+      "ip:port": 4
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.cobalt_strike": 2,
+      "win.asyncrat": 1,
+      "win.meterpreter": 1
+    },
+    "dominant_malware": "win.cobalt_strike",
+    "tags": {
+      "asyncrat,c2,clone,cryptojacking,PUREMINER": 1,
+      "c2,erebus-v14,nation-state-hunter,t1055,t1059_001": 1,
+      "c2,erebus-v13,nation-state-hunter,t1055,t1105": 1,
+      "c2,erebus-v13,nation-state-hunter,t1059_003,t1573_002": 1
+    },
+    "avg_anomaly_score": -0.574,
+    "sample_values": [
+      "128.1.79.99:80",
+      "185.89.254.46:80",
+      "107.189.22.35:443",
+      "188.164.250.223:3388"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.653219"
+  },
+  {
+    "cluster_id": 0,
+    "size": 3,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.3,
+    "sources": {
+      "threatfox": 3
+    },
+    "threat_types": {
+      "domain": 3
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "js.clearfake": 3
+    },
+    "dominant_malware": "js.clearfake",
+    "tags": {
+      "ClearFake": 3
+    },
+    "avg_anomaly_score": -0.597,
+    "sample_values": [
+      "9xt13o7k.moarefeslami.xyz",
+      "fmhkmjyi.hugugtejarat4.xyz",
+      "edtmogyp.red90.casino"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.637652"
+  },
+  {
+    "cluster_id": 25,
+    "size": 3,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 60.3,
+    "sources": {
+      "mitre_attack": 3
+    },
+    "threat_types": {
+      "attack_technique": 3
+    },
+    "dominant_type": "attack_technique",
+    "malware_families": {
+      "Scheduled Task/Job": 1,
+      "Traffic Signaling": 1,
+      "Modify Authentication Process": 1
+    },
+    "dominant_malware": "Scheduled Task/Job",
+    "tags": {
+      "execution,persistence,privilege-escalation": 1,
+      "stealth,persistence,command-and-control": 1,
+      "defense-impairment,persistence,credential-access": 1
+    },
+    "avg_anomaly_score": -0.5451,
+    "sample_values": [
+      "T1053",
+      "T1205",
+      "T1556"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.741820"
+  },
+  {
+    "cluster_id": 16,
+    "size": 3,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 58.5,
+    "sources": {
+      "threatfox": 3
+    },
+    "threat_types": {
+      "ip:port": 3
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.cobalt_strike": 2,
+      "win.meterpreter": 1
+    },
+    "dominant_malware": "win.cobalt_strike",
+    "tags": {
+      "c2,erebus-v14,nation-state-hunter,t1059_003,t1573_002": 2,
+      "c2,erebus-v14,nation-state-hunter,t1055,t1059_001": 1
+    },
+    "avg_anomaly_score": -0.5514,
+    "sample_values": [
+      "185.212.19.144:8443",
+      "185.212.170.93:443",
+      "107.189.21.145:3389"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.702079"
+  },
+  {
+    "cluster_id": 19,
+    "size": 4,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 57.4,
+    "sources": {
+      "feodo_tracker": 4
+    },
+    "threat_types": {
+      "ip:port": 4
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "QakBot": 4
+    },
+    "dominant_malware": "QakBot",
+    "tags": {
+      "botnet,c2,feodo": 4
+    },
+    "avg_anomaly_score": -0.6405,
+    "sample_values": [
+      "50.16.16.211:443",
+      "34.204.119.63:443",
+      "178.62.3.223:443",
+      "27.133.154.218:443"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.718125"
+  },
+  {
+    "cluster_id": 18,
+    "size": 8,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 54.7,
+    "sources": {
+      "malwarebazaar": 8
+    },
+    "threat_types": {
+      "file_hash": 8
+    },
+    "dominant_type": "file_hash",
+    "malware_families": {
+      "unknown": 8
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "unknown": 8
+    },
+    "avg_anomaly_score": -0.687,
+    "sample_values": [
+      "6903c82390d28bc5eb858b48bcd8e483695c8cf15de5fdb696a9541c173a716a",
+      "681c54c1e10e5f9c7938106969973fefaf76c53b8b54fb7e6a558323c4c9e1ef",
+      "e4b6f40cf2560cfb1685c5c08478fe5d19c135291936fd6e57d5983732140f5b",
+      "7fc1e1b006c9255a83b696e4711cfbcd66080805ad31485685660352f90ca2ba",
+      "f873b59288bc73005bb70cec0361b8cb01689e7e7f6980e0382fb3e23d0ded64"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.710134"
+  },
+  {
+    "cluster_id": 17,
+    "size": 3,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 54.3,
+    "sources": {
+      "malwarebazaar": 3
+    },
+    "threat_types": {
+      "file_hash": 3
+    },
+    "dominant_type": "file_hash",
+    "malware_families": {
+      "unknown": 3
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "elf": 2,
+      "sh": 1
+    },
+    "avg_anomaly_score": -0.6814,
+    "sample_values": [
+      "8c3ef6a54b6aa84e2f1f4abba14a6cd662e6ecba133769b6cb3b6417bac18463",
+      "5ff9bc5001961bf97b4d5ba6b0542798107c371ff395bf927651fc47945294c7",
+      "20cefb1a22a2b1f9f33bf9e04478491d1e7577dd2d17e331e0dddfecd88b0e48"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.710134"
+  },
+  {
+    "cluster_id": 11,
+    "size": 28,
+    "anomaly_percentage": 21.4,
+    "cosmos_confidence": 47.1,
+    "sources": {
+      "threatfox": 28
+    },
+    "threat_types": {
+      "ip:port": 28
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.stealc": 28
+    },
+    "dominant_malware": "win.stealc",
+    "tags": {
+      "ip,Stealc": 28
+    },
+    "avg_anomaly_score": -0.5259,
+    "sample_values": [
+      "2.27.5.127:80",
+      "45.12.62.176:80",
+      "45.115.27.3:80",
+      "77.90.185.36:80",
+      "104.251.180.218:80"
+    ],
+    "discovered_at": "2026-06-13T07:32:14.685400"
+  }
+]

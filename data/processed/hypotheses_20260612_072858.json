@@ -1,0 +1,32 @@
+[
+  {
+    "cluster_id": 7,
+    "cosmos_confidence": 99,
+    "dominant_malware": "js.clearfake",
+    "dominant_type": "domain",
+    "cluster_size": 63,
+    "generated_at": "2026-06-12T07:29:00.110048",
+    "engine": "groq_llama3",
+    "hypothesis": "HYPOTHESIS #7\n\nTHREAT SUMMARY:\nCOSMOS has identified a cluster of 63 threats with consistent behavioural patterns\ncentred around js.clearfake activity with 0.0% anomaly rate indicating novel characteristics.\n\nOBSERVED BEHAVIOUR:\n\u2022 Dominant indicator type: domain \u2014 suggests domain-based infrastructure\n\u2022 Malware family: js.clearfake \u2014 consistent operational pattern across 1 source(s)\n\u2022 Infrastructure scale of 63 indicators suggests organised, ongoing campaign activity\n\nTHREAT ACTOR PROFILE:\nThe actor demonstrates moderate-to-high sophistication through deliberate use of domain\ninfrastructure. Operational security posture suggests awareness of standard detection methods.\n\nATTACK VECTOR:\ndomain-based delivery mechanism consistent with js.clearfake operational patterns\nobserved across threatfox.\n\nKILL CHAIN ANALYSIS:\nInitial Access \u2192 Execution \u2192 Persistence \u2192 C2 Communication \u2192 Actions on Objectives\n\nPOTENTIAL IMPACT:\nConfirmed js.clearfake campaign through domain infrastructure could compromise enterprise\nnetworks. Scale of 63 active indicators suggests broad targeting across multiple sectors.\n\nRECOMMENDED INVESTIGATION:\n1. Cross-reference kdphdmr.rahnemayenegaresh.site against enterprise DNS and proxy logs\n2. Deploy js.clearfake-specific detection rules in endpoint security platforms\n3. Block identified domain indicators at perimeter firewall and DNS resolver\n\nCONFIDENCE ASSESSMENT:\nConfidence is 99% based on cluster consistency across 1 source(s).\nCross-source validation and sandbox detonation of samples would confirm this hypothesis."
+  },
+  {
+    "cluster_id": 8,
+    "cosmos_confidence": 99,
+    "dominant_malware": "js.clearfake",
+    "dominant_type": "domain",
+    "cluster_size": 44,
+    "generated_at": "2026-06-12T07:29:00.783597",
+    "engine": "groq_llama3",
+    "hypothesis": "HYPOTHESIS #8\n\nTHREAT SUMMARY:\nCOSMOS has identified a cluster of 44 threats with consistent behavioural patterns\ncentred around js.clearfake activity with 0.0% anomaly rate indicating novel characteristics.\n\nOBSERVED BEHAVIOUR:\n\u2022 Dominant indicator type: domain \u2014 suggests domain-based infrastructure\n\u2022 Malware family: js.clearfake \u2014 consistent operational pattern across 1 source(s)\n\u2022 Infrastructure scale of 44 indicators suggests organised, ongoing campaign activity\n\nTHREAT ACTOR PROFILE:\nThe actor demonstrates moderate-to-high sophistication through deliberate use of domain\ninfrastructure. Operational security posture suggests awareness of standard detection methods.\n\nATTACK VECTOR:\ndomain-based delivery mechanism consistent with js.clearfake operational patterns\nobserved across threatfox.\n\nKILL CHAIN ANALYSIS:\nInitial Access \u2192 Execution \u2192 Persistence \u2192 C2 Communication \u2192 Actions on Objectives\n\nPOTENTIAL IMPACT:\nConfirmed js.clearfake campaign through domain infrastructure could compromise enterprise\nnetworks. Scale of 44 active indicators suggests broad targeting across multiple sectors.\n\nRECOMMENDED INVESTIGATION:\n1. Cross-reference 4o6giyl4.ravanshenasinovin.xyz against enterprise DNS and proxy logs\n2. Deploy js.clearfake-specific detection rules in endpoint security platforms\n3. Block identified domain indicators at perimeter firewall and DNS resolver\n\nCONFIDENCE ASSESSMENT:\nConfidence is 99% based on cluster consistency across 1 source(s).\nCross-source validation and sandbox detonation of samples would confirm this hypothesis."
+  },
+  {
+    "cluster_id": 16,
+    "cosmos_confidence": 99,
+    "dominant_malware": "Digital Certificates",
+    "dominant_type": "attack_technique",
+    "cluster_size": 476,
+    "generated_at": "2026-06-12T07:29:01.409151",
+    "engine": "groq_llama3",
+    "hypothesis": "HYPOTHESIS #16\n\nTHREAT SUMMARY:\nCOSMOS has identified a cluster of 476 threats with consistent behavioural patterns\ncentred around Digital Certificates activity with 0.0% anomaly rate indicating novel characteristics.\n\nOBSERVED BEHAVIOUR:\n\u2022 Dominant indicator type: attack_technique \u2014 suggests web-based attack vector\n\u2022 Malware family: Digital Certificates \u2014 consistent operational pattern across 1 source(s)\n\u2022 Infrastructure scale of 476 indicators suggests organised, ongoing campaign activity\n\nTHREAT ACTOR PROFILE:\nThe actor demonstrates moderate-to-high sophistication through deliberate use of attack_technique\ninfrastructure. Operational security posture suggests awareness of standard detection methods.\n\nATTACK VECTOR:\nattack_technique-based delivery mechanism consistent with Digital Certificates operational patterns\nobserved across mitre_attack.\n\nKILL CHAIN ANALYSIS:\nInitial Access \u2192 Execution \u2192 Persistence \u2192 C2 Communication \u2192 Actions on Objectives\n\nPOTENTIAL IMPACT:\nConfirmed Digital Certificates campaign through attack_technique infrastructure could compromise enterprise\nnetworks. Scale of 476 active indicators suggests broad targeting across multiple sectors.\n\nRECOMMENDED INVESTIGATION:\n1. Cross-reference T1055.011 against enterprise DNS and proxy logs\n2. Deploy Digital Certificates-specific detection rules in endpoint security platforms\n3. Block identified attack_technique indicators at perimeter firewall and DNS resolver\n\nCONFIDENCE ASSESSMENT:\nConfidence is 99% based on cluster consistency across 1 source(s).\nCross-source validation and sandbox detonation of samples would confirm this hypothesis."
+  }
+]

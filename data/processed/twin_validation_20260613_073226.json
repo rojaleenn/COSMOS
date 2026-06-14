@@ -1,0 +1,83 @@
+[
+  {
+    "cluster_id": 1,
+    "malware": "js.clearfake",
+    "original_confidence": 99,
+    "validated_confidence": 99.0,
+    "confidence_change": 0.0,
+    "total_stages": 1,
+    "successful_stages": 0,
+    "detected_stages": 1,
+    "success_rate": 0.0,
+    "detection_rate": 100.0,
+    "attack_chain": [
+      {
+        "stage": "Initial Access",
+        "technique": "T1189 \u2014 Drive-by Compromise",
+        "description": "User visited malicious domain serving js.clearfake payload",
+        "target_host": "WS001",
+        "timestamp": "2026-06-13T07:32:26.335314",
+        "detected": true,
+        "detected_by": "email_filter",
+        "success": false,
+        "ioc_generated": "js_clearfake_dropper_6323"
+      }
+    ],
+    "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.",
+    "validated_at": "2026-06-13T07:32:26.335314"
+  },
+  {
+    "cluster_id": 2,
+    "malware": "win.strelastealer",
+    "original_confidence": 99,
+    "validated_confidence": 99.0,
+    "confidence_change": 0.0,
+    "total_stages": 1,
+    "successful_stages": 0,
+    "detected_stages": 1,
+    "success_rate": 0.0,
+    "detection_rate": 100.0,
+    "attack_chain": [
+      {
+        "stage": "Initial Access",
+        "technique": "T1189 \u2014 Drive-by Compromise",
+        "description": "User visited malicious domain serving win.strelastealer payload",
+        "target_host": "WS001",
+        "timestamp": "2026-06-13T07:32:26.335314",
+        "detected": true,
+        "detected_by": "email_filter",
+        "success": false,
+        "ioc_generated": "win_strelastealer_dropper_3297"
+      }
+    ],
+    "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.",
+    "validated_at": "2026-06-13T07:32:26.335314"
+  },
+  {
+    "cluster_id": 5,
+    "malware": "win.vshell",
+    "original_confidence": 99,
+    "validated_confidence": 99.0,
+    "confidence_change": 0.0,
+    "total_stages": 1,
+    "successful_stages": 0,
+    "detected_stages": 1,
+    "success_rate": 0.0,
+    "detection_rate": 100.0,
+    "attack_chain": [
+      {
+        "stage": "Initial Access",
+        "technique": "T1190 \u2014 Exploit Public-Facing Application",
+        "description": "Attacker exploited exposed service on win.vshell C2 infrastructure",
+        "target_host": "SRV002",
+        "timestamp": "2026-06-13T07:32:26.335314",
+        "detected": true,
+        "detected_by": "firewall",
+        "success": false,
+        "ioc_generated": "win_vshell_dropper_5028"
+      }
+    ],
+    "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.",
+    "validated_at": "2026-06-13T07:32:26.335314"
+  }
+]

@@ -1,0 +1,4 @@
+cosmos-env/ 
+data/ 
+.env 
+__pycache__/ 

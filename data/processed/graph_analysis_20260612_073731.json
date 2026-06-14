@@ -1,0 +1,112 @@
+{
+  "timestamp": "20260612_073731",
+  "graph_metrics": {
+    "total_nodes": 1432,
+    "total_edges": 4110,
+    "isolated_threats": 12,
+    "connected_components": 42,
+    "largest_component": 657,
+    "avg_component_size": 34.1,
+    "top_connected_threats": [
+      {
+        "value": "45.67.222.21:3389",
+        "centrality": 0.0112
+      },
+      {
+        "value": "T1078.004",
+        "centrality": 0.0112
+      },
+      {
+        "value": "T1078",
+        "centrality": 0.0098
+      },
+      {
+        "value": "185.212.170.93:443",
+        "centrality": 0.0091
+      },
+      {
+        "value": "45.67.84.76:3389",
+        "centrality": 0.0091
+      },
+      {
+        "value": "T1078.001",
+        "centrality": 0.0091
+      },
+      {
+        "value": "T1078.002",
+        "centrality": 0.0091
+      },
+      {
+        "value": "mlcos.cdnupdate.net",
+        "centrality": 0.0084
+      },
+      {
+        "value": "156.234.211.162:8821",
+        "centrality": 0.0084
+      },
+      {
+        "value": "139.5.108.17:443",
+        "centrality": 0.0084
+      }
+    ],
+    "isolated_sample": [
+      "216.250.251.226:8443",
+      "dl.erickillorinphotostore.com",
+      "193.169.240.38:443",
+      "104.193.255.99:8443",
+      "209.99.184.216:56001",
+      "209.99.184.216:56002",
+      "209.99.184.216:56003",
+      "juakvinjpo34.xyz",
+      "http://154.198.50.76:8080/upload",
+      "209.99.191.186:8765"
+    ]
+  },
+  "geographic_clusters": [
+    {
+      "malware_family": "unknown",
+      "countries": [
+        "CH",
+        "DE",
+        "Algeria",
+        "US",
+        "United States of America"
+      ],
+      "country_count": 5,
+      "threat_count": 96,
+      "types": {
+        "ip:port": 51,
+        "domain": 17,
+        "url": 10,
+        "sha256_hash": 7,
+        "file_hash": 6,
+        "hostname": 3,
+        "IPv4": 2
+      },
+      "sources": {
+        "threatfox": 72,
+        "alienvault": 18,
+        "malwarebazaar": 6
+      },
+      "global_spread_score": 48.0
+    },
+    {
+      "malware_family": "QakBot",
+      "countries": [
+        "GB",
+        "JP",
+        "US"
+      ],
+      "country_count": 3,
+      "threat_count": 4,
+      "types": {
+        "ip:port": 4
+      },
+      "sources": {
+        "feodo_tracker": 4
+      },
+      "global_spread_score": 1.2
+    }
+  ],
+  "temporal_patterns": []
+}

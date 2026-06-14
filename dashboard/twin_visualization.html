@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSMOS — Digital Twin Lab</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', monospace;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(135deg, #161b22, #1f2937);
+            border-bottom: 1px solid #30363d;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #58a6ff, #a371f7, #3fb950);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 4px;
+        }
+        .subtitle {
+            font-size: 11px;
+            color: #8b949e;
+            letter-spacing: 2px;
+            margin-top: 4px;
+        }
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: #3fb950;
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #3fb950;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        nav {
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+            padding: 10px 40px;
+            display: flex;
+            gap: 16px;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 12px;
+            letter-spacing: 2px;
+            padding: 6px 18px;
+            border-radius: 6px;
+            font-family: monospace;
+            transition: all 0.3s;
+        }
+        nav a.active {
+            color: #58a6ff;
+            border: 1px solid #58a6ff;
+            background: #1f2937;
+        }
+        nav a.inactive {
+            color: #8b949e;
+            border: 1px solid #30363d;
+        }
+        nav a:hover {
+            color: #58a6ff;
+            border-color: #58a6ff;
+        }
+        .container { padding: 30px 40px; }
+        .page-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #58a6ff;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 15px;
+        }
+        .sim-selector {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        .sim-btn {
+            background: #161b22;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: monospace;
+            transition: all 0.3s;
+        }
+        .sim-btn:hover { border-color: #58a6ff; color: #58a6ff; }
+        .sim-btn.active {
+            background: #1f2937;
+            border-color: #58a6ff;
+            color: #58a6ff;
+        }
+        .twin-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 30px;
+        }
+        .panel {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .panel-title {
+            font-size: 12px;
+            color: #8b949e;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #21262d;
+            padding-bottom: 10px;
+        }
+        .network-map {
+            position: relative;
+            width: 100%;
+            height: 420px;
+            background: #0d1117;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        canvas { width: 100%; height: 100%; }
+        .chain-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .chain-step {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 14px;
+            opacity: 0.3;
+            transition: all 0.5s;
+        }
+        .chain-step.active {
+            opacity: 1;
+            border-color: #ffa657;
+            box-shadow: 0 0 10px rgba(255,166,87,0.2);
+        }
+        .chain-step.success {
+            opacity: 1;
+            border-color: #3fb950;
+            box-shadow: 0 0 10px rgba(63,185,80,0.2);
+        }
+        .chain-step.blocked {
+            opacity: 1;
+            border-color: #f85149;
+            box-shadow: 0 0 10px rgba(248,81,73,0.2);
+        }
+        .step-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .step-stage { font-size: 13px; font-weight: bold; color: #58a6ff; }
+        .step-status {
+            font-size: 11px;
+            padding: 2px 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .status-waiting { background: #21262d; color: #8b949e; }
+        .status-running { background: #3d2b00; color: #ffa657; }
+        .status-success { background: #0d3321; color: #3fb950; }
+        .status-blocked { background: #3d0d0d; color: #f85149; }
+        .step-technique { font-size: 11px; color: #a371f7; margin-bottom: 4px; }
+        .step-description { font-size: 12px; color: #8b949e; line-height: 1.5; }
+        .step-ioc { font-size: 10px; color: #58a6ff; margin-top: 6px; font-family: monospace; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .stat-item {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 14px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #58a6ff, #a371f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stat-label {
+            font-size: 10px;
+            color: #8b949e;
+            margin-top: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .verdict-box {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 12px;
+        }
+        .verdict-label {
+            font-size: 10px;
+            color: #8b949e;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .verdict-text { font-size: 13px; line-height: 1.6; }
+        .verdict-critical { color: #f85149; }
+        .verdict-high { color: #ffa657; }
+        .verdict-medium { color: #e3b341; }
+        .verdict-low { color: #3fb950; }
+        .verdict-inconclusive { color: #8b949e; }
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .ctrl-btn {
+            background: #1f2937;
+            border: 1px solid #58a6ff;
+            color: #58a6ff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: monospace;
+            letter-spacing: 1px;
+            transition: all 0.3s;
+        }
+        .ctrl-btn:hover { background: #58a6ff; color: #0d1117; }
+        .ctrl-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+        .log-panel {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .log-container {
+            background: #0d1117;
+            border-radius: 6px;
+            padding: 14px;
+            height: 160px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .log-entry { margin-bottom: 4px; line-height: 1.6; }
+        .log-time { color: #8b949e; }
+        .log-info { color: #58a6ff; }
+        .log-success { color: #3fb950; }
+        .log-blocked { color: #f85149; }
+        .log-warn { color: #ffa657; }
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .control-item {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        .control-name {
+            font-size: 11px;
+            color: #8b949e;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .control-status { font-size: 12px; font-weight: bold; }
+        .control-active { color: #3fb950; }
+        .control-triggered { color: #f85149; animation: blink 0.5s infinite; }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.2; }
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #8b949e;
+            font-size: 11px;
+            border-top: 1px solid #30363d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <div class="logo">COSMOS</div>
+        <div class="subtitle">Digital Twin Lab — Live Attack Simulation</div>
+    </div>
+    <div class="status">
+        <div class="status-dot"></div>
+        SIMULATION READY — 2026-06-13 13:18:48
+    </div>
+</header>
+
+<nav>
+    <a href="cosmos_dashboard.html" class="inactive">THREAT DASHBOARD</a>
+    <a href="twin_visualization.html" class="active">DIGITAL TWIN LAB</a>
+</nav>
+
+<div class="container">
+
+    <div class="page-title">Digital Twin Lab — Live Threat Simulation</div>
+
+    <div class="sim-selector" id="simSelector"></div>
+
+    <div class="controls">
+        <button class="ctrl-btn" id="startBtn" onclick="startSimulation()">RUN SIMULATION</button>
+        <button class="ctrl-btn" id="resetBtn" onclick="resetSimulation()">RESET</button>
+    </div>
+
+    <div class="twin-layout">
+        <div class="panel">
+            <div class="panel-title">Enterprise Network Map</div>
+            <div class="network-map">
+                <canvas id="networkCanvas"></canvas>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-title">Attack Chain — Live</div>
+            <div class="chain-container" id="chainContainer"></div>
+        </div>
+    </div>
+
+    <div class="log-panel">
+        <div class="panel-title">Simulation Log</div>
+        <div class="log-container" id="logContainer">
+            <div class="log-entry"><span class="log-info">[COSMOS DIGITAL TWIN LAB] System ready. Select a simulation and press RUN SIMULATION.</span></div>
+        </div>
+    </div>
+
+    <div class="twin-layout">
+        <div class="panel">
+            <div class="panel-title">Simulation Results</div>
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-item">
+                    <div class="stat-value" id="statOriginal">--</div>
+                    <div class="stat-label">Original Confidence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statValidated">--</div>
+                    <div class="stat-label">Validated Confidence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statSuccess">--</div>
+                    <div class="stat-label">Attack Success Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statDetection">--</div>
+                    <div class="stat-label">Detection Rate</div>
+                </div>
+            </div>
+            <div class="verdict-box">
+                <div class="verdict-label">Verdict</div>
+                <div class="verdict-text" id="verdictText">Simulation not yet run.</div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-title">Security Controls Status</div>
+            <div class="controls-grid">
+                <div class="control-item">
+                    <div class="control-name">Firewall</div>
+                    <div class="control-status control-active" id="ctrl-firewall">ACTIVE</div>
+                </div>
+                <div class="control-item">
+                    <div class="control-name">Antivirus</div>
+                    <div class="control-status control-active" id="ctrl-antivirus">ACTIVE</div>
+                </div>
+                <div class="control-item">
+                    <div class="control-name">EDR</div>
+                    <div class="control-status control-active" id="ctrl-edr">ACTIVE</div>
+                </div>
+                <div class="control-item">
+                    <div class="control-name">SIEM</div>
+                    <div class="control-status control-active" id="ctrl-siem">ACTIVE</div>
+                </div>
+                <div class="control-item">
+                    <div class="control-name">Email Filter</div>
+                    <div class="control-status control-active" id="ctrl-email_filter">ACTIVE</div>
+                </div>
+                <div class="control-item">
+                    <div class="control-name">DNS Filter</div>
+                    <div class="control-status" style="color:#f85149" id="ctrl-dns_filter">DISABLED</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    COSMOS Digital Twin Lab — Simulated Enterprise Network — 2026-06-13 13:18:48
+</footer>
+
+<script>
+const simulations = [{"cluster_id": 10, "malware": "win.strelastealer", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1189 \u2014 Drive-by Compromise", "description": "User visited malicious domain serving win.strelastealer payload", "success": false, "detected": true, "detected_by": "email_filter", "target_host": "WS001", "ioc": "win_strelastealer_dropper_8818"}]}, {"cluster_id": 12, "malware": "js.clearfake", "original_confidence": 99, "validated_confidence": 99.9, "confidence_change": 0.9, "success_rate": 50.0, "detection_rate": 50.0, "verdict": "MEDIUM \u2014 Hypothesis PARTIALLY CONFIRMED. Further investigation recommended.", "steps": [{"stage": "Initial Access", "technique": "T1059 \u2014 Command and Scripting Interpreter", "description": "Attacker used scripting to deploy js.clearfake components", "success": true, "detected": false, "detected_by": null, "target_host": "WS001", "ioc": "js_clearfake_dropper_8484"}, {"stage": "Execution", "technique": "T1059.001 \u2014 PowerShell / T1106 \u2014 Native API", "description": "js.clearfake executed on WS001 via memory injection", "success": false, "detected": true, "detected_by": "antivirus", "target_host": "WS001", "ioc": "proc_injection_4712.log"}]}, {"cluster_id": 20, "malware": "Windows Management Instrumentation", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1059 \u2014 Command and Scripting Interpreter", "description": "Attacker used scripting to deploy Windows Management Instrumentation components", "success": false, "detected": true, "detected_by": "edr", "target_host": "WS001", "ioc": "windows management instrumentation_dropper_2202"}]}];
+let currentSim = 0;
+let simRunning = false;
+let animFrame;
+
+const nodes = [
+    { id: 'internet', label: 'INTERNET', x: 0.5, y: 0.05, color: '#f85149', type: 'external' },
+    { id: 'fw', label: 'FIREWALL', x: 0.5, y: 0.18, color: '#ffa657', type: 'security' },
+    { id: 'proxy', label: 'PROXY', x: 0.25, y: 0.32, color: '#ffa657', type: 'security' },
+    { id: 'mail', label: 'MAIL SERVER', x: 0.75, y: 0.32, color: '#ffa657', type: 'security' },
+    { id: 'ws1', label: 'WS001 Finance', x: 0.15, y: 0.55, color: '#58a6ff', type: 'workstation' },
+    { id: 'ws2', label: 'WS002 HR', x: 0.35, y: 0.55, color: '#58a6ff', type: 'workstation' },
+    { id: 'ws3', label: 'WS003 Eng', x: 0.55, y: 0.55, color: '#58a6ff', type: 'workstation' },
+    { id: 'srv1', label: 'DC Server', x: 0.75, y: 0.55, color: '#a371f7', type: 'server' },
+    { id: 'srv2', label: 'Web Server', x: 0.88, y: 0.42, color: '#a371f7', type: 'server' },
+    { id: 'db', label: 'DATABASE', x: 0.88, y: 0.68, color: '#a371f7', type: 'server' },
+    { id: 'cloud', label: 'CLOUD', x: 0.15, y: 0.82, color: '#3fb950', type: 'cloud' },
+];
+
+const edges = [
+    ['internet', 'fw'], ['fw', 'proxy'], ['fw', 'mail'],
+    ['fw', 'srv2'], ['proxy', 'ws1'], ['proxy', 'ws2'],
+    ['proxy', 'ws3'], ['mail', 'ws1'], ['mail', 'ws2'],
+    ['ws1', 'srv1'], ['ws2', 'srv1'], ['ws3', 'srv1'],
+    ['srv1', 'db'], ['ws1', 'cloud'], ['srv2', 'db']
+];
+
+let nodeStates = {};
+let attackPackets = [];
+let canvas, ctx;
+
+function initCanvas() {
+    canvas = document.getElementById('networkCanvas');
+    ctx = canvas.getContext('2d');
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    nodes.forEach(n => nodeStates[n.id] = 'normal');
+    drawNetwork();
+}
+
+function getNodePos(node) {
+    return { x: node.x * canvas.width, y: node.y * canvas.height };
+}
+
+function drawNetwork() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    edges.forEach(([a, b]) => {
+        const na = nodes.find(n => n.id === a);
+        const nb = nodes.find(n => n.id === b);
+        const pa = getNodePos(na);
+        const pb = getNodePos(nb);
+        ctx.beginPath();
+        ctx.moveTo(pa.x, pa.y);
+        ctx.lineTo(pb.x, pb.y);
+        ctx.strokeStyle = '#21262d';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+    });
+
+    attackPackets.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, 5, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.shadowColor = p.color;
+        ctx.shadowBlur = 10;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+    });
+
+    nodes.forEach(node => {
+        const pos = getNodePos(node);
+        const state = nodeStates[node.id];
+        let color = node.color;
+        let radius = 18;
+        if (state === 'attacking') { color = '#f85149'; radius = 22; }
+        else if (state === 'blocked') { color = '#f85149'; }
+        else if (state === 'success') { color = '#3fb950'; radius = 22; }
+        else if (state === 'alert') { color = '#ffa657'; }
+
+        ctx.beginPath();
+        ctx.arc(pos.x, pos.y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = '#161b22';
+        ctx.fill();
+        ctx.strokeStyle = color;
+        ctx.lineWidth = state !== 'normal' ? 3 : 1.5;
+        ctx.shadowColor = color;
+        ctx.shadowBlur = state !== 'normal' ? 15 : 0;
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+
+        ctx.fillStyle = color;
+        ctx.font = 'bold 8px monospace';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(node.label.split(' ')[0], pos.x, pos.y - 4);
+        if (node.label.split(' ')[1]) {
+            ctx.font = '7px monospace';
+            ctx.fillStyle = '#8b949e';
+            ctx.fillText(node.label.split(' ').slice(1).join(' '), pos.x, pos.y + 5);
+        }
+    });
+}
+
+function animatePacket(fromId, toId, color, callback) {
+    const from = nodes.find(n => n.id === fromId);
+    const to = nodes.find(n => n.id === toId);
+    const pFrom = getNodePos(from);
+    const pTo = getNodePos(to);
+    let progress = 0;
+    const packet = { x: pFrom.x, y: pFrom.y, color: color };
+    attackPackets.push(packet);
+    function animate() {
+        progress += 0.04;
+        if (progress >= 1) {
+            attackPackets = attackPackets.filter(p => p !== packet);
+            drawNetwork();
+            if (callback) callback();
+            return;
+        }
+        packet.x = pFrom.x + (pTo.x - pFrom.x) * progress;
+        packet.y = pFrom.y + (pTo.y - pFrom.y) * progress;
+        drawNetwork();
+        animFrame = requestAnimationFrame(animate);
+    }
+    animate();
+}
+
+function addLog(message, type) {
+    const log = document.getElementById('logContainer');
+    const now = new Date().toLocaleTimeString();
+    const entry = document.createElement('div');
+    entry.className = 'log-entry';
+    entry.innerHTML = '<span class="log-time">[' + now + ']</span> <span class="log-' + type + '">' + message + '</span>';
+    log.appendChild(entry);
+    log.scrollTop = log.scrollHeight;
+}
+
+function resetControls() {
+    ['firewall','antivirus','edr','siem','email_filter'].forEach(c => {
+        const el = document.getElementById('ctrl-' + c);
+        if (el) { el.textContent = 'ACTIVE'; el.className = 'control-status control-active'; }
+    });
+}
+
+function triggerControl(name) {
+    const el = document.getElementById('ctrl-' + name);
+    if (el) { el.textContent = 'TRIGGERED'; el.className = 'control-status control-triggered'; }
+}
+
+function buildChain(steps) {
+    const container = document.getElementById('chainContainer');
+    container.innerHTML = '';
+    steps.forEach((step, i) => {
+        const div = document.createElement('div');
+        div.className = 'chain-step';
+        div.id = 'step-' + i;
+        div.innerHTML =
+            '<div class="step-header">' +
+            '<span class="step-stage">' + step.stage + '</span>' +
+            '<span class="step-status status-waiting" id="stepstatus-' + i + '">WAITING</span>' +
+            '</div>' +
+            '<div class="step-technique">' + step.technique + '</div>' +
+            '<div class="step-description">' + step.description + '</div>' +
+            '<div class="step-ioc" id="stepioc-' + i + '"></div>';
+        container.appendChild(div);
+    });
+}
+
+function updateStats(sim) {
+    document.getElementById('statOriginal').textContent = sim.original_confidence + '%';
+    document.getElementById('statValidated').textContent = sim.validated_confidence + '%';
+    document.getElementById('statSuccess').textContent = sim.success_rate + '%';
+    document.getElementById('statDetection').textContent = sim.detection_rate + '%';
+    const verdict = document.getElementById('verdictText');
+    verdict.textContent = sim.verdict;
+    if (sim.verdict.includes('CRITICAL')) verdict.className = 'verdict-text verdict-critical';
+    else if (sim.verdict.includes('HIGH')) verdict.className = 'verdict-text verdict-high';
+    else if (sim.verdict.includes('MEDIUM')) verdict.className = 'verdict-text verdict-medium';
+    else if (sim.verdict.includes('LOW')) verdict.className = 'verdict-text verdict-low';
+    else verdict.className = 'verdict-text verdict-inconclusive';
+}
+
+async function sleep(ms) {
+    return new Promise(r => setTimeout(r, ms));
+}
+
+async function runStep(step, index) {
+    const stepEl = document.getElementById('step-' + index);
+    const statusEl = document.getElementById('stepstatus-' + index);
+    const iocEl = document.getElementById('stepioc-' + index);
+
+    stepEl.className = 'chain-step active';
+    statusEl.textContent = 'RUNNING';
+    statusEl.className = 'step-status status-running';
+    addLog('Executing: ' + step.stage + ' — ' + step.technique, 'warn');
+
+    await sleep(800);
+
+    const targetMap = {
+        'Initial Access': ['internet', 'fw'],
+        'Execution': ['fw', 'ws1'],
+        'Persistence': ['ws1', 'srv1'],
+        'Command & Control': ['ws1', 'cloud'],
+        'Actions on Objectives': ['srv1', 'db']
+    };
+
+    const route = targetMap[step.stage];
+    if (route) {
+        nodeStates[route[0]] = 'attacking';
+        drawNetwork();
+        await new Promise(resolve => animatePacket(route[0], route[1], step.detected ? '#f85149' : '#3fb950', resolve));
+    }
+
+    await sleep(400);
+
+    if (step.detected) {
+        stepEl.className = 'chain-step blocked';
+        statusEl.textContent = 'BLOCKED';
+        statusEl.className = 'step-status status-blocked';
+        if (route) { nodeStates[route[1]] = 'blocked'; drawNetwork(); }
+        if (step.detected_by) triggerControl(step.detected_by);
+        addLog('BLOCKED by ' + (step.detected_by || 'security control') + ' — ' + step.stage + ' stopped', 'blocked');
+    } else if (step.success) {
+        stepEl.className = 'chain-step success';
+        statusEl.textContent = 'SUCCESS';
+        statusEl.className = 'step-status status-success';
+        if (route) { nodeStates[route[1]] = 'success'; drawNetwork(); }
+        addLog('BREACH — ' + step.stage + ' succeeded on ' + (step.target_host || 'target'), 'success');
+    } else {
+        stepEl.className = 'chain-step blocked';
+        statusEl.textContent = 'FAILED';
+        statusEl.className = 'step-status status-blocked';
+        addLog('FAILED — ' + step.stage + ' could not execute', 'blocked');
+    }
+
+    if (step.ioc) { iocEl.textContent = 'IOC: ' + step.ioc; }
+    await sleep(600);
+}
+
+async function startSimulation() {
+    if (simRunning) return;
+    simRunning = true;
+    const sim = simulations[currentSim];
+    document.getElementById('startBtn').disabled = true;
+
+    nodes.forEach(n => nodeStates[n.id] = 'normal');
+    attackPackets = [];
+    resetControls();
+    drawNetwork();
+
+    const log = document.getElementById('logContainer');
+    log.innerHTML = '';
+
+    addLog('Starting simulation: Cluster #' + sim.cluster_id + ' — ' + sim.malware, 'info');
+    addLog('Loading attack profile into Digital Twin Lab...', 'info');
+    await sleep(800);
+    addLog('Enterprise network initialized. 7 workstations, 3 servers, 3 cloud instances.', 'info');
+    await sleep(600);
+    addLog('Security controls active: Firewall, Antivirus, EDR, SIEM, Email Filter', 'info');
+    await sleep(800);
+    addLog('Initiating attack simulation...', 'warn');
+    await sleep(600);
+
+    buildChain(sim.steps);
+
+    for (let i = 0; i < sim.steps.length; i++) {
+        await runStep(sim.steps[i], i);
+        await sleep(400);
+    }
+
+    await sleep(600);
+    updateStats(sim);
+    addLog('Simulation complete. Updating COSMOS confidence scores...', 'info');
+    await sleep(400);
+    addLog('Original confidence: ' + sim.original_confidence + '% | Validated: ' + sim.validated_confidence + '%', 'info');
+    addLog('Verdict: ' + sim.verdict, sim.verdict.includes('CRITICAL') ? 'blocked' : 'success');
+
+    simRunning = false;
+    document.getElementById('startBtn').disabled = false;
+}
+
+function resetSimulation() {
+    if (simRunning) return;
+    nodes.forEach(n => nodeStates[n.id] = 'normal');
+    attackPackets = [];
+    resetControls();
+    drawNetwork();
+    document.getElementById('chainContainer').innerHTML = '';
+    document.getElementById('logContainer').innerHTML = '<div class="log-entry"><span class="log-info">[COSMOS DIGITAL TWIN LAB] Reset complete. Select a simulation and press RUN SIMULATION.</span></div>';
+    document.getElementById('statOriginal').textContent = '--';
+    document.getElementById('statValidated').textContent = '--';
+    document.getElementById('statSuccess').textContent = '--';
+    document.getElementById('statDetection').textContent = '--';
+    document.getElementById('verdictText').textContent = 'Simulation not yet run.';
+    document.getElementById('verdictText').className = 'verdict-text';
+}
+
+function selectSim(index) {
+    currentSim = index;
+    document.querySelectorAll('.sim-btn').forEach((btn, i) => {
+        btn.className = i === index ? 'sim-btn active' : 'sim-btn';
+    });
+    resetSimulation();
+    const sim = simulations[index];
+    addLog('Selected: Cluster #' + sim.cluster_id + ' — ' + sim.malware + ' (' + sim.steps.length + ' attack stages)', 'info');
+}
+
+function buildSelector() {
+    const container = document.getElementById('simSelector');
+    simulations.forEach((sim, i) => {
+        const btn = document.createElement('button');
+        btn.className = i === 0 ? 'sim-btn active' : 'sim-btn';
+        btn.textContent = 'Cluster #' + sim.cluster_id + ' — ' + sim.malware;
+        btn.onclick = () => selectSim(i);
+        container.appendChild(btn);
+    });
+}
+
+window.onload = function() {
+    initCanvas();
+    buildSelector();
+    window.addEventListener('resize', () => {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+        drawNetwork();
+    });
+};
+</script>
+
+</body>
+</html>

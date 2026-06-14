@@ -1,0 +1,1141 @@
+source,type,value,malware_family,country,tags,confidence,timestamp,pulse_name
+threatfox,domain,kdphdmr.rahnemayenegaresh.site,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-12 01:18:55+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,uqknomxs.karbordriyaziyat.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-12 01:08:32+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,114.132.89.132:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-12 01:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,114.132.89.132:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-12 01:00:18+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,114.132.89.132:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-12 01:00:18+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,4o6giyl4.ravanshenasinovin.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-12 00:38:05+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,43.99.110.114:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-12 00:00:21+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.212.170.93:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v14,nation-state-hunter,t1059_003,t1573_002",100,2026-06-11 23:59:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,qeyshvibv.azmoonzare.online,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 23:59:16+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,fdktfbbn.jam-jahani.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 23:51:16+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ravandarmani.xyz,js.clearfake,Domain name that delivers a malware payload,"11June2026,ClearFake,Commandline,macOS",100,2026-06-11 23:40:03+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,14thstreetmillworks.com,win.strelastealer,Domain name that delivers a malware payload,StrelaStealer,100,2026-06-11 23:30:12+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,md5_hash,18b93f31c49e4302e3fd26764b6ad37a,win.agent_tesla,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:09+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,624eb52464199c7dfea8f082c5b4e9f7,win.darktortilla,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:08+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,9a04ce5c1ed6e353d8d8d936fefba4517ecc8f6777e5f866178dba084ae90d8a,win.agent_tesla,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:08+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,cf5058b0d233abf4abf55bd13597f9b07c5d2eed,win.agent_tesla,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:08+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,d13cad682fd5abb767313f79c1732822,win.tinyloader,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:07+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,c2a383a0dff5e69299443a119bb73f2b76f3f9c0f3951330ffea5db26fc3797f,win.darktortilla,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:07+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,60b2674a3acda83abedd7173355a9473f2904f17,win.darktortilla,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:07+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,173e47952a519cedcbc37d7468c0afe5,win.troystealer,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:06+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,b3e6200b05e579b9577686e9f510338b197fe392483f3d2eb50398d3097573cb,win.tinyloader,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:06+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,2a6ff4571b915d61b60ecc2922d342f07bdfb71d,win.tinyloader,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:06+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,700fab1c874a6e5948af14c7d122bd48,win.phorpiex,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:05+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,985a2c4839ac4ded904d1d9b354d2fbe9e24c36e963d171d7e21130a4c0f66d4,win.troystealer,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:05+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,e562387236169b80911a4081e772ac1151942462,win.troystealer,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:05+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,164493c98f5172618a090b336b9ddf41d90f5751,win.phorpiex,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:04+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,537013864063eb458e47b3fcbbffbc8f,win.phorpiex,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:04+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,7458d3a59fa6682ac4d2e3070ccbd0c223607eed768bd7a99d14f6dc5bfb88b9,win.phorpiex,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:04+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,07c5bd17e0d1930f324aaa02369fd7e85a6585d6,win.phorpiex,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:04+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,0ca01817ecdf07b17f89b5e8a070e541c5dd922b,win.gcleaner,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:03+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,c843d4538bb0f0c1b31e057ec7d8d8c1,win.gcleaner,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:03+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,162a1c2e10796e24e94283907b9af34f7cbb9a38002e374afa715f7d101248fc,win.phorpiex,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:03+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,fb5a09899b06e4ed91b14a9e67f5ece2a558a877,win.masslogger,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:02+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,0ff94617c08fe032327753b286011da5,win.masslogger,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:02+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,d049d136b7c8aaf342ffd924e09d23b2ca168552b3a6b3cf68913657b68fdf37,win.gcleaner,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:02+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,be34707cb56d7b41393d14c67b4ad8626c4519d7,win.strelastealer,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:01+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,39a19118f2d38bfdb9421f69a84e5dec,win.strelastealer,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:01+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,574c4503c071e8e8892d267e786acdf811970d4f927cf4536a870c8ba2fc7a13,win.masslogger,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:01+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,e7026b2f6adadbf070e9926e1d4b79a65044cd5c,win.firecrypt,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:21:00+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,92bc3b1ba378c14e601c4e617ec7c422,win.firecrypt,MD5 hash of a malware sample (payload),,95,2026-06-11 23:21:00+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,8a82da328a3db0fca63f31e7b464b5989cecfd619ebab0b238c07b63544bf823,win.strelastealer,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:21:00+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,13d8b44123e6f9f9a58a9359d0a772566f4eff3b,win.firecrypt,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:59+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,93996829b15b3cf1bb4bd79f2091d72f,win.firecrypt,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:59+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,3d008cb4d346a95396868f786ec6d4fe7e12a0451768f957664abba7469f2cf0,win.firecrypt,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:59+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,8314be1136b9d1fc76350f1c7ef4cf8fe52a4acb,win.firecrypt,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:58+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,e06aacd6139288d5bea4a676ee0c2404,win.firecrypt,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:58+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,73b2c01ca7f082bf4d999426e07886144b7bccaecead90e1acf661695fda39b1,win.firecrypt,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:58+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,c8889ebbf9516b00d148dfd3b2aee781deb30d27f654039903d31a8ff39d1f4e,win.gootkit,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,b1e46ed3f539868edb60e25b523e77dea71868c2,win.gootkit,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,2e4973a854f88682666c77394ec3e61e,win.gootkit,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,68a34fd6765d3a6d791e83c29e783fbe585579e08ea1ad569962e6644a3197a3,win.firecrypt,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,c0b18beb746f408a76371760e64ab37b350419da5292a6fe5b9b83bf7e225257,win.nanocore,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:56+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,87bc65dccd4cb91d55afc1afd257c23acd14570c,win.nanocore,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:56+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,a59b7602663fb130c5a85507fbbe29a2,win.nanocore,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:56+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,20a1484577dc0b66613cc70619a74dfcaa7da6c19d0a4949cbc83a8e80317fd9,win.coinminer,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:55+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,213cd9fcf2377c5b72e02e4490863dc535bbe871,win.coinminer,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:55+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,b82f0b9989f316d6679e1ea067e31cdd,win.coinminer,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:55+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha1_hash,059182cc6f9d9a6ae2aced1075e5ab3f4e081d55,win.coinminer,SHA1 hash of a malware sample (payload),,95,2026-06-11 23:20:54+00:00,Indicator that identifies a malware sample (payload)
+threatfox,md5_hash,1f8b721815bfd4f57aa377369fa5f2ed,win.coinminer,MD5 hash of a malware sample (payload),,95,2026-06-11 23:20:54+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,f0ff7f1e0e1544828984d40247d38e38cb4b5d528665098c058e41b24db1d56f,win.coinminer,SHA256 hash of a malware sample (payload),,95,2026-06-11 23:20:53+00:00,Indicator that identifies a malware sample (payload)
+threatfox,ip:port,154.23.189.196:14782,win.quasar_rat,ip:port combination that is used for botnet Command&control (C&C),QuasarRAT,100,2026-06-11 23:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,54.196.27.211:8084,win.vshell,ip:port combination that is used for botnet Command&control (C&C),Vshell,100,2026-06-11 23:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,msp.shoptopexpress.com,win.strelastealer,Domain name that delivers a malware payload,StrelaStealer,100,2026-06-11 22:40:09+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,pipx8iw2.ravanshenasiganji.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 22:39:17+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,2sci40h1.ravanshenasiganji.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 22:37:44+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,qlwxqybo.prozhedownload.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 22:36:38+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,natureorganicbeauty.com,win.strelastealer,Domain name that delivers a malware payload,StrelaStealer,100,2026-06-11 22:16:06+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,zjtjokj.quranmohagegin.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 22:15:28+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,154.23.189.184:14782,win.quasar_rat,ip:port combination that is used for botnet Command&control (C&C),QuasarRAT,100,2026-06-11 22:00:21+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,43.99.110.114:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 22:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,43.99.110.114:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 22:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,jdxqaihsh.bankefiile.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 21:47:20+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,bfksnnrp.prozhecart.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 21:43:20+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,o0irv3h9.ravabetensani.site,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 21:41:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,185.212.19.144:8443,win.meterpreter,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v14,nation-state-hunter,t1055,t1059_001",100,2026-06-11 21:24:44+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://srv.gasturbo88.top/,win.vidar,URL that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 21:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,srv.glamisdunesrentals.com,win.vidar,Domain that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 21:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://srv.glamisdunesrentals.com/,win.vidar,URL that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 21:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,srv.gasturbo88.top,win.vidar,Domain that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 21:00:48+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,49.233.136.227:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 21:00:16+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,49.233.136.227:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 21:00:16+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,49.233.136.227:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 21:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,120.55.3.157:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 21:00:13+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,120.55.3.157:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 21:00:13+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,owedcphc.ravanshenakhti.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 20:37:12+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,eeqagxew.maharatmodiran.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 20:16:51+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,t92hw5pi.nazariyeyadgiri.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 20:11:06+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://jiminej.lol/api/v1/status,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 20:07:23+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://jiminej.lol/api/v1/session,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 20:07:22+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://jiminej.lol/api/v1/verify,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 20:07:22+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,jiminej.lol,js.kongtuke,Domain name that delivers a malware payload,Kongtuke,100,2026-06-11 20:07:21+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://jiminej.lol/file.js,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 20:07:20+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,120.55.3.157:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 20:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,117.72.159.215:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 20:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,178.16.53.137:443,unknown,ip:port combination that delivery a malware payload,ClickFix,100,2026-06-11 19:52:38+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,1364170351-9enmkvd46p.ap-guangzhou.tencentscf.com,win.cobalt_strike,Domain that is used for botnet Command&control (C&C),"CobaltStrike,drb-ra",75,2026-06-11 19:45:26+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,64.89.162.59:4422,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:45:11+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,46.246.80.2:8848,win.dcrat,ip:port combination that is used for botnet Command&control (C&C),"dcrat,drb-ra,RAT",75,2026-06-11 19:44:53+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,46.101.195.123:31400,elf.evilginx,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,EvilGinx,EvilGoPhish",75,2026-06-11 19:44:52+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,46.151.182.181:2404,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 19:44:52+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.225.135.43:6606,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:44:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.225.135.43:7707,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:44:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.225.135.43:8808,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:44:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,31.76.93.193:4321,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,drb-ra",75,2026-06-11 19:44:40+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,23.235.185.45:12159,win.dcrat,ip:port combination that is used for botnet Command&control (C&C),"dcrat,drb-ra,RAT",75,2026-06-11 19:44:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,23.235.185.46:12159,win.dcrat,ip:port combination that is used for botnet Command&control (C&C),"dcrat,drb-ra,RAT",75,2026-06-11 19:44:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,213.165.40.206:8887,win.bianlian,ip:port combination that is used for botnet Command&control (C&C),"BianLian,drb-ra",75,2026-06-11 19:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,209.99.188.193:43221,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,drb-ra",75,2026-06-11 19:44:02+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,2.27.62.228:60204,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 19:43:57+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,194.116.236.239:4069,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 19:43:52+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,192.3.139.18:15221,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,drb-ra",75,2026-06-11 19:43:50+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,188.137.242.166:6606,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:43:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,188.137.242.166:7707,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:43:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,188.137.242.166:8808,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:43:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,182.23.2.163:8307,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 19:43:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,178.255.126.146:7707,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat,drb-ra,RAT",75,2026-06-11 19:43:36+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,155.103.71.115:14408,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 19:43:22+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,130.94.18.95:24321,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,drb-ra",75,2026-06-11 19:43:12+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,109.199.109.62:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,sliver",75,2026-06-11 19:43:09+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,109.199.109.62:40056,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,sliver",75,2026-06-11 19:43:09+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,kaiojocv.masirpayambari.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 19:00:05+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,933anmoo.azmoonhayeravani.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 18:41:27+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ljj8nzo0.ravansalamat.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 18:38:05+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,f7a20n5o.ravansalamat.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 18:36:50+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,193.106.217.106:80,win.meterpreter,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1071_001",100,2026-06-11 18:09:02+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.89.255.244:80,win.meterpreter,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1071_001,t1573_002",91,2026-06-11 18:09:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://sartora.lol/api/v1/verify,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 18:08:38+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://sartora.lol/api/v1/session,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 18:08:37+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://sartora.lol/file.js,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 18:08:36+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,sartora.lol,js.kongtuke,Domain name that delivers a malware payload,Kongtuke,100,2026-06-11 18:08:36+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,nkxkhfp.bet303.app,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 17:48:53+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,hlgwrpbh.mechanicsayalat.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 17:44:38+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ffynigbdr.barnamenevisi.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 17:43:53+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,80.76.49.194:56003,win.pure_rat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat-fork,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:43+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,80.76.49.194:56002,win.pure_rat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat-fork,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:42+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,80.76.49.194:56001,win.pure_rat,ip:port combination that is used for botnet Command&control (C&C),"asyncrat-fork,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,sha256_hash,7e49b00bef718eb7e3645d8705e6521b011f66d10f06201e209a8a0511abc81a,win.pure_rat,SHA256 hash of a malware sample (payload),"asyncrat-fork,dotNET,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:41+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,b50a05e38e9d04fd5c4dac4f29850649a77bb3ae443639206c908058e45593eb,win.pure_rat,SHA256 hash of a malware sample (payload),"asyncrat-fork,dotNET,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:39+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,a05254840b45fcbfd12d09fd416ca860e2cfcab793f4780fa8f138b8f7a86aab,win.pure_rat,SHA256 hash of a malware sample (payload),"asyncrat-fork,dotNET,iex-cradle,PureRAT,tmpfiles",75,2026-06-11 17:21:38+00:00,Indicator that identifies a malware sample (payload)
+threatfox,ip:port,216.250.251.226:8443,win.purelogs,ip:port combination that is used for botnet Command&control (C&C),PureLogsStealer,75,2026-06-11 17:20:39+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,139.59.106.160:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 17:00:11+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,dl.erickillorinphotostore.com,js.fakeupdates,Domain that is used for botnet Command&control (C&C),SocGholish,100,2026-06-11 16:42:29+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://saffronarchivehub.top/role/policy-sessionstore.js,js.smartapesg,URL that delivers a malware payload,SmartApeSG,100,2026-06-11 16:42:29+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,saffronarchivehub.top,js.smartapesg,Domain name that delivers a malware payload,SmartApeSG,100,2026-06-11 16:42:28+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://saffronarchivehub.top/role/health-json,js.smartapesg,URL that delivers a malware payload,SmartApeSG,100,2026-06-11 16:42:28+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://saffronarchivehub.top/role/redirect-html.js,js.smartapesg,URL that delivers a malware payload,SmartApeSG,100,2026-06-11 16:42:27+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,www.sharingfile.cloud,unknown,Domain that is used for botnet Command&control (C&C),,50,2026-06-11 16:42:27+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,linkednewsapi.top,unknown,Domain that is used for botnet Command&control (C&C),,50,2026-06-11 16:42:26+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,193.169.240.38:443,unknown,ip:port combination that is used for botnet Command&control (C&C),,50,2026-06-11 16:42:26+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,104.193.255.99:8443,unknown,ip:port combination that is used for botnet Command&control (C&C),,50,2026-06-11 16:42:24+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,104.234.18.91:80,unknown,ip:port combination that is used for botnet Command&control (C&C),c2,100,2026-06-11 16:42:24+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,104.234.18.91:3001,unknown,ip:port combination that is used for botnet Command&control (C&C),c2,100,2026-06-11 16:42:23+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,http://104.234.18.91:3001/api/internal/log,unknown,URL that is used for botnet Command&control (C&C),c2,100,2026-06-11 16:42:22+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,sha256_hash,ce9690621c9311446bcf61ec40498a98f8c1b775185064f6dc321d72fafb468d,unknown,SHA256 hash of a malware sample (payload),"chacha20,ClickFix,finger-cradle,lolbas,python-loader,websocket-rat",75,2026-06-11 16:42:22+00:00,Indicator that identifies a malware sample (payload)
+threatfox,url,http://104.234.18.91:3001/ws,unknown,URL that is used for botnet Command&control (C&C),c2,100,2026-06-11 16:42:21+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,http://104.234.18.91:3001/api/upload,unknown,URL that is used for botnet Command&control (C&C),c2,100,2026-06-11 16:42:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,sha256_hash,8de1ce72b4efd1d4ca0841d79a1fcea463fd8fa84579fe743f58eb6205ccce76,unknown,SHA256 hash of a malware sample (payload),"chacha20,ClickFix,finger-cradle,lolbas,python-loader,websocket-rat",75,2026-06-11 16:42:18+00:00,Indicator that identifies a malware sample (payload)
+threatfox,domain,starayadaet.com,unknown,Domain that is used for botnet Command&control (C&C),"ClickFix,finger-cradle,websocket-rat,wss",75,2026-06-11 16:42:18+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,marblecologrgr.com,unknown,Domain name that delivers a malware payload,"ClickFix,finger,finger-cradle,lolbas,tcp79",75,2026-06-11 16:42:17+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,98jhjysx.ehtemalatvaamar.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 16:40:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,znrax5pn.qurandownload.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 16:37:15+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,rlpxurgo.qurandownload.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 16:36:19+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,nibfzvsq.hugugbime.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 16:36:02+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://ox3.gasturbo88.top/,win.vidar,URL that is used for botnet Command&control (C&C),"gr0u4,Vidar",75,2026-06-11 16:24:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,ox3.gasturbo88.top,win.vidar,Domain that is used for botnet Command&control (C&C),"gr0u4,Vidar",75,2026-06-11 16:24:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://ox3.glamisdunesrentals.com/,win.vidar,URL that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 16:00:52+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,ox3.glamisdunesrentals.com,win.vidar,Domain that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 16:00:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,139.59.106.160:80,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 16:00:23+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,36.255.197.120:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 16:00:21+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,16.170.32.198:7443,unknown,ip:port combination that is used for botnet Command&control (C&C),Mythic,100,2026-06-11 16:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,8.152.2.86:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 16:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,8.152.2.86:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 16:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,mlcos.cdnupdate.net,win.cobalt_strike,Domain that is used for botnet Command&control (C&C),"CobaltStrike,drb-ra",75,2026-06-11 15:45:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,jksidxrvz.bookdrive.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 15:41:07+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,cmkfhtt.bet303.promo,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 15:34:21+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,hqvgwxfu.hugugedari.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 15:18:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ogonna.ydns.eu,win.xworm,Domain that is used for botnet Command&control (C&C),XWorm,75,2026-06-11 15:00:24+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,8.152.2.86:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 15:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,62.60.226.185:6003,win.quasar_rat,ip:port combination that is used for botnet Command&control (C&C),QuasarRAT,100,2026-06-11 15:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,154.23.189.41:14782,win.quasar_rat,ip:port combination that is used for botnet Command&control (C&C),QuasarRAT,100,2026-06-11 15:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,122.51.50.44:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 15:00:12+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,94.154.32.163:7004,win.xworm,ip:port combination that is used for botnet Command&control (C&C),XWorm,75,2026-06-11 14:45:54+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.88.91.5:7004,win.xworm,ip:port combination that is used for botnet Command&control (C&C),XWorm,75,2026-06-11 14:45:53+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://spasopro.at/index.php,win.smokeloader,URL that is used for botnet Command&control (C&C),smokeloader,75,2026-06-11 14:20:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,http://spasopro.at/index.php,win.smokeloader,URL that is used for botnet Command&control (C&C),smokeloader,75,2026-06-11 14:20:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,mymrtijp.hugugmadani6.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 14:01:13+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,122.51.50.44:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 14:00:22+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,122.51.50.44:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 14:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,122.51.50.44:4444,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 14:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,172.94.18.103:79,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),asyncrat,100,2026-06-11 14:00:17+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://thisismine.asia/,unknown,URL that delivers a malware payload,ClickFix,90,2026-06-11 13:17:57+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://testerha.com/,unknown,URL that delivers a malware payload,ClickFix,90,2026-06-11 13:17:57+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://verif-code.lol/o,js.kongtuke,URL that delivers a malware payload,Kongtuke,100,2026-06-11 13:17:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,verif-code.lol,js.kongtuke,Domain name that delivers a malware payload,Kongtuke,100,2026-06-11 13:17:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://alabastermarket.top/role/health-json,js.smartapesg,URL that delivers a malware payload,SmartApeSG,100,2026-06-11 13:17:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,alabastermarket.top,js.smartapesg,Domain name that delivers a malware payload,SmartApeSG,100,2026-06-11 13:17:55+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://alabastermarket.top/role/redirect-html.js,js.smartapesg,URL that delivers a malware payload,SmartApeSG,100,2026-06-11 13:17:55+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,64.89.162.149:80,elf.moobot,ip:port combination that is used for botnet Command&control (C&C),"c2,moobot,shodan",50,2026-06-11 12:51:16+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,138.124.29.208:80,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,UNAM",50,2026-06-11 12:50:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.167.96.179:1604,win.darkcomet,ip:port combination that is used for botnet Command&control (C&C),"c2,darkcomet,shodan",50,2026-06-11 12:50:11+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,104.168.62.5:54984,win.nanocore,ip:port combination that is used for botnet Command&control (C&C),"c2,NanoCore,shodan",50,2026-06-11 12:49:29+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.241.208.118:4321,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,c2,shodan",50,2026-06-11 12:48:55+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.241.208.118:4444,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,c2,shodan",50,2026-06-11 12:48:55+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,151.59.114.129:8080,win.sectop_rat,ip:port combination that is used for botnet Command&control (C&C),"c2,SectopRAT,shodan",50,2026-06-11 12:47:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,146.103.126.127:9000,win.sectop_rat,ip:port combination that is used for botnet Command&control (C&C),"c2,SectopRAT,shodan",50,2026-06-11 12:47:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,122.114.252.115:12340,win.shadowpad,ip:port combination that is used for botnet Command&control (C&C),"c2,shadowpad,shodan",50,2026-06-11 12:46:50+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,113.44.64.117:7443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Mythic,shodan",50,2026-06-11 12:46:30+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,175.178.123.42:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Mythic,shodan",50,2026-06-11 12:46:30+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,159.89.48.54:7443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Mythic,shodan",50,2026-06-11 12:46:30+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,107.148.1.64:9443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Mythic,shodan",50,2026-06-11 12:46:30+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,35.239.220.64:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:11+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,79.110.49.85:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:10+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,65.108.32.130:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:10+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,34.89.98.172:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:10+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,20.54.88.98:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:10+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,34.143.184.190:8089,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,locust,shodan",50,2026-06-11 12:46:10+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,159.65.154.209:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,83.142.209.60:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,172.238.122.85:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,62.210.214.18:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,144.172.104.22:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,87.106.75.120:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,153.75.227.142:1337,win.empire_downloader,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,StarKillerC2",50,2026-06-11 12:45:40+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,3.18.5.177:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:59+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,209.91.248.6:8443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:59+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,35.168.186.153:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:58+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,13.58.240.163:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:58+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,130.160.1.225:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:58+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,35.130.170.60:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:58+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,165.29.86.2:8989,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:57+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,94.49.35.175:9090,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,PowerSploit,shodan",50,2026-06-11 12:44:57+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,129.226.121.12:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Panda,shodan",50,2026-06-11 12:44:40+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,namrqlix.hugugnasiri.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 12:44:39+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,38.76.169.231:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Panda,shodan",50,2026-06-11 12:44:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,43.112.115.8:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Panda,shodan",50,2026-06-11 12:44:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,149.28.13.194:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,Panda,shodan",50,2026-06-11 12:44:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,194.146.38.191:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,195.246.230.115:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,207.174.30.91:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,169.40.135.88:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,173.230.0.145:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.241.208.118:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,95.182.84.43:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,109.107.140.248:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,101.200.39.128:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,80.241.208.176:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,80.241.219.92:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,74.48.108.73:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,91.236.230.152:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,172.105.114.236:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,159.65.22.41:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,194.87.24.131:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,193.242.184.158:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,95.111.239.243:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.163.2.10:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,103.160.59.17:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,213.21.254.240:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.225.226.85:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,107.189.11.149:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:03+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,62.84.172.151:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,66.116.238.103:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,5.230.201.54:31337,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,shodan,sliver",50,2026-06-11 12:44:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,54.86.242.233:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:39+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,202.10.42.113:8443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:39+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,20.197.43.238:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,152.89.16.45:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,46.182.217.204:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,34.128.109.190:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:38+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,101.96.111.198:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,51.159.82.179:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,190.20.96.35:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,195.246.230.115:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,203.189.71.122:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,200.33.163.61:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:37+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,103.85.226.42:8443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:36+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,173.249.33.186:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:36+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,34.172.171.254:443,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:36+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,159.89.167.49:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,20.197.43.238:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,57.162.106.141:3333,unknown,ip:port combination that is used for botnet Command&control (C&C),"c2,GoPhish,phishing,shodan",50,2026-06-11 12:43:35+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,134.65.51.39:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:08+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,218.244.142.4:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,114.132.199.129:1443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,135.125.196.5:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,190.90.147.38:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,120.26.208.96:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,154.201.68.191:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,114.134.187.38:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,20.15.58.107:50050,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,shodan",50,2026-06-11 12:43:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,114.132.89.132:8443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,cs-watermark-600000,shodan",50,2026-06-11 12:42:28+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,117.72.159.215:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,cs-watermark-987654321,shodan",50,2026-06-11 12:42:24+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,156.234.211.162:8821,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,CobaltStrike,cs-watermark-987654321,shodan",50,2026-06-11 12:42:23+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,02y48l3v.asibshenasiyahya.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 12:41:25+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ghdre2hy.geotechnictahuni.store,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 12:36:23+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://ffe.gasturbo88.top/,win.vidar,URL that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 12:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,ffe.glamisdunesrentals.com,win.vidar,Domain that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 12:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://ffe.glamisdunesrentals.com/,win.vidar,URL that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 12:00:49+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,ffe.gasturbo88.top,win.vidar,Domain that is used for botnet Command&control (C&C),Vidar,100,2026-06-11 12:00:48+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,211.159.225.77:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 12:00:19+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,211.159.225.77:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 12:00:18+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,btbwehpkp.drivingbook.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 11:55:42+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ieemaju.akhlageslami.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 11:32:43+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,zyuhgbux.hugugtejarat4.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 11:27:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,clabrmercur.pages.dev,js.clearfake,Domain name that delivers a malware payload,"ClearFake,ClickFix",100,2026-06-11 10:52:43+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,clavgood.pages.dev,js.clearfake,Domain name that delivers a malware payload,"ClearFake,ClickFix",100,2026-06-11 10:52:42+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,storgvkam.pages.dev,js.clearfake,Domain name that delivers a malware payload,"ClearFake,ClickFix",100,2026-06-11 10:52:40+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,claude-code-product.squarespace.com,js.clearfake,Domain name that delivers a malware payload,"ClearFake,ClickFix",100,2026-06-11 10:52:39+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,notebooklm-update-version.squarespace.com,js.clearfake,Domain name that delivers a malware payload,"ClearFake,ClickFix",100,2026-06-11 10:52:37+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,shell.botnet.st,elf.mirai,Domain that is used for botnet Command&control (C&C),DDoS,100,2026-06-11 10:52:32+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,real.botnet.st,elf.mirai,Domain that is used for botnet Command&control (C&C),DDoS,100,2026-06-11 10:52:31+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,2chci0sm.andisheeslami2.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 10:20:07+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,gimomouf.red90.casino,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 10:13:18+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,43.136.180.88:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 10:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,p5k42qtw.anodaz.co,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 09:56:19+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,206.81.21.156:4321,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),"AdaptixC2,drb-ra",75,2026-06-11 09:44:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,182.23.2.163:4048,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 09:43:44+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,182.23.2.163:4814,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 09:43:44+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,182.23.2.163:1230,win.remcos,ip:port combination that is used for botnet Command&control (C&C),"drb-ra,RAT,RemcosRAT",75,2026-06-11 09:43:42+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,gwofphogw.differentialmamuli.store,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 09:38:32+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,qnjutqs.bet303.app,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 09:22:10+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,thisismine.asia,unknown,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 09:16:22+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,64.89.162.82:6606,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),asyncrat,100,2026-06-11 09:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,160.202.230.103:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 09:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,160.202.230.103:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 09:00:13+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,kwoptitn.restaurantguideaarhus.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 08:52:32+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,yvlenqci.rial.bet,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 08:49:29+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,s8a20vxh.gavaedfagahe.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 08:35:11+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,4piqgfum.garatequran.xyz,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:35:03+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,aetherframework.digital,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:35:01+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ldmmsp6b.angizeshfarahani.store,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:35:01+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,xnvdto36.ganuneasasi.xyz,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:35:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,cxwqtlc8.asibshenasiyahya.shop,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:35:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,rn0mptxh.anodaz.tv,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:59+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,181xlt4g.gavaedfagahe.xyz,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:58+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,jqfg2zyi.ehtemalatvaamar.xyz,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:58+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,8t4ow8gc.azmoonhayeravani.shop,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:57+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,988920lt-ublib.988920a1.buzz,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:57+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,gng97m36.angizeshfarahani.store,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,omeade.2k3phuchau.christmas,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:56+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,allfood.2k3phuchau.christmas,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:55+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,njjinvestments.2k3phuchau.christmas,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:55+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,cqshazxp.neural-atlas.digital,js.clearfake,Domain name that delivers a malware payload,ClickFix,100,2026-06-11 08:34:54+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,209.99.184.216:56001,unknown,ip:port combination that is used for botnet Command&control (C&C),,75,2026-06-11 08:21:46+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,209.99.184.216:56002,unknown,ip:port combination that is used for botnet Command&control (C&C),,75,2026-06-11 08:21:46+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,209.99.184.216:56003,unknown,ip:port combination that is used for botnet Command&control (C&C),,75,2026-06-11 08:21:46+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,juakvinjpo34.xyz,unknown_loader,Domain name that delivers a malware payload,,100,2026-06-11 08:20:59+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,hzvvlqps.mechanicsayalat.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 08:15:09+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,47.121.181.148:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 08:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,47.121.181.148:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 08:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,2.26.228.27:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 08:00:17+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,1v6le0j1.andisheeslami2.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 07:52:21+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,http://154.198.50.76:8080/upload,unknown,URL that is used for botnet Command&control (C&C),,100,2026-06-11 07:49:09+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.67.222.21:3389,win.havoc,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1059_001",85,2026-06-11 07:45:08+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,175.98.132.116:9443,win.sliver,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1105",91,2026-06-11 07:45:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,slojemw.leaguejazire.com,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 07:19:48+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,103.202.61.220:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 07:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,186.246.16.124:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),Havoc,100,2026-06-11 07:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,8.219.158.30:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 07:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,kuonnjkj.masirpayambari.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 06:54:05+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,209.99.191.186:8765,unknown,ip:port combination that is used for botnet Command&control (C&C),,75,2026-06-11 06:53:17+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.87.53.6:8443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-987654321",100,2026-06-11 06:43:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,120.55.3.157:10000,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-987654321",100,2026-06-11 06:43:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,117.72.220.212:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-987654321",100,2026-06-11 06:42:55+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,43.136.180.88:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-666666666",100,2026-06-11 06:42:48+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,43.136.180.88:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-666666666",100,2026-06-11 06:42:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,47.121.181.148:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-666666",100,2026-06-11 06:42:47+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,124.220.41.22:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-100000",100,2026-06-11 06:42:46+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,211.159.225.77:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 06:42:45+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,160.202.230.103:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-666666666",100,2026-06-11 06:42:44+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,49.233.105.49:4444,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-305419896",100,2026-06-11 06:42:43+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,139.5.108.17:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"CobaltStrike,cs-watermark-987654321",100,2026-06-11 06:42:41+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,qlvwxer.karafarini.shop,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 06:02:39+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,45.38.20.122:8080,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),Adaptix,100,2026-06-11 06:00:17+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.38.20.122:80,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),Adaptix,100,2026-06-11 06:00:16+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,104.233.154.139:888,win.vshell,ip:port combination that is used for botnet Command&control (C&C),Vshell,100,2026-06-11 06:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.38.20.122:443,win.adaptix_c2,ip:port combination that is used for botnet Command&control (C&C),Adaptix,100,2026-06-11 06:00:15+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,1.94.184.17:60002,win.vshell,ip:port combination that is used for botnet Command&control (C&C),Vshell,100,2026-06-11 06:00:13+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,ifvtbgbf.maharatmodiran.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 05:52:03+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,dmwncnnnp.defamogadas.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 05:48:15+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,193.233.130.136:3389,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1105",99,2026-06-11 05:26:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,156.234.211.138:8821,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"138195,c2,censys,Cobalt Strike",50,2026-06-11 05:26:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,156.234.211.165:8821,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"138195,c2,censys,Cobalt Strike",50,2026-06-11 05:26:06+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,219.92.2.65:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"4788,c2,censys,Cobalt Strike",50,2026-06-11 05:26:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,192.144.213.21:18443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"45090,c2,censys,Cobalt Strike",50,2026-06-11 05:26:05+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,18.175.227.88:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"16509,c2,censys,Cobalt Strike",50,2026-06-11 05:26:04+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,41.234.41.113:8808,win.asyncrat,ip:port combination that is used for botnet Command&control (C&C),"8452,asyncrat,c2,censys",50,2026-06-11 05:26:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,193.106.8.24:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1059_001",100,2026-06-11 05:26:01+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,185.89.214.29:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1573_002",99,2026-06-11 05:26:00+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,blueprintmesh.com,osx.amos,Domain name that delivers a malware payload,"Amos,osx",100,2026-06-11 05:25:59+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,dstwl.com,osx.amos,Domain name that delivers a malware payload,"Amos,osx",100,2026-06-11 05:25:58+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,sha256_hash,b56a2ccafe31b6c664c021ec418a660661e5d6d87e1c339beba3b7a4b684d067,osx.amos,SHA256 hash of a malware sample (payload),"Amos,osx",100,2026-06-11 05:25:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,01e33f12a8ee57c89624aeeeb97e57896927483d1442eea22ec6bfddc12f8879,osx.amos,SHA256 hash of a malware sample (payload),"Amos,osx",100,2026-06-11 05:25:57+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,9a2869a42f54beb07d4d56a16cd56f507a1ae5a9df2e4d816776472cbf4438c6,osx.amos,SHA256 hash of a malware sample (payload),"Amos,osx",100,2026-06-11 05:25:56+00:00,Indicator that identifies a malware sample (payload)
+threatfox,url,http://151.243.18.28/4940cc4b5ddb4a2bb8f8.php,win.stealc,URL that is used for botnet Command&control (C&C),"c2,dark,Loader,Stealc,stealer",100,2026-06-11 05:25:55+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,sha256_hash,7c69d70092676725b6e9269e08f842b22a21eff319240a31b2dfc44147d05d05,unknown,SHA256 hash of a malware sample (payload),"a-dl,ClickFix,garble,golang,Loader",75,2026-06-11 05:25:54+00:00,Indicator that identifies a malware sample (payload)
+threatfox,url,http://5.83.134.26/ssh,unknown,URL that delivers a malware payload,honeypot,75,2026-06-11 05:25:52+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,url,https://bw-development.app/Antibot2,unknown,URL that delivers a malware payload,"ClickFix,Electron,github-releases,trojanized-app",75,2026-06-11 05:25:51+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,185.190.212.155:443,win.havoc,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1059_001",100,2026-06-11 05:25:51+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://github.com/hothehottest/Recaptcha-2/releases/download/Recaptcha-2/boost.zip,unknown,URL that delivers a malware payload,"ClickFix,Electron,github-releases,trojanized-app",75,2026-06-11 05:25:50+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,sha256_hash,13059a7cf8cc3820f5d36262c5f5d375465297a6fff8fcefc5fd8d520030ff96,unknown,SHA256 hash of a malware sample (payload),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:49+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,8eac8373cb9b6a8004942871ebc691d900a8116c9dede5e3a222392227033245,unknown,SHA256 hash of a malware sample (payload),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:48+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,07353da1a94a7dc214947fc35f134452b4dba8a6ae81464328d9cf0d1cedc6ba,unknown,SHA256 hash of a malware sample (payload),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:47+00:00,Indicator that identifies a malware sample (payload)
+threatfox,sha256_hash,bbc8da2cceb3a174e2b0df87bc43c54d3cf3edadb585658bb65517c8f88249b8,unknown,SHA256 hash of a malware sample (payload),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:46+00:00,Indicator that identifies a malware sample (payload)
+threatfox,domain,ghukonhgf.com,unknown,Domain that is used for botnet Command&control (C&C),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:44+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,45.67.84.76:3389,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),"c2,erebus-v13,nation-state-hunter,t1055,t1071_001",86,2026-06-11 05:25:43+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://ghukonhgf.com/api/,unknown,URL that is used for botnet Command&control (C&C),"ClickFix,Electron,remote-eval,trojanized-app",75,2026-06-11 05:25:43+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,url,https://sup.gasturbo88.top/,win.vidar,URL that is used for botnet Command&control (C&C),"gr0u4,Vidar",75,2026-06-11 05:24:45+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,sup.gasturbo88.top,win.vidar,Domain that is used for botnet Command&control (C&C),"gr0u4,Vidar",75,2026-06-11 05:24:45+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,rjwfiwgjr.defamogadas.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 05:17:06+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,1cihg2b5.anodaz.vip,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 04:57:20+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,mocauhxe.mabanishimi.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 04:57:04+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,iznukhb.hesabdari2.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 04:40:57+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,zo4t1q36.moarefeslami.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 04:34:14+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,43.160.193.90:6666,win.valley_rat,ip:port combination that is used for botnet Command&control (C&C),"RAT,ValleyRAT",100,2026-06-11 04:05:08+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,m2bu2yf9.ansuyemarg.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 03:52:29+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,18.162.74.188:112,win.valley_rat,ip:port combination that is used for botnet Command&control (C&C),"RAT,ValleyRAT",100,2026-06-11 03:45:07+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,kpeahfhd.rial.bet,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 03:40:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,verccbf.hesabdarinoravesh.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 03:23:59+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,34.92.128.98:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 03:00:16+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,34.92.128.98:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 03:00:14+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,domain,lwywtkki.winxbet.co,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 02:23:00+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,domain,ewnwfae.hesabdaripishrafte.xyz,js.clearfake,Domain name that delivers a malware payload,ClearFake,100,2026-06-11 02:07:24+00:00,Indicator that identifies a malware distribution server (payload delivery)
+threatfox,ip:port,47.92.206.63:80,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 02:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,47.92.206.63:8080,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 02:00:20+00:00,Indicator that identifies a botnet command&control server (C&C)
+threatfox,ip:port,47.92.206.63:443,win.cobalt_strike,ip:port combination that is used for botnet Command&control (C&C),CobaltStrike,100,2026-06-11 02:00:18+00:00,Indicator that identifies a botnet command&control server (C&C)
+malwarebazaar,file_hash,6e08a9b19df98e36da4409a8ae5990bde3ed6dc583fbea9f112cbc55421aec59,unknown,CA,"elf,enthec",90,unknown,6e08a9b19df98e36da4409a8ae5990bde3ed6dc583fbea9f112cbc55421aec59
+feodo_tracker,ip:port,162.243.103.246:8080,Emotet,US,"botnet,c2,feodo",95,unknown,Feodo C2 - Emotet
+feodo_tracker,ip:port,50.16.16.211:443,QakBot,US,"botnet,c2,feodo",95,unknown,Feodo C2 - QakBot
+feodo_tracker,ip:port,34.204.119.63:443,QakBot,US,"botnet,c2,feodo",95,unknown,Feodo C2 - QakBot
+feodo_tracker,ip:port,178.62.3.223:443,QakBot,GB,"botnet,c2,feodo",95,unknown,Feodo C2 - QakBot
+feodo_tracker,ip:port,27.133.154.218:443,QakBot,JP,"botnet,c2,feodo",95,unknown,Feodo C2 - QakBot
+mitre_attack,attack_technique,T1055.011,Extra Window Memory Injection,global,"stealth,privilege-escalation",100,unknown,Extra Window Memory Injection
+mitre_attack,attack_technique,T1053.005,Scheduled Task,global,"execution,persistence,privilege-escalation",100,unknown,Scheduled Task
+mitre_attack,attack_technique,T1205.002,Socket Filters,global,"stealth,persistence,command-and-control",100,unknown,Socket Filters
+mitre_attack,attack_technique,T1560.001,Archive via Utility,global,collection,100,unknown,Archive via Utility
+mitre_attack,attack_technique,T1021.005,VNC,global,lateral-movement,100,unknown,VNC
+mitre_attack,attack_technique,T1047,Windows Management Instrumentation,global,execution,100,unknown,Windows Management Instrumentation
+mitre_attack,attack_technique,T1687,Exploitation for Defense Impairment,global,defense-impairment,100,unknown,Exploitation for Defense Impairment
+mitre_attack,attack_technique,T1113,Screen Capture,global,collection,100,unknown,Screen Capture
+mitre_attack,attack_technique,T1027.011,Fileless Storage,global,stealth,100,unknown,Fileless Storage
+mitre_attack,attack_technique,T1037,Boot or Logon Initialization Scripts,global,"persistence,privilege-escalation",100,unknown,Boot or Logon Initialization Scripts
+mitre_attack,attack_technique,T1557,Adversary-in-the-Middle,global,"credential-access,collection",100,unknown,Adversary-in-the-Middle
+mitre_attack,attack_technique,T1033,System Owner/User Discovery,global,discovery,100,unknown,System Owner/User Discovery
+mitre_attack,attack_technique,T1583,Acquire Infrastructure,global,resource-development,100,unknown,Acquire Infrastructure
+mitre_attack,attack_technique,T1218.011,Rundll32,global,stealth,100,unknown,Rundll32
+mitre_attack,attack_technique,T1613,Container and Resource Discovery,global,discovery,100,unknown,Container and Resource Discovery
+mitre_attack,attack_technique,T1583.007,Serverless,global,resource-development,100,unknown,Serverless
+mitre_attack,attack_technique,T1132.001,Standard Encoding,global,command-and-control,100,unknown,Standard Encoding
+mitre_attack,attack_technique,T1027.009,Embedded Payloads,global,stealth,100,unknown,Embedded Payloads
+mitre_attack,attack_technique,T1556.003,Pluggable Authentication Modules,global,"defense-impairment,persistence,credential-access",100,unknown,Pluggable Authentication Modules
+mitre_attack,attack_technique,T1578.004,Revert Cloud Instance,global,defense-impairment,100,unknown,Revert Cloud Instance
+mitre_attack,attack_technique,T1592,Gather Victim Host Information,global,reconnaissance,100,unknown,Gather Victim Host Information
+mitre_attack,attack_technique,T1596.003,Digital Certificates,global,reconnaissance,100,unknown,Digital Certificates
+mitre_attack,attack_technique,T1056.001,Keylogging,global,"collection,credential-access",100,unknown,Keylogging
+mitre_attack,attack_technique,T1564.012,File/Path Exclusions,global,stealth,100,unknown,File/Path Exclusions
+mitre_attack,attack_technique,T1222.002,Linux and Mac Permissions,global,defense-impairment,100,unknown,Linux and Mac Permissions
+mitre_attack,attack_technique,T1110.001,Password Guessing,global,credential-access,100,unknown,Password Guessing
+mitre_attack,attack_technique,T1216.001,PubPrn,global,stealth,100,unknown,PubPrn
+mitre_attack,attack_technique,T1597.002,Purchase Technical Data,global,reconnaissance,100,unknown,Purchase Technical Data
+mitre_attack,attack_technique,T1003,OS Credential Dumping,global,credential-access,100,unknown,OS Credential Dumping
+mitre_attack,attack_technique,T1129,Shared Modules,global,execution,100,unknown,Shared Modules
+mitre_attack,attack_technique,T1602,Data from Configuration Repository,global,collection,100,unknown,Data from Configuration Repository
+mitre_attack,attack_technique,T1561.002,Disk Structure Wipe,global,impact,100,unknown,Disk Structure Wipe
+mitre_attack,attack_technique,T1498.001,Direct Network Flood,global,impact,100,unknown,Direct Network Flood
+mitre_attack,attack_technique,T1574.007,Path Interception by PATH Environment Variable,global,"stealth,execution",100,unknown,Path Interception by PATH Environment Variable
+mitre_attack,attack_technique,T1213.002,Sharepoint,global,collection,100,unknown,Sharepoint
+mitre_attack,attack_technique,T1006,Direct Volume Access,global,stealth,100,unknown,Direct Volume Access
+mitre_attack,attack_technique,T1588.007,Artificial Intelligence,global,resource-development,100,unknown,Artificial Intelligence
+mitre_attack,attack_technique,T1666,Modify Cloud Resource Hierarchy,global,defense-impairment,100,unknown,Modify Cloud Resource Hierarchy
+mitre_attack,attack_technique,T1564.008,Email Hiding Rules,global,stealth,100,unknown,Email Hiding Rules
+mitre_attack,attack_technique,T1491.002,External Defacement,global,impact,100,unknown,External Defacement
+mitre_attack,attack_technique,T1027.013,Encrypted/Encoded File,global,stealth,100,unknown,Encrypted/Encoded File
+mitre_attack,attack_technique,T1590.005,IP Addresses,global,reconnaissance,100,unknown,IP Addresses
+mitre_attack,attack_technique,T1499.001,OS Exhaustion Flood,global,impact,100,unknown,OS Exhaustion Flood
+mitre_attack,attack_technique,T1014,Rootkit,global,stealth,100,unknown,Rootkit
+mitre_attack,attack_technique,T1546.013,PowerShell Profile,global,"privilege-escalation,persistence",100,unknown,PowerShell Profile
+mitre_attack,attack_technique,T1059.007,JavaScript,global,execution,100,unknown,JavaScript
+mitre_attack,attack_technique,T1685.003,Modify or Spoof Tool UI,global,defense-impairment,100,unknown,Modify or Spoof Tool UI
+mitre_attack,attack_technique,T1590.002,DNS,global,reconnaissance,100,unknown,DNS
+mitre_attack,attack_technique,T1485.001,Lifecycle-Triggered Deletion,global,impact,100,unknown,Lifecycle-Triggered Deletion
+mitre_attack,attack_technique,T1123,Audio Capture,global,collection,100,unknown,Audio Capture
+mitre_attack,attack_technique,T1543,Create or Modify System Process,global,"persistence,privilege-escalation",100,unknown,Create or Modify System Process
+mitre_attack,attack_technique,T1133,External Remote Services,global,"persistence,initial-access",100,unknown,External Remote Services
+mitre_attack,attack_technique,T1546.006,LC_LOAD_DYLIB Addition,global,"privilege-escalation,persistence",100,unknown,LC_LOAD_DYLIB Addition
+mitre_attack,attack_technique,T1539,Steal Web Session Cookie,global,credential-access,100,unknown,Steal Web Session Cookie
+mitre_attack,attack_technique,T1053.007,Container Orchestration Job,global,"execution,persistence,privilege-escalation",100,unknown,Container Orchestration Job
+mitre_attack,attack_technique,T1568.002,Domain Generation Algorithms,global,command-and-control,100,unknown,Domain Generation Algorithms
+mitre_attack,attack_technique,T1036.007,Double File Extension,global,stealth,100,unknown,Double File Extension
+mitre_attack,attack_technique,T1548.002,Bypass User Account Control,global,privilege-escalation,100,unknown,Bypass User Account Control
+mitre_attack,attack_technique,T1496.003,SMS Pumping,global,impact,100,unknown,SMS Pumping
+mitre_attack,attack_technique,T1016.001,Internet Connection Discovery,global,discovery,100,unknown,Internet Connection Discovery
+mitre_attack,attack_technique,T1548.003,Sudo and Sudo Caching,global,privilege-escalation,100,unknown,Sudo and Sudo Caching
+mitre_attack,attack_technique,T1685.001,Disable or Modify Windows Event Log,global,defense-impairment,100,unknown,Disable or Modify Windows Event Log
+mitre_attack,attack_technique,T1682,Query Public AI Services,global,reconnaissance,100,unknown,Query Public AI Services
+mitre_attack,attack_technique,T1560.003,Archive via Custom Method,global,collection,100,unknown,Archive via Custom Method
+mitre_attack,attack_technique,T1578,Modify Cloud Compute Infrastructure,global,defense-impairment,100,unknown,Modify Cloud Compute Infrastructure
+mitre_attack,attack_technique,T1584.008,Network Devices,global,resource-development,100,unknown,Network Devices
+mitre_attack,attack_technique,T1583.008,Malvertising,global,resource-development,100,unknown,Malvertising
+mitre_attack,attack_technique,T1069,Permission Groups Discovery,global,discovery,100,unknown,Permission Groups Discovery
+mitre_attack,attack_technique,T1114,Email Collection,global,collection,100,unknown,Email Collection
+mitre_attack,attack_technique,T1003.002,Security Account Manager,global,credential-access,100,unknown,Security Account Manager
+mitre_attack,attack_technique,T1596.002,WHOIS,global,reconnaissance,100,unknown,WHOIS
+mitre_attack,attack_technique,T1542.001,System Firmware,global,"stealth,persistence",100,unknown,System Firmware
+mitre_attack,attack_technique,T1594,Search Victim-Owned Websites,global,reconnaissance,100,unknown,Search Victim-Owned Websites
+mitre_attack,attack_technique,T1069.003,Cloud Groups,global,discovery,100,unknown,Cloud Groups
+mitre_attack,attack_technique,T1574.011,Services Registry Permissions Weakness,global,"stealth,execution",100,unknown,Services Registry Permissions Weakness
+mitre_attack,attack_technique,T1596.001,DNS/Passive DNS,global,reconnaissance,100,unknown,DNS/Passive DNS
+mitre_attack,attack_technique,T1499.003,Application Exhaustion Flood,global,impact,100,unknown,Application Exhaustion Flood
+mitre_attack,attack_technique,T1195.001,Compromise Software Dependencies and Development Tools,global,initial-access,100,unknown,Compromise Software Dependencies and Development Tools
+mitre_attack,attack_technique,T1588.004,Digital Certificates,global,resource-development,100,unknown,Digital Certificates
+mitre_attack,attack_technique,T1583.002,DNS Server,global,resource-development,100,unknown,DNS Server
+mitre_attack,attack_technique,T1561,Disk Wipe,global,impact,100,unknown,Disk Wipe
+mitre_attack,attack_technique,T1071.004,DNS,global,command-and-control,100,unknown,DNS
+mitre_attack,attack_technique,T1552.005,Cloud Instance Metadata API,global,credential-access,100,unknown,Cloud Instance Metadata API
+mitre_attack,attack_technique,T1555.002,Securityd Memory,global,credential-access,100,unknown,Securityd Memory
+mitre_attack,attack_technique,T1615,Group Policy Discovery,global,discovery,100,unknown,Group Policy Discovery
+mitre_attack,attack_technique,T1542.003,Bootkit,global,"stealth,persistence",100,unknown,Bootkit
+mitre_attack,attack_technique,T1025,Data from Removable Media,global,collection,100,unknown,Data from Removable Media
+mitre_attack,attack_technique,T1218.013,Mavinject,global,stealth,100,unknown,Mavinject
+mitre_attack,attack_technique,T1074.001,Local Data Staging,global,collection,100,unknown,Local Data Staging
+mitre_attack,attack_technique,T1036.005,Match Legitimate Resource Name or Location,global,stealth,100,unknown,Match Legitimate Resource Name or Location
+mitre_attack,attack_technique,T1587.003,Digital Certificates,global,resource-development,100,unknown,Digital Certificates
+mitre_attack,attack_technique,T1565.001,Stored Data Manipulation,global,impact,100,unknown,Stored Data Manipulation
+mitre_attack,attack_technique,T1110.002,Password Cracking,global,credential-access,100,unknown,Password Cracking
+mitre_attack,attack_technique,T1114.001,Local Email Collection,global,collection,100,unknown,Local Email Collection
+mitre_attack,attack_technique,T1555.001,Keychain,global,credential-access,100,unknown,Keychain
+mitre_attack,attack_technique,T1547,Boot or Logon Autostart Execution,global,"persistence,privilege-escalation",100,unknown,Boot or Logon Autostart Execution
+mitre_attack,attack_technique,T1003.004,LSA Secrets,global,credential-access,100,unknown,LSA Secrets
+mitre_attack,attack_technique,T1600,Weaken Encryption,global,defense-impairment,100,unknown,Weaken Encryption
+mitre_attack,attack_technique,T1606.002,SAML Tokens,global,credential-access,100,unknown,SAML Tokens
+mitre_attack,attack_technique,T1036.008,Masquerade File Type,global,stealth,100,unknown,Masquerade File Type
+mitre_attack,attack_technique,T1489,Service Stop,global,impact,100,unknown,Service Stop
+mitre_attack,attack_technique,T1587.001,Malware,global,resource-development,100,unknown,Malware
+mitre_attack,attack_technique,T1652,Device Driver Discovery,global,discovery,100,unknown,Device Driver Discovery
+mitre_attack,attack_technique,T1087.002,Domain Account,global,discovery,100,unknown,Domain Account
+mitre_attack,attack_technique,T1547.014,Active Setup,global,"persistence,privilege-escalation",100,unknown,Active Setup
+mitre_attack,attack_technique,T1564,Hide Artifacts,global,stealth,100,unknown,Hide Artifacts
+mitre_attack,attack_technique,T1559.002,Dynamic Data Exchange,global,execution,100,unknown,Dynamic Data Exchange
+mitre_attack,attack_technique,T1204.002,Malicious File,global,execution,100,unknown,Malicious File
+mitre_attack,attack_technique,T1591.003,Identify Business Tempo,global,reconnaissance,100,unknown,Identify Business Tempo
+mitre_attack,attack_technique,T1685.004,Disable or Modify Linux Audit System Log,global,defense-impairment,100,unknown,Disable or Modify Linux Audit System Log
+mitre_attack,attack_technique,T1071.005,Publish/Subscribe Protocols,global,command-and-control,100,unknown,Publish/Subscribe Protocols
+mitre_attack,attack_technique,T1592.001,Hardware,global,reconnaissance,100,unknown,Hardware
+mitre_attack,attack_technique,T1080,Taint Shared Content,global,lateral-movement,100,unknown,Taint Shared Content
+mitre_attack,attack_technique,T1484.002,Trust Modification,global,"defense-impairment,privilege-escalation",100,unknown,Trust Modification
+mitre_attack,attack_technique,T1213.006,Databases,global,collection,100,unknown,Databases
+mitre_attack,attack_technique,T1573.001,Symmetric Cryptography,global,command-and-control,100,unknown,Symmetric Cryptography
+mitre_attack,attack_technique,T1087.001,Local Account,global,discovery,100,unknown,Local Account
+mitre_attack,attack_technique,T1586.001,Social Media Accounts,global,resource-development,100,unknown,Social Media Accounts
+mitre_attack,attack_technique,T1176.001,Browser Extensions,global,persistence,100,unknown,Browser Extensions
+mitre_attack,attack_technique,T1542.005,TFTP Boot,global,"stealth,persistence",100,unknown,TFTP Boot
+mitre_attack,attack_technique,T1686.003,Windows Host Firewall,global,defense-impairment,100,unknown,Windows Host Firewall
+mitre_attack,attack_technique,T1543.003,Windows Service,global,"persistence,privilege-escalation",100,unknown,Windows Service
+mitre_attack,attack_technique,T1568.001,Fast Flux DNS,global,command-and-control,100,unknown,Fast Flux DNS
+mitre_attack,attack_technique,T1497.001,System Checks,global,"stealth,discovery",100,unknown,System Checks
+mitre_attack,attack_technique,T1053.003,Cron,global,"execution,persistence,privilege-escalation",100,unknown,Cron
+mitre_attack,attack_technique,T1069.002,Domain Groups,global,discovery,100,unknown,Domain Groups
+mitre_attack,attack_technique,T1588.006,Vulnerabilities,global,resource-development,100,unknown,Vulnerabilities
+mitre_attack,attack_technique,T1566.002,Spearphishing Link,global,initial-access,100,unknown,Spearphishing Link
+mitre_attack,attack_technique,T1499.004,Application or System Exploitation,global,impact,100,unknown,Application or System Exploitation
+mitre_attack,attack_technique,T1137,Office Application Startup,global,persistence,100,unknown,Office Application Startup
+mitre_attack,attack_technique,T1218.004,InstallUtil,global,stealth,100,unknown,InstallUtil
+mitre_attack,attack_technique,T1598.003,Spearphishing Link,global,reconnaissance,100,unknown,Spearphishing Link
+mitre_attack,attack_technique,T1021.004,SSH,global,lateral-movement,100,unknown,SSH
+mitre_attack,attack_technique,T1098.003,Additional Cloud Roles,global,"persistence,privilege-escalation",100,unknown,Additional Cloud Roles
+mitre_attack,attack_technique,T1547.012,Print Processors,global,"persistence,privilege-escalation",100,unknown,Print Processors
+mitre_attack,attack_technique,T1566.001,Spearphishing Attachment,global,initial-access,100,unknown,Spearphishing Attachment
+mitre_attack,attack_technique,T1027.008,Stripped Payloads,global,stealth,100,unknown,Stripped Payloads
+mitre_attack,attack_technique,T1559.001,Component Object Model,global,execution,100,unknown,Component Object Model
+mitre_attack,attack_technique,T1574.001,DLL,global,"stealth,execution",100,unknown,DLL
+mitre_attack,attack_technique,T1119,Automated Collection,global,collection,100,unknown,Automated Collection
+mitre_attack,attack_technique,T1689,Downgrade Attack,global,defense-impairment,100,unknown,Downgrade Attack
+mitre_attack,attack_technique,T1115,Clipboard Data,global,collection,100,unknown,Clipboard Data
+mitre_attack,attack_technique,T1003.007,Proc Filesystem,global,credential-access,100,unknown,Proc Filesystem
+mitre_attack,attack_technique,T1583.005,Botnet,global,resource-development,100,unknown,Botnet
+mitre_attack,attack_technique,T1555.005,Password Managers,global,credential-access,100,unknown,Password Managers
+mitre_attack,attack_technique,T1553.001,Gatekeeper Bypass,global,defense-impairment,100,unknown,Gatekeeper Bypass
+mitre_attack,attack_technique,T1675,ESXi Administration Command,global,execution,100,unknown,ESXi Administration Command
+mitre_attack,attack_technique,T1608.004,Drive-by Target,global,resource-development,100,unknown,Drive-by Target
+mitre_attack,attack_technique,T1007,System Service Discovery,global,discovery,100,unknown,System Service Discovery
+mitre_attack,attack_technique,T1040,Network Sniffing,global,"credential-access,discovery",100,unknown,Network Sniffing
+mitre_attack,attack_technique,T1553.002,Code Signing,global,defense-impairment,100,unknown,Code Signing
+mitre_attack,attack_technique,T1530,Data from Cloud Storage,global,collection,100,unknown,Data from Cloud Storage
+mitre_attack,attack_technique,T1565.003,Runtime Data Manipulation,global,impact,100,unknown,Runtime Data Manipulation
+mitre_attack,attack_technique,T1552.002,Credentials in Registry,global,credential-access,100,unknown,Credentials in Registry
+mitre_attack,attack_technique,T1135,Network Share Discovery,global,discovery,100,unknown,Network Share Discovery
+mitre_attack,attack_technique,T1120,Peripheral Device Discovery,global,discovery,100,unknown,Peripheral Device Discovery
+mitre_attack,attack_technique,T1036.009,Break Process Trees,global,stealth,100,unknown,Break Process Trees
+mitre_attack,attack_technique,T1590.004,Network Topology,global,reconnaissance,100,unknown,Network Topology
+mitre_attack,attack_technique,T1587.002,Code Signing Certificates,global,resource-development,100,unknown,Code Signing Certificates
+mitre_attack,attack_technique,T1222.001,Windows Permissions,global,defense-impairment,100,unknown,Windows Permissions
+mitre_attack,attack_technique,T1137.006,Add-ins,global,persistence,100,unknown,Add-ins
+mitre_attack,attack_technique,T1685.002,Disable or Modify Cloud Log,global,defense-impairment,100,unknown,Disable or Modify Cloud Log
+mitre_attack,attack_technique,T1505.002,Transport Agent,global,persistence,100,unknown,Transport Agent
+mitre_attack,attack_technique,T1082,System Information Discovery,global,discovery,100,unknown,System Information Discovery
+mitre_attack,attack_technique,T1071,Application Layer Protocol,global,command-and-control,100,unknown,Application Layer Protocol
+mitre_attack,attack_technique,T1574.014,AppDomainManager,global,"stealth,execution",100,unknown,AppDomainManager
+mitre_attack,attack_technique,T1074.002,Remote Data Staging,global,collection,100,unknown,Remote Data Staging
+mitre_attack,attack_technique,T1098.006,Additional Container Cluster Roles,global,"persistence,privilege-escalation",100,unknown,Additional Container Cluster Roles
+mitre_attack,attack_technique,T1053,Scheduled Task/Job,global,"execution,persistence,privilege-escalation",100,unknown,Scheduled Task/Job
+mitre_attack,attack_technique,T1218.007,Msiexec,global,stealth,100,unknown,Msiexec
+mitre_attack,attack_technique,T1590.003,Network Trust Dependencies,global,reconnaissance,100,unknown,Network Trust Dependencies
+mitre_attack,attack_technique,T1498.002,Reflection Amplification,global,impact,100,unknown,Reflection Amplification
+mitre_attack,attack_technique,T1556.002,Password Filter DLL,global,"defense-impairment,persistence,credential-access",100,unknown,Password Filter DLL
+mitre_attack,attack_technique,T1505.005,Terminal Services DLL,global,persistence,100,unknown,Terminal Services DLL
+mitre_attack,attack_technique,T1059.002,AppleScript,global,execution,100,unknown,AppleScript
+mitre_attack,attack_technique,T1176,Software Extensions,global,persistence,100,unknown,Software Extensions
+mitre_attack,attack_technique,T1499.002,Service Exhaustion Flood,global,impact,100,unknown,Service Exhaustion Flood
+mitre_attack,attack_technique,T1195.003,Compromise Hardware Supply Chain,global,initial-access,100,unknown,Compromise Hardware Supply Chain
+mitre_attack,attack_technique,T1106,Native API,global,execution,100,unknown,Native API
+mitre_attack,attack_technique,T1558.005,Ccache Files,global,credential-access,100,unknown,Ccache Files
+mitre_attack,attack_technique,T1070.007,Clear Network Connection History and Configurations,global,stealth,100,unknown,Clear Network Connection History and Configurations
+mitre_attack,attack_technique,T1558.004,AS-REP Roasting,global,credential-access,100,unknown,AS-REP Roasting
+mitre_attack,attack_technique,T1584.003,Virtual Private Server,global,resource-development,100,unknown,Virtual Private Server
+mitre_attack,attack_technique,T1059.010,AutoHotKey & AutoIT,global,execution,100,unknown,AutoHotKey & AutoIT
+mitre_attack,attack_technique,T1600.001,Reduce Key Space,global,defense-impairment,100,unknown,Reduce Key Space
+mitre_attack,attack_technique,T1070.003,Clear Command History,global,stealth,100,unknown,Clear Command History
+mitre_attack,attack_technique,T1202,Indirect Command Execution,global,stealth,100,unknown,Indirect Command Execution
+mitre_attack,attack_technique,T1091,Replication Through Removable Media,global,"lateral-movement,initial-access",100,unknown,Replication Through Removable Media
+mitre_attack,attack_technique,T1005,Data from Local System,global,collection,100,unknown,Data from Local System
+mitre_attack,attack_technique,T1140,Deobfuscate/Decode Files or Information,global,stealth,100,unknown,Deobfuscate/Decode Files or Information
+mitre_attack,attack_technique,T1137.005,Outlook Rules,global,persistence,100,unknown,Outlook Rules
+mitre_attack,attack_technique,T1586.003,Cloud Accounts,global,resource-development,100,unknown,Cloud Accounts
+mitre_attack,attack_technique,T1586.002,Email Accounts,global,resource-development,100,unknown,Email Accounts
+mitre_attack,attack_technique,T1098.007,Additional Local or Domain Groups,global,"persistence,privilege-escalation",100,unknown,Additional Local or Domain Groups
+mitre_attack,attack_technique,T1608.001,Upload Malware,global,resource-development,100,unknown,Upload Malware
+mitre_attack,attack_technique,T1195,Supply Chain Compromise,global,initial-access,100,unknown,Supply Chain Compromise
+mitre_attack,attack_technique,T1190,Exploit Public-Facing Application,global,initial-access,100,unknown,Exploit Public-Facing Application
+mitre_attack,attack_technique,T1558,Steal or Forge Kerberos Tickets,global,credential-access,100,unknown,Steal or Forge Kerberos Tickets
+mitre_attack,attack_technique,T1555,Credentials from Password Stores,global,credential-access,100,unknown,Credentials from Password Stores
+mitre_attack,attack_technique,T1567,Exfiltration Over Web Service,global,exfiltration,100,unknown,Exfiltration Over Web Service
+mitre_attack,attack_technique,T1219,Remote Access Tools,global,command-and-control,100,unknown,Remote Access Tools
+mitre_attack,attack_technique,T1583.001,Domains,global,resource-development,100,unknown,Domains
+mitre_attack,attack_technique,T1560.002,Archive via Library,global,collection,100,unknown,Archive via Library
+mitre_attack,attack_technique,T1055.003,Thread Execution Hijacking,global,"stealth,privilege-escalation",100,unknown,Thread Execution Hijacking
+mitre_attack,attack_technique,T1684,Social Engineering,global,stealth,100,unknown,Social Engineering
+mitre_attack,attack_technique,T1036,Masquerading,global,stealth,100,unknown,Masquerading
+mitre_attack,attack_technique,T1546.011,Application Shimming,global,"privilege-escalation,persistence",100,unknown,Application Shimming
+mitre_attack,attack_technique,T1552,Unsecured Credentials,global,credential-access,100,unknown,Unsecured Credentials
+mitre_attack,attack_technique,T1547.010,Port Monitors,global,"persistence,privilege-escalation",100,unknown,Port Monitors
+mitre_attack,attack_technique,T1070.008,Clear Mailbox Data,global,stealth,100,unknown,Clear Mailbox Data
+mitre_attack,attack_technique,T1037.002,Login Hook,global,"persistence,privilege-escalation",100,unknown,Login Hook
+mitre_attack,attack_technique,T1659,Content Injection,global,"initial-access,command-and-control",100,unknown,Content Injection
+mitre_attack,attack_technique,T1055,Process Injection,global,"stealth,privilege-escalation",100,unknown,Process Injection
+mitre_attack,attack_technique,T1567.004,Exfiltration Over Webhook,global,exfiltration,100,unknown,Exfiltration Over Webhook
+mitre_attack,attack_technique,T1205,Traffic Signaling,global,"stealth,persistence,command-and-control",100,unknown,Traffic Signaling
+mitre_attack,attack_technique,T1021.008,Direct Cloud VM Connections,global,lateral-movement,100,unknown,Direct Cloud VM Connections
+mitre_attack,attack_technique,T1218,System Binary Proxy Execution,global,stealth,100,unknown,System Binary Proxy Execution
+mitre_attack,attack_technique,T1153,Source,global,execution,100,unknown,Source
+mitre_attack,attack_technique,T1070.006,Timestomp,global,stealth,100,unknown,Timestomp
+mitre_attack,attack_technique,T1557.004,Evil Twin,global,"credential-access,collection",100,unknown,Evil Twin
+mitre_attack,attack_technique,T1620,Reflective Code Loading,global,stealth,100,unknown,Reflective Code Loading
+mitre_attack,attack_technique,T1016.002,Wi-Fi Discovery,global,discovery,100,unknown,Wi-Fi Discovery
+mitre_attack,attack_technique,T1480.002,Mutual Exclusion,global,stealth,100,unknown,Mutual Exclusion
+mitre_attack,attack_technique,T1564.011,Ignore Process Interrupts,global,stealth,100,unknown,Ignore Process Interrupts
+mitre_attack,attack_technique,T1611,Escape to Host,global,privilege-escalation,100,unknown,Escape to Host
+mitre_attack,attack_technique,T1518.002,Backup Software Discovery,global,discovery,100,unknown,Backup Software Discovery
+mitre_attack,attack_technique,T1547.009,Shortcut Modification,global,"persistence,privilege-escalation",100,unknown,Shortcut Modification
+mitre_attack,attack_technique,T1010,Application Window Discovery,global,discovery,100,unknown,Application Window Discovery
+mitre_attack,attack_technique,T1569.003,Systemctl,global,execution,100,unknown,Systemctl
+mitre_attack,attack_technique,T1087.003,Email Account,global,discovery,100,unknown,Email Account
+mitre_attack,attack_technique,T1062,Hypervisor,global,persistence,100,unknown,Hypervisor
+mitre_attack,attack_technique,T1497.003,Time Based Checks,global,"stealth,discovery",100,unknown,Time Based Checks
+mitre_attack,attack_technique,T1218.003,CMSTP,global,stealth,100,unknown,CMSTP
+mitre_attack,attack_technique,T1563.001,SSH Hijacking,global,lateral-movement,100,unknown,SSH Hijacking
+mitre_attack,attack_technique,T1029,Scheduled Transfer,global,exfiltration,100,unknown,Scheduled Transfer
+mitre_attack,attack_technique,T1021.002,SMB/Windows Admin Shares,global,lateral-movement,100,unknown,SMB/Windows Admin Shares
+mitre_attack,attack_technique,T1525,Implant Internal Image,global,persistence,100,unknown,Implant Internal Image
+mitre_attack,attack_technique,T1572,Protocol Tunneling,global,command-and-control,100,unknown,Protocol Tunneling
+mitre_attack,attack_technique,T1218.002,Control Panel,global,stealth,100,unknown,Control Panel
+mitre_attack,attack_technique,T1599.001,Network Address Translation Traversal,global,defense-impairment,100,unknown,Network Address Translation Traversal
+mitre_attack,attack_technique,T1608.002,Upload Tool,global,resource-development,100,unknown,Upload Tool
+mitre_attack,attack_technique,T1547.005,Security Support Provider,global,"persistence,privilege-escalation",100,unknown,Security Support Provider
+mitre_attack,attack_technique,T1036.011,Overwrite Process Arguments,global,stealth,100,unknown,Overwrite Process Arguments
+mitre_attack,attack_technique,T1550,Use Alternate Authentication Material,global,lateral-movement,100,unknown,Use Alternate Authentication Material
+mitre_attack,attack_technique,T1597.001,Threat Intel Vendors,global,reconnaissance,100,unknown,Threat Intel Vendors
+mitre_attack,attack_technique,T1011,Exfiltration Over Other Network Medium,global,exfiltration,100,unknown,Exfiltration Over Other Network Medium
+mitre_attack,attack_technique,T1602.002,Network Device Configuration Dump,global,collection,100,unknown,Network Device Configuration Dump
+mitre_attack,attack_technique,T1589,Gather Victim Identity Information,global,reconnaissance,100,unknown,Gather Victim Identity Information
+mitre_attack,attack_technique,T1560,Archive Collected Data,global,collection,100,unknown,Archive Collected Data
+mitre_attack,attack_technique,T1553.003,SIP and Trust Provider Hijacking,global,defense-impairment,100,unknown,SIP and Trust Provider Hijacking
+mitre_attack,attack_technique,T1185,Browser Session Hijacking,global,collection,100,unknown,Browser Session Hijacking
+mitre_attack,attack_technique,T1021,Remote Services,global,lateral-movement,100,unknown,Remote Services
+mitre_attack,attack_technique,T1071.003,Mail Protocols,global,command-and-control,100,unknown,Mail Protocols
+mitre_attack,attack_technique,T1556.007,Hybrid Identity,global,"defense-impairment,persistence,credential-access",100,unknown,Hybrid Identity
+mitre_attack,attack_technique,T1595.002,Vulnerability Scanning,global,reconnaissance,100,unknown,Vulnerability Scanning
+mitre_attack,attack_technique,T1059.009,Cloud API,global,execution,100,unknown,Cloud API
+mitre_attack,attack_technique,T1596,Search Open Technical Databases,global,reconnaissance,100,unknown,Search Open Technical Databases
+mitre_attack,attack_technique,T1218.015,Electron Applications,global,stealth,100,unknown,Electron Applications
+mitre_attack,attack_technique,T1207,Rogue Domain Controller,global,defense-impairment,100,unknown,Rogue Domain Controller
+mitre_attack,attack_technique,T1553.006,Code Signing Policy Modification,global,defense-impairment,100,unknown,Code Signing Policy Modification
+mitre_attack,attack_technique,T1610,Deploy Container,global,execution,100,unknown,Deploy Container
+mitre_attack,attack_technique,T1112,Modify Registry,global,"defense-impairment,persistence",100,unknown,Modify Registry
+mitre_attack,attack_technique,T1543.004,Launch Daemon,global,"persistence,privilege-escalation",100,unknown,Launch Daemon
+mitre_attack,attack_technique,T1580,Cloud Infrastructure Discovery,global,discovery,100,unknown,Cloud Infrastructure Discovery
+mitre_attack,attack_technique,T1555.003,Credentials from Web Browsers,global,credential-access,100,unknown,Credentials from Web Browsers
+mitre_attack,attack_technique,T1574.008,Path Interception by Search Order Hijacking,global,"stealth,execution",100,unknown,Path Interception by Search Order Hijacking
+mitre_attack,attack_technique,T1491,Defacement,global,impact,100,unknown,Defacement
+mitre_attack,attack_technique,T1535,Unused/Unsupported Cloud Regions,global,stealth,100,unknown,Unused/Unsupported Cloud Regions
+mitre_attack,attack_technique,T1557.003,DHCP Spoofing,global,"credential-access,collection",100,unknown,DHCP Spoofing
+mitre_attack,attack_technique,T1563,Remote Service Session Hijacking,global,lateral-movement,100,unknown,Remote Service Session Hijacking
+mitre_attack,attack_technique,T1564.013,Bind Mounts,global,stealth,100,unknown,Bind Mounts
+mitre_attack,attack_technique,T1027.001,Binary Padding,global,stealth,100,unknown,Binary Padding
+mitre_attack,attack_technique,T1505.003,Web Shell,global,persistence,100,unknown,Web Shell
+mitre_attack,attack_technique,T1484.001,Group Policy Modification,global,"defense-impairment,privilege-escalation",100,unknown,Group Policy Modification
+mitre_attack,attack_technique,T1685.006,Clear Linux or Mac System Logs,global,defense-impairment,100,unknown,Clear Linux or Mac System Logs
+mitre_attack,attack_technique,T1217,Browser Information Discovery,global,discovery,100,unknown,Browser Information Discovery
+mitre_attack,attack_technique,T1552.004,Private Keys,global,credential-access,100,unknown,Private Keys
+mitre_attack,attack_technique,T1583.004,Server,global,resource-development,100,unknown,Server
+mitre_attack,attack_technique,T1021.006,Windows Remote Management,global,lateral-movement,100,unknown,Windows Remote Management
+mitre_attack,attack_technique,T1011.001,Exfiltration Over Bluetooth,global,exfiltration,100,unknown,Exfiltration Over Bluetooth
+mitre_attack,attack_technique,T1078.001,Default Accounts,global,"stealth,persistence,privilege-escalation,initial-access",100,unknown,Default Accounts
+mitre_attack,attack_technique,T1547.003,Time Providers,global,"persistence,privilege-escalation",100,unknown,Time Providers
+mitre_attack,attack_technique,T1546.005,Trap,global,"privilege-escalation,persistence",100,unknown,Trap
+mitre_attack,attack_technique,T1574.006,Dynamic Linker Hijacking,global,"stealth,execution",100,unknown,Dynamic Linker Hijacking
+mitre_attack,attack_technique,T1136.001,Local Account,global,persistence,100,unknown,Local Account
+mitre_attack,attack_technique,T1681,Search Threat Vendor Data,global,reconnaissance,100,unknown,Search Threat Vendor Data
+mitre_attack,attack_technique,T1674,Input Injection,global,execution,100,unknown,Input Injection
+mitre_attack,attack_technique,T1092,Communication Through Removable Media,global,command-and-control,100,unknown,Communication Through Removable Media
+mitre_attack,attack_technique,T1585.002,Email Accounts,global,resource-development,100,unknown,Email Accounts
+mitre_attack,attack_technique,T1557.001,Name Resolution Poisoning and SMB Relay,global,"credential-access,collection",100,unknown,Name Resolution Poisoning and SMB Relay
+mitre_attack,attack_technique,T1222,File and Directory Permissions Modification,global,defense-impairment,100,unknown,File and Directory Permissions Modification
+mitre_attack,attack_technique,T1003.001,LSASS Memory,global,credential-access,100,unknown,LSASS Memory
+mitre_attack,attack_technique,T1176.002,IDE Extensions,global,persistence,100,unknown,IDE Extensions
+mitre_attack,attack_technique,T1595,Active Scanning,global,reconnaissance,100,unknown,Active Scanning
+mitre_attack,attack_technique,T1027.016,Junk Code Insertion,global,stealth,100,unknown,Junk Code Insertion
+mitre_attack,attack_technique,T1548,Abuse Elevation Control Mechanism,global,privilege-escalation,100,unknown,Abuse Elevation Control Mechanism
+mitre_attack,attack_technique,T1134.002,Create Process with Token,global,"stealth,privilege-escalation",100,unknown,Create Process with Token
+mitre_attack,attack_technique,T1548.001,Setuid and Setgid,global,privilege-escalation,100,unknown,Setuid and Setgid
+mitre_attack,attack_technique,T1547.004,Winlogon Helper DLL,global,"persistence,privilege-escalation",100,unknown,Winlogon Helper DLL
+mitre_attack,attack_technique,T1021.003,Distributed Component Object Model,global,lateral-movement,100,unknown,Distributed Component Object Model
+mitre_attack,attack_technique,T1110.003,Password Spraying,global,credential-access,100,unknown,Password Spraying
+mitre_attack,attack_technique,T1090.002,External Proxy,global,command-and-control,100,unknown,External Proxy
+mitre_attack,attack_technique,T1056.003,Web Portal Capture,global,"collection,credential-access",100,unknown,Web Portal Capture
+mitre_attack,attack_technique,T1589.002,Email Addresses,global,reconnaissance,100,unknown,Email Addresses
+mitre_attack,attack_technique,T1598.004,Spearphishing Voice,global,reconnaissance,100,unknown,Spearphishing Voice
+mitre_attack,attack_technique,T1683.001,Written Content,global,resource-development,100,unknown,Written Content
+mitre_attack,attack_technique,T1108,Redundant Access,global,"stealth,persistence",100,unknown,Redundant Access
+mitre_attack,attack_technique,T1003.005,Cached Domain Credentials,global,credential-access,100,unknown,Cached Domain Credentials
+mitre_attack,attack_technique,T1098.004,SSH Authorized Keys,global,"persistence,privilege-escalation",100,unknown,SSH Authorized Keys
+mitre_attack,attack_technique,T1673,Virtual Machine Discovery,global,discovery,100,unknown,Virtual Machine Discovery
+mitre_attack,attack_technique,T1590.006,Network Security Appliances,global,reconnaissance,100,unknown,Network Security Appliances
+mitre_attack,attack_technique,T1546.012,Image File Execution Options Injection,global,"privilege-escalation,persistence",100,unknown,Image File Execution Options Injection
+mitre_attack,attack_technique,T1218.008,Odbcconf,global,stealth,100,unknown,Odbcconf
+mitre_attack,attack_technique,T1593.002,Search Engines,global,reconnaissance,100,unknown,Search Engines
+mitre_attack,attack_technique,T1591.002,Business Relationships,global,reconnaissance,100,unknown,Business Relationships
+mitre_attack,attack_technique,T1548.005,Temporary Elevated Cloud Access,global,privilege-escalation,100,unknown,Temporary Elevated Cloud Access
+mitre_attack,attack_technique,T1125,Video Capture,global,collection,100,unknown,Video Capture
+mitre_attack,attack_technique,T1055.013,Process Doppelgänging,global,"stealth,privilege-escalation",100,unknown,Process Doppelgänging
+mitre_attack,attack_technique,T1016,System Network Configuration Discovery,global,discovery,100,unknown,System Network Configuration Discovery
+mitre_attack,attack_technique,T1578.003,Delete Cloud Instance,global,defense-impairment,100,unknown,Delete Cloud Instance
+mitre_attack,attack_technique,T1593.003,Code Repositories,global,reconnaissance,100,unknown,Code Repositories
+mitre_attack,attack_technique,T1574.005,Executable Installer File Permissions Weakness,global,"stealth,execution",100,unknown,Executable Installer File Permissions Weakness
+mitre_attack,attack_technique,T1546.008,Accessibility Features,global,"privilege-escalation,persistence",100,unknown,Accessibility Features
+mitre_attack,attack_technique,T1496.002,Bandwidth Hijacking,global,impact,100,unknown,Bandwidth Hijacking
+mitre_attack,attack_technique,T1087,Account Discovery,global,discovery,100,unknown,Account Discovery
+mitre_attack,attack_technique,T1090,Proxy,global,command-and-control,100,unknown,Proxy
+mitre_attack,attack_technique,T1059,Command and Scripting Interpreter,global,execution,100,unknown,Command and Scripting Interpreter
+mitre_attack,attack_technique,T1204.005,Malicious Library,global,execution,100,unknown,Malicious Library
+mitre_attack,attack_technique,T1685.005,Clear Windows Event Logs,global,defense-impairment,100,unknown,Clear Windows Event Logs
+mitre_attack,attack_technique,T1136.002,Domain Account,global,persistence,100,unknown,Domain Account
+mitre_attack,attack_technique,T1564.014,Extended Attributes,global,stealth,100,unknown,Extended Attributes
+mitre_attack,attack_technique,T1589.003,Employee Names,global,reconnaissance,100,unknown,Employee Names
+mitre_attack,attack_technique,T1677,Poisoned Pipeline Execution,global,execution,100,unknown,Poisoned Pipeline Execution
+mitre_attack,attack_technique,T1482,Domain Trust Discovery,global,discovery,100,unknown,Domain Trust Discovery
+mitre_attack,attack_technique,T1558.001,Golden Ticket,global,credential-access,100,unknown,Golden Ticket
+mitre_attack,attack_technique,T1175,Component Object Model and Distributed COM,global,"lateral-movement,execution",100,unknown,Component Object Model and Distributed COM
+mitre_attack,attack_technique,T1020,Automated Exfiltration,global,exfiltration,100,unknown,Automated Exfiltration
+mitre_attack,attack_technique,T1592.004,Client Configurations,global,reconnaissance,100,unknown,Client Configurations
+mitre_attack,attack_technique,T1219.001,IDE Tunneling,global,command-and-control,100,unknown,IDE Tunneling
+mitre_attack,attack_technique,T1036.002,Right-to-Left Override,global,stealth,100,unknown,Right-to-Left Override
+mitre_attack,attack_technique,T1588.001,Malware,global,resource-development,100,unknown,Malware
+mitre_attack,attack_technique,T1027.017,SVG Smuggling,global,stealth,100,unknown,SVG Smuggling
+mitre_attack,attack_technique,T1542.002,Component Firmware,global,"stealth,persistence",100,unknown,Component Firmware
+mitre_attack,attack_technique,T1070,Indicator Removal,global,stealth,100,unknown,Indicator Removal
+mitre_attack,attack_technique,T1048.001,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,global,exfiltration,100,unknown,Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+mitre_attack,attack_technique,T1137.001,Office Template Macros,global,persistence,100,unknown,Office Template Macros
+mitre_attack,attack_technique,T1583.003,Virtual Private Server,global,resource-development,100,unknown,Virtual Private Server
+mitre_attack,attack_technique,T1213.001,Confluence,global,collection,100,unknown,Confluence
+mitre_attack,attack_technique,T1550.003,Pass the Ticket,global,lateral-movement,100,unknown,Pass the Ticket
+mitre_attack,attack_technique,T1609,Container Administration Command,global,execution,100,unknown,Container Administration Command
+mitre_attack,attack_technique,T1083,File and Directory Discovery,global,discovery,100,unknown,File and Directory Discovery
+mitre_attack,attack_technique,T1568,Dynamic Resolution,global,command-and-control,100,unknown,Dynamic Resolution
+mitre_attack,attack_technique,T1036.004,Masquerade Task or Service,global,stealth,100,unknown,Masquerade Task or Service
+mitre_attack,attack_technique,T1055.004,Asynchronous Procedure Call,global,"stealth,privilege-escalation",100,unknown,Asynchronous Procedure Call
+mitre_attack,attack_technique,T1020.001,Traffic Duplication,global,exfiltration,100,unknown,Traffic Duplication
+mitre_attack,attack_technique,T1647,Plist File Modification,global,defense-impairment,100,unknown,Plist File Modification
+mitre_attack,attack_technique,T1127.003,JamPlus,global,"stealth,execution",100,unknown,JamPlus
+mitre_attack,attack_technique,T1546.009,AppCert DLLs,global,"privilege-escalation,persistence",100,unknown,AppCert DLLs
+mitre_attack,attack_technique,T1114.003,Email Forwarding Rule,global,collection,100,unknown,Email Forwarding Rule
+mitre_attack,attack_technique,T1074,Data Staged,global,collection,100,unknown,Data Staged
+mitre_attack,attack_technique,T1649,Steal or Forge Authentication Certificates,global,credential-access,100,unknown,Steal or Forge Authentication Certificates
+mitre_attack,attack_technique,T1098.005,Device Registration,global,"persistence,privilege-escalation",100,unknown,Device Registration
+mitre_attack,attack_technique,T1049,System Network Connections Discovery,global,discovery,100,unknown,System Network Connections Discovery
+mitre_attack,attack_technique,T1584,Compromise Infrastructure,global,resource-development,100,unknown,Compromise Infrastructure
+mitre_attack,attack_technique,T1553.005,Mark-of-the-Web Bypass,global,defense-impairment,100,unknown,Mark-of-the-Web Bypass
+mitre_attack,attack_technique,T1600.002,Disable Crypto Hardware,global,defense-impairment,100,unknown,Disable Crypto Hardware
+mitre_attack,attack_technique,T1542,Pre-OS Boot,global,"stealth,persistence",100,unknown,Pre-OS Boot
+mitre_attack,attack_technique,T1064,Scripting,global,"stealth,execution",100,unknown,Scripting
+mitre_attack,attack_technique,T1612,Build Image on Host,global,stealth,100,unknown,Build Image on Host
+mitre_attack,attack_technique,T1051,Shared Webroot,global,lateral-movement,100,unknown,Shared Webroot
+mitre_attack,attack_technique,T1055.002,Portable Executable Injection,global,"stealth,privilege-escalation",100,unknown,Portable Executable Injection
+mitre_attack,attack_technique,T1218.012,Verclsid,global,stealth,100,unknown,Verclsid
+mitre_attack,attack_technique,T1586,Compromise Accounts,global,resource-development,100,unknown,Compromise Accounts
+mitre_attack,attack_technique,T1569.001,Launchctl,global,execution,100,unknown,Launchctl
+mitre_attack,attack_technique,T1584.005,Botnet,global,resource-development,100,unknown,Botnet
+mitre_attack,attack_technique,T1059.008,Network Device CLI,global,execution,100,unknown,Network Device CLI
+mitre_attack,attack_technique,T1552.003,Shell History,global,credential-access,100,unknown,Shell History
+mitre_attack,attack_technique,T1559.003,XPC Services,global,execution,100,unknown,XPC Services
+mitre_attack,attack_technique,T1497,Virtualization/Sandbox Evasion,global,"stealth,discovery",100,unknown,Virtualization/Sandbox Evasion
+mitre_attack,attack_technique,T1102,Web Service,global,command-and-control,100,unknown,Web Service
+mitre_attack,attack_technique,T1552.001,Credentials In Files,global,credential-access,100,unknown,Credentials In Files
+mitre_attack,attack_technique,T1568.003,DNS Calculation,global,command-and-control,100,unknown,DNS Calculation
+mitre_attack,attack_technique,T1218.005,Mshta,global,stealth,100,unknown,Mshta
+mitre_attack,attack_technique,T1547.015,Login Items,global,"persistence,privilege-escalation",100,unknown,Login Items
+mitre_attack,attack_technique,T1608,Stage Capabilities,global,resource-development,100,unknown,Stage Capabilities
+mitre_attack,attack_technique,T1608.005,Link Target,global,resource-development,100,unknown,Link Target
+mitre_attack,attack_technique,T1104,Multi-Stage Channels,global,command-and-control,100,unknown,Multi-Stage Channels
+mitre_attack,attack_technique,T1657,Financial Theft,global,impact,100,unknown,Financial Theft
+mitre_attack,attack_technique,T1480,Execution Guardrails,global,stealth,100,unknown,Execution Guardrails
+mitre_attack,attack_technique,T1619,Cloud Storage Object Discovery,global,discovery,100,unknown,Cloud Storage Object Discovery
+mitre_attack,attack_technique,T1606.001,Web Cookies,global,credential-access,100,unknown,Web Cookies
+mitre_attack,attack_technique,T1654,Log Enumeration,global,discovery,100,unknown,Log Enumeration
+mitre_attack,attack_technique,T1134.001,Token Impersonation/Theft,global,"stealth,privilege-escalation",100,unknown,Token Impersonation/Theft
+mitre_attack,attack_technique,T1567.001,Exfiltration to Code Repository,global,exfiltration,100,unknown,Exfiltration to Code Repository
+mitre_attack,attack_technique,T1021.007,Cloud Services,global,lateral-movement,100,unknown,Cloud Services
+mitre_attack,attack_technique,T1205.001,Port Knocking,global,"stealth,persistence,command-and-control",100,unknown,Port Knocking
+mitre_attack,attack_technique,T1027.012,LNK Icon Smuggling,global,stealth,100,unknown,LNK Icon Smuggling
+mitre_attack,attack_technique,T1583.006,Web Services,global,resource-development,100,unknown,Web Services
+mitre_attack,attack_technique,T1528,Steal Application Access Token,global,credential-access,100,unknown,Steal Application Access Token
+mitre_attack,attack_technique,T1598.002,Spearphishing Attachment,global,reconnaissance,100,unknown,Spearphishing Attachment
+mitre_attack,attack_technique,T1098.001,Additional Cloud Credentials,global,"persistence,privilege-escalation",100,unknown,Additional Cloud Credentials
+mitre_attack,attack_technique,T1204,User Execution,global,execution,100,unknown,User Execution
+mitre_attack,attack_technique,T1491.001,Internal Defacement,global,impact,100,unknown,Internal Defacement
+mitre_attack,attack_technique,T1564.002,Hidden Users,global,stealth,100,unknown,Hidden Users
+mitre_attack,attack_technique,T1134.003,Make and Impersonate Token,global,"stealth,privilege-escalation",100,unknown,Make and Impersonate Token
+mitre_attack,attack_technique,T1552.006,Group Policy Preferences,global,credential-access,100,unknown,Group Policy Preferences
+mitre_attack,attack_technique,T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,global,exfiltration,100,unknown,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+mitre_attack,attack_technique,T1087.004,Cloud Account,global,discovery,100,unknown,Cloud Account
+mitre_attack,attack_technique,T1683.002,Audio-Visual Content,global,resource-development,100,unknown,Audio-Visual Content
+mitre_attack,attack_technique,T1057,Process Discovery,global,discovery,100,unknown,Process Discovery
+mitre_attack,attack_technique,T1053.004,Launchd,global,"execution,persistence,privilege-escalation",100,unknown,Launchd
+mitre_attack,attack_technique,T1556.008,Network Provider DLL,global,"defense-impairment,persistence,credential-access",100,unknown,Network Provider DLL
+mitre_attack,attack_technique,T1546.003,Windows Management Instrumentation Event Subscription,global,"privilege-escalation,persistence",100,unknown,Windows Management Instrumentation Event Subscription
+mitre_attack,attack_technique,T1596.004,CDNs,global,reconnaissance,100,unknown,CDNs
+mitre_attack,attack_technique,T1497.002,User Activity Based Checks,global,"stealth,discovery",100,unknown,User Activity Based Checks
+mitre_attack,attack_technique,T1496.004,Cloud Service Hijacking,global,impact,100,unknown,Cloud Service Hijacking
+mitre_attack,attack_technique,T1585.003,Cloud Accounts,global,resource-development,100,unknown,Cloud Accounts
+mitre_attack,attack_technique,T1072,Software Deployment Tools,global,"execution,lateral-movement",100,unknown,Software Deployment Tools
+mitre_attack,attack_technique,T1041,Exfiltration Over C2 Channel,global,exfiltration,100,unknown,Exfiltration Over C2 Channel
+mitre_attack,attack_technique,T1134.004,Parent PID Spoofing,global,"stealth,privilege-escalation",100,unknown,Parent PID Spoofing
+mitre_attack,attack_technique,T1591,Gather Victim Org Information,global,reconnaissance,100,unknown,Gather Victim Org Information
+mitre_attack,attack_technique,T1606,Forge Web Credentials,global,credential-access,100,unknown,Forge Web Credentials
+mitre_attack,attack_technique,T1621,Multi-Factor Authentication Request Generation,global,credential-access,100,unknown,Multi-Factor Authentication Request Generation
+mitre_attack,attack_technique,T1554,Compromise Host Software Binary,global,persistence,100,unknown,Compromise Host Software Binary
+mitre_attack,attack_technique,T1552.008,Chat Messages,global,credential-access,100,unknown,Chat Messages
+mitre_attack,attack_technique,T1059.001,PowerShell,global,execution,100,unknown,PowerShell
+mitre_attack,attack_technique,T1546.001,Change Default File Association,global,"privilege-escalation,persistence",100,unknown,Change Default File Association
+mitre_attack,attack_technique,T1055.014,VDSO Hijacking,global,"stealth,privilege-escalation",100,unknown,VDSO Hijacking
+mitre_attack,attack_technique,T1026,Multiband Communication,global,command-and-control,100,unknown,Multiband Communication
+mitre_attack,attack_technique,T1071.002,File Transfer Protocols,global,command-and-control,100,unknown,File Transfer Protocols
+mitre_attack,attack_technique,T1679,Selective Exclusion,global,stealth,100,unknown,Selective Exclusion
+mitre_attack,attack_technique,T1212,Exploitation for Credential Access,global,credential-access,100,unknown,Exploitation for Credential Access
+mitre_attack,attack_technique,T1546.014,Emond,global,"privilege-escalation,persistence",100,unknown,Emond
+mitre_attack,attack_technique,T1102.003,One-Way Communication,global,command-and-control,100,unknown,One-Way Communication
+mitre_attack,attack_technique,T1590,Gather Victim Network Information,global,reconnaissance,100,unknown,Gather Victim Network Information
+mitre_attack,attack_technique,T1210,Exploitation of Remote Services,global,lateral-movement,100,unknown,Exploitation of Remote Services
+mitre_attack,attack_technique,T1534,Internal Spearphishing,global,lateral-movement,100,unknown,Internal Spearphishing
+mitre_attack,attack_technique,T1574.010,Services File Permissions Weakness,global,"stealth,execution",100,unknown,Services File Permissions Weakness
+mitre_attack,attack_technique,T1547.001,Registry Run Keys / Startup Folder,global,"persistence,privilege-escalation",100,unknown,Registry Run Keys / Startup Folder
+mitre_attack,attack_technique,T1199,Trusted Relationship,global,initial-access,100,unknown,Trusted Relationship
+mitre_attack,attack_technique,T1136.003,Cloud Account,global,persistence,100,unknown,Cloud Account
+mitre_attack,attack_technique,T1069.001,Local Groups,global,discovery,100,unknown,Local Groups
+mitre_attack,attack_technique,T1149,LC_MAIN Hijacking,global,stealth,100,unknown,LC_MAIN Hijacking
+mitre_attack,attack_technique,T1593,Search Open Websites/Domains,global,reconnaissance,100,unknown,Search Open Websites/Domains
+mitre_attack,attack_technique,T1098,Account Manipulation,global,"persistence,privilege-escalation",100,unknown,Account Manipulation
+mitre_attack,attack_technique,T1048,Exfiltration Over Alternative Protocol,global,exfiltration,100,unknown,Exfiltration Over Alternative Protocol
+mitre_attack,attack_technique,T1547.006,Kernel Modules and Extensions,global,"persistence,privilege-escalation",100,unknown,Kernel Modules and Extensions
+mitre_attack,attack_technique,T1678,Delay Execution,global,stealth,100,unknown,Delay Execution
+mitre_attack,attack_technique,T1056.002,GUI Input Capture,global,"collection,credential-access",100,unknown,GUI Input Capture
+mitre_attack,attack_technique,T1686.002,Network Device Firewall,global,defense-impairment,100,unknown,Network Device Firewall
+mitre_attack,attack_technique,T1588.002,Tool,global,resource-development,100,unknown,Tool
+mitre_attack,attack_technique,T1052.001,Exfiltration over USB,global,exfiltration,100,unknown,Exfiltration over USB
+mitre_attack,attack_technique,T1574.013,KernelCallbackTable,global,"stealth,execution",100,unknown,KernelCallbackTable
+mitre_attack,attack_technique,T1597,Search Closed Sources,global,reconnaissance,100,unknown,Search Closed Sources
+mitre_attack,attack_technique,T1053.006,Systemd Timers,global,"execution,persistence,privilege-escalation",100,unknown,Systemd Timers
+mitre_attack,attack_technique,T1566,Phishing,global,initial-access,100,unknown,Phishing
+mitre_attack,attack_technique,T1061,Graphical User Interface,global,execution,100,unknown,Graphical User Interface
+mitre_attack,attack_technique,T1542.004,ROMMONkit,global,"stealth,persistence",100,unknown,ROMMONkit
+mitre_attack,attack_technique,T1218.001,Compiled HTML File,global,stealth,100,unknown,Compiled HTML File
+mitre_attack,attack_technique,T1496.001,Compute Hijacking,global,impact,100,unknown,Compute Hijacking
+mitre_attack,attack_technique,T1070.005,Network Share Connection Removal,global,stealth,100,unknown,Network Share Connection Removal
+mitre_attack,attack_technique,T1090.003,Multi-hop Proxy,global,command-and-control,100,unknown,Multi-hop Proxy
+mitre_attack,attack_technique,T1110,Brute Force,global,credential-access,100,unknown,Brute Force
+mitre_attack,attack_technique,T1059.004,Unix Shell,global,execution,100,unknown,Unix Shell
+mitre_attack,attack_technique,T1137.003,Outlook Forms,global,persistence,100,unknown,Outlook Forms
+mitre_attack,attack_technique,T1219.003,Remote Access Hardware,global,command-and-control,100,unknown,Remote Access Hardware
+mitre_attack,attack_technique,T1565,Data Manipulation,global,impact,100,unknown,Data Manipulation
+mitre_attack,attack_technique,T1559,Inter-Process Communication,global,execution,100,unknown,Inter-Process Communication
+mitre_attack,attack_technique,T1001,Data Obfuscation,global,command-and-control,100,unknown,Data Obfuscation
+mitre_attack,attack_technique,T1039,Data from Network Shared Drive,global,collection,100,unknown,Data from Network Shared Drive
+mitre_attack,attack_technique,T1584.006,Web Services,global,resource-development,100,unknown,Web Services
+mitre_attack,attack_technique,T1601,Modify System Image,global,defense-impairment,100,unknown,Modify System Image
+mitre_attack,attack_technique,T1574,Hijack Execution Flow,global,"stealth,execution",100,unknown,Hijack Execution Flow
+mitre_attack,attack_technique,T1036.012,Browser Fingerprint,global,stealth,100,unknown,Browser Fingerprint
+mitre_attack,attack_technique,T1059.011,Lua,global,execution,100,unknown,Lua
+mitre_attack,attack_technique,T1027.005,Indicator Removal from Tools,global,stealth,100,unknown,Indicator Removal from Tools
+mitre_attack,attack_technique,T1204.003,Malicious Image,global,execution,100,unknown,Malicious Image
+mitre_attack,attack_technique,T1543.005,Container Service,global,"persistence,privilege-escalation",100,unknown,Container Service
+mitre_attack,attack_technique,T1078,Valid Accounts,global,"stealth,persistence,privilege-escalation,initial-access",100,unknown,Valid Accounts
+mitre_attack,attack_technique,T1571,Non-Standard Port,global,command-and-control,100,unknown,Non-Standard Port
+mitre_attack,attack_technique,T1585.001,Social Media Accounts,global,resource-development,100,unknown,Social Media Accounts
+mitre_attack,attack_technique,T1055.012,Process Hollowing,global,"stealth,privilege-escalation",100,unknown,Process Hollowing
+mitre_attack,attack_technique,T1068,Exploitation for Privilege Escalation,global,privilege-escalation,100,unknown,Exploitation for Privilege Escalation
+mitre_attack,attack_technique,T1564.009,Resource Forking,global,stealth,100,unknown,Resource Forking
+mitre_attack,attack_technique,T1531,Account Access Removal,global,impact,100,unknown,Account Access Removal
+mitre_attack,attack_technique,T1110.004,Credential Stuffing,global,credential-access,100,unknown,Credential Stuffing
+mitre_attack,attack_technique,T1027,Obfuscated Files or Information,global,stealth,100,unknown,Obfuscated Files or Information
+mitre_attack,attack_technique,T1556.006,Multi-Factor Authentication,global,"defense-impairment,persistence,credential-access",100,unknown,Multi-Factor Authentication
+mitre_attack,attack_technique,T1114.002,Remote Email Collection,global,collection,100,unknown,Remote Email Collection
+mitre_attack,attack_technique,T1505.004,IIS Components,global,persistence,100,unknown,IIS Components
+mitre_attack,attack_technique,T1036.001,Invalid Code Signature,global,stealth,100,unknown,Invalid Code Signature
+mitre_attack,attack_technique,T1683,Generate Content,global,resource-development,100,unknown,Generate Content
+mitre_attack,attack_technique,T1564.006,Run Virtual Instance,global,stealth,100,unknown,Run Virtual Instance
+mitre_attack,attack_technique,T1027.014,Polymorphic Code,global,stealth,100,unknown,Polymorphic Code
+mitre_attack,attack_technique,T1201,Password Policy Discovery,global,discovery,100,unknown,Password Policy Discovery
+mitre_attack,attack_technique,T1546,Event Triggered Execution,global,"privilege-escalation,persistence",100,unknown,Event Triggered Execution
+mitre_attack,attack_technique,T1546.004,Unix Shell Configuration Modification,global,"privilege-escalation,persistence",100,unknown,Unix Shell Configuration Modification
+mitre_attack,attack_technique,T1187,Forced Authentication,global,credential-access,100,unknown,Forced Authentication
+mitre_attack,attack_technique,T1134.005,SID-History Injection,global,"stealth,privilege-escalation",100,unknown,SID-History Injection
+mitre_attack,attack_technique,T1599,Network Boundary Bridging,global,defense-impairment,100,unknown,Network Boundary Bridging
+mitre_attack,attack_technique,T1486,Data Encrypted for Impact,global,impact,100,unknown,Data Encrypted for Impact
+mitre_attack,attack_technique,T1690,Prevent Command History Logging,global,defense-impairment,100,unknown,Prevent Command History Logging
+mitre_attack,attack_technique,T1553,Subvert Trust Controls,global,defense-impairment,100,unknown,Subvert Trust Controls
+mitre_attack,attack_technique,T1548.004,Elevated Execution with Prompt,global,privilege-escalation,100,unknown,Elevated Execution with Prompt
+mitre_attack,attack_technique,T1592.003,Firmware,global,reconnaissance,100,unknown,Firmware
+mitre_attack,attack_technique,T1573,Encrypted Channel,global,command-and-control,100,unknown,Encrypted Channel
+mitre_attack,attack_technique,T1547.002,Authentication Package,global,"persistence,privilege-escalation",100,unknown,Authentication Package
+mitre_attack,attack_technique,T1218.010,Regsvr32,global,stealth,100,unknown,Regsvr32
+mitre_attack,attack_technique,T1567.003,Exfiltration to Text Storage Sites,global,exfiltration,100,unknown,Exfiltration to Text Storage Sites
+mitre_attack,attack_technique,T1592.002,Software,global,reconnaissance,100,unknown,Software
+mitre_attack,attack_technique,T1056,Input Capture,global,"collection,credential-access",100,unknown,Input Capture
+mitre_attack,attack_technique,T1566.004,Spearphishing Voice,global,initial-access,100,unknown,Spearphishing Voice
+mitre_attack,attack_technique,T1587.004,Exploits,global,resource-development,100,unknown,Exploits
+mitre_attack,attack_technique,T1685,Disable or Modify Tools,global,defense-impairment,100,unknown,Disable or Modify Tools
+mitre_attack,attack_technique,T1593.001,Social Media,global,reconnaissance,100,unknown,Social Media
+mitre_attack,attack_technique,T1213.004,Customer Relationship Management Software,global,collection,100,unknown,Customer Relationship Management Software
+mitre_attack,attack_technique,T1546.015,Component Object Model Hijacking,global,"privilege-escalation,persistence",100,unknown,Component Object Model Hijacking
+mitre_attack,attack_technique,T1589.001,Credentials,global,reconnaissance,100,unknown,Credentials
+mitre_attack,attack_technique,T1195.002,Compromise Software Supply Chain,global,initial-access,100,unknown,Compromise Software Supply Chain
+mitre_attack,attack_technique,T1036.003,Rename Legitimate Utilities,global,stealth,100,unknown,Rename Legitimate Utilities
+mitre_attack,attack_technique,T1102.002,Bidirectional Communication,global,command-and-control,100,unknown,Bidirectional Communication
+mitre_attack,attack_technique,T1203,Exploitation for Client Execution,global,execution,100,unknown,Exploitation for Client Execution
+mitre_attack,attack_technique,T1595.003,Wordlist Scanning,global,reconnaissance,100,unknown,Wordlist Scanning
+mitre_attack,attack_technique,T1667,Email Bombing,global,impact,100,unknown,Email Bombing
+mitre_attack,attack_technique,T1137.004,Outlook Home Page,global,persistence,100,unknown,Outlook Home Page
+mitre_attack,attack_technique,T1573.002,Asymmetric Cryptography,global,command-and-control,100,unknown,Asymmetric Cryptography
+mitre_attack,attack_technique,T1567.002,Exfiltration to Cloud Storage,global,exfiltration,100,unknown,Exfiltration to Cloud Storage
+mitre_attack,attack_technique,T1570,Lateral Tool Transfer,global,lateral-movement,100,unknown,Lateral Tool Transfer
+mitre_attack,attack_technique,T1574.009,Path Interception by Unquoted Path,global,"stealth,execution",100,unknown,Path Interception by Unquoted Path
+mitre_attack,attack_technique,T1608.003,Install Digital Certificate,global,resource-development,100,unknown,Install Digital Certificate
+mitre_attack,attack_technique,T1037.005,Startup Items,global,"persistence,privilege-escalation",100,unknown,Startup Items
+mitre_attack,attack_technique,T1614.001,System Language Discovery,global,discovery,100,unknown,System Language Discovery
+mitre_attack,attack_technique,T1095,Non-Application Layer Protocol,global,command-and-control,100,unknown,Non-Application Layer Protocol
+mitre_attack,attack_technique,T1059.013,Container CLI/API,global,execution,100,unknown,Container CLI/API
+mitre_attack,attack_technique,T1027.003,Steganography,global,stealth,100,unknown,Steganography
+mitre_attack,attack_technique,T1584.002,DNS Server,global,resource-development,100,unknown,DNS Server
+mitre_attack,attack_technique,T1671,Cloud Application Integration,global,persistence,100,unknown,Cloud Application Integration
+mitre_attack,attack_technique,T1001.003,Protocol or Service Impersonation,global,command-and-control,100,unknown,Protocol or Service Impersonation
+mitre_attack,attack_technique,T1012,Query Registry,global,discovery,100,unknown,Query Registry
+mitre_attack,attack_technique,T1030,Data Transfer Size Limits,global,exfiltration,100,unknown,Data Transfer Size Limits
+mitre_attack,attack_technique,T1550.004,Web Session Cookie,global,lateral-movement,100,unknown,Web Session Cookie
+mitre_attack,attack_technique,T1078.002,Domain Accounts,global,"stealth,persistence,privilege-escalation,initial-access",100,unknown,Domain Accounts
+mitre_attack,attack_technique,T1218.009,Regsvcs/Regasm,global,stealth,100,unknown,Regsvcs/Regasm
+mitre_attack,attack_technique,T1034,Path Interception,global,"persistence,privilege-escalation",100,unknown,Path Interception
+mitre_attack,attack_technique,T1546.018,Python Startup Hooks,global,"persistence,privilege-escalation",100,unknown,Python Startup Hooks
+mitre_attack,attack_technique,T1553.004,Install Root Certificate,global,defense-impairment,100,unknown,Install Root Certificate
+mitre_attack,attack_technique,T1037.003,Network Logon Script,global,"persistence,privilege-escalation",100,unknown,Network Logon Script
+mitre_attack,attack_technique,T1499,Endpoint Denial of Service,global,impact,100,unknown,Endpoint Denial of Service
+mitre_attack,attack_technique,T1027.004,Compile After Delivery,global,stealth,100,unknown,Compile After Delivery
+mitre_attack,attack_technique,T1688,Safe Mode Boot,global,defense-impairment,100,unknown,Safe Mode Boot
+mitre_attack,attack_technique,T1614,System Location Discovery,global,discovery,100,unknown,System Location Discovery
+mitre_attack,attack_technique,T1564.007,VBA Stomping,global,stealth,100,unknown,VBA Stomping
+mitre_attack,attack_technique,T1197,BITS Jobs,global,"stealth,persistence,execution",100,unknown,BITS Jobs
+mitre_attack,attack_technique,T1127.001,MSBuild,global,"stealth,execution",100,unknown,MSBuild
+mitre_attack,attack_technique,T1578.005,Modify Cloud Compute Configurations,global,defense-impairment,100,unknown,Modify Cloud Compute Configurations
+mitre_attack,attack_technique,T1090.004,Domain Fronting,global,command-and-control,100,unknown,Domain Fronting
+mitre_attack,attack_technique,T1557.002,ARP Cache Poisoning,global,"credential-access,collection",100,unknown,ARP Cache Poisoning
+mitre_attack,attack_technique,T1518.001,Security Software Discovery,global,discovery,100,unknown,Security Software Discovery
+mitre_attack,attack_technique,T1564.003,Hidden Window,global,stealth,100,unknown,Hidden Window
+mitre_attack,attack_technique,T1127.002,ClickOnce,global,"stealth,execution",100,unknown,ClickOnce
+mitre_attack,attack_technique,T1059.006,Python,global,execution,100,unknown,Python
+mitre_attack,attack_technique,T1070.010,Relocate Malware,global,stealth,100,unknown,Relocate Malware
+mitre_attack,attack_technique,T1591.004,Identify Roles,global,reconnaissance,100,unknown,Identify Roles
+mitre_attack,attack_technique,T1132,Data Encoding,global,command-and-control,100,unknown,Data Encoding
+mitre_attack,attack_technique,T1546.010,AppInit DLLs,global,"privilege-escalation,persistence",100,unknown,AppInit DLLs
+mitre_attack,attack_technique,T1598,Phishing for Information,global,reconnaissance,100,unknown,Phishing for Information
+mitre_attack,attack_technique,T1496,Resource Hijacking,global,impact,100,unknown,Resource Hijacking
+mitre_attack,attack_technique,T1684.001,Impersonation,global,stealth,100,unknown,Impersonation
+mitre_attack,attack_technique,T1585,Establish Accounts,global,resource-development,100,unknown,Establish Accounts
+mitre_attack,attack_technique,T1588,Obtain Capabilities,global,resource-development,100,unknown,Obtain Capabilities
+mitre_attack,attack_technique,T1546.002,Screensaver,global,"privilege-escalation,persistence",100,unknown,Screensaver
+mitre_attack,attack_technique,T1556.009,Conditional Access Policies,global,"defense-impairment,persistence,credential-access",100,unknown,Conditional Access Policies
+mitre_attack,attack_technique,T1578.002,Create Cloud Instance,global,defense-impairment,100,unknown,Create Cloud Instance
+mitre_attack,attack_technique,T1555.006,Cloud Secrets Management Stores,global,credential-access,100,unknown,Cloud Secrets Management Stores
+mitre_attack,attack_technique,T1213.003,Code Repositories,global,collection,100,unknown,Code Repositories
+mitre_attack,attack_technique,T1565.002,Transmitted Data Manipulation,global,impact,100,unknown,Transmitted Data Manipulation
+mitre_attack,attack_technique,T1003.008,/etc/passwd and /etc/shadow,global,credential-access,100,unknown,/etc/passwd and /etc/shadow
+mitre_attack,attack_technique,T1543.001,Launch Agent,global,"persistence,privilege-escalation",100,unknown,Launch Agent
+mitre_attack,attack_technique,T1569,System Services,global,execution,100,unknown,System Services
+mitre_attack,attack_technique,T1059.003,Windows Command Shell,global,execution,100,unknown,Windows Command Shell
+mitre_attack,attack_technique,T1055.009,Proc Memory,global,"stealth,privilege-escalation",100,unknown,Proc Memory
+mitre_attack,attack_technique,T1650,Acquire Access,global,resource-development,100,unknown,Acquire Access
+mitre_attack,attack_technique,T1601.001,Patch System Image,global,defense-impairment,100,unknown,Patch System Image
+mitre_attack,attack_technique,T1558.002,Silver Ticket,global,credential-access,100,unknown,Silver Ticket
+mitre_attack,attack_technique,T1213,Data from Information Repositories,global,collection,100,unknown,Data from Information Repositories
+mitre_attack,attack_technique,T1070.009,Clear Persistence,global,stealth,100,unknown,Clear Persistence
+mitre_attack,attack_technique,T1059.012,Hypervisor CLI,global,execution,100,unknown,Hypervisor CLI
+mitre_attack,attack_technique,T1555.004,Windows Credential Manager,global,credential-access,100,unknown,Windows Credential Manager
+mitre_attack,attack_technique,T1036.010,Masquerade Account Name,global,stealth,100,unknown,Masquerade Account Name
+mitre_attack,attack_technique,T1200,Hardware Additions,global,initial-access,100,unknown,Hardware Additions
+mitre_attack,attack_technique,T1219.002,Remote Desktop Software,global,command-and-control,100,unknown,Remote Desktop Software
+mitre_attack,attack_technique,T1505,Server Software Component,global,persistence,100,unknown,Server Software Component
+mitre_attack,attack_technique,T1485,Data Destruction,global,impact,100,unknown,Data Destruction
+mitre_attack,attack_technique,T1132.002,Non-Standard Encoding,global,command-and-control,100,unknown,Non-Standard Encoding
+mitre_attack,attack_technique,T1556.001,Domain Controller Authentication,global,"defense-impairment,persistence,credential-access",100,unknown,Domain Controller Authentication
+mitre_attack,attack_technique,T1537,Transfer Data to Cloud Account,global,exfiltration,100,unknown,Transfer Data to Cloud Account
+mitre_attack,attack_technique,T1027.006,HTML Smuggling,global,stealth,100,unknown,HTML Smuggling
+mitre_attack,attack_technique,T1556.005,Reversible Encryption,global,"defense-impairment,persistence,credential-access",100,unknown,Reversible Encryption
+mitre_attack,attack_technique,T1027.010,Command Obfuscation,global,stealth,100,unknown,Command Obfuscation
+mitre_attack,attack_technique,T1070.004,File Deletion,global,stealth,100,unknown,File Deletion
+mitre_attack,attack_technique,T1189,Drive-by Compromise,global,initial-access,100,unknown,Drive-by Compromise
+mitre_attack,attack_technique,T1498,Network Denial of Service,global,impact,100,unknown,Network Denial of Service
+mitre_attack,attack_technique,T1651,Cloud Administration Command,global,execution,100,unknown,Cloud Administration Command
+mitre_attack,attack_technique,T1546.016,Installer Packages,global,"privilege-escalation,persistence",100,unknown,Installer Packages
+mitre_attack,attack_technique,T1595.001,Scanning IP Blocks,global,reconnaissance,100,unknown,Scanning IP Blocks
+mitre_attack,attack_technique,T1221,Template Injection,global,stealth,100,unknown,Template Injection
+mitre_attack,attack_technique,T1037.004,RC Scripts,global,"persistence,privilege-escalation",100,unknown,RC Scripts
+mitre_attack,attack_technique,T1134,Access Token Manipulation,global,"stealth,privilege-escalation",100,unknown,Access Token Manipulation
+mitre_attack,attack_technique,T1111,Multi-Factor Authentication Interception,global,credential-access,100,unknown,Multi-Factor Authentication Interception
+mitre_attack,attack_technique,T1027.002,Software Packing,global,stealth,100,unknown,Software Packing
+mitre_attack,attack_technique,T1584.007,Serverless,global,resource-development,100,unknown,Serverless
+mitre_attack,attack_technique,T1071.001,Web Protocols,global,command-and-control,100,unknown,Web Protocols
+mitre_attack,attack_technique,T1059.005,Visual Basic,global,execution,100,unknown,Visual Basic
+mitre_attack,attack_technique,T1564.005,Hidden File System,global,stealth,100,unknown,Hidden File System
+mitre_attack,attack_technique,T1543.002,Systemd Service,global,"persistence,privilege-escalation",100,unknown,Systemd Service
+mitre_attack,attack_technique,T1668,Exclusive Control,global,persistence,100,unknown,Exclusive Control
+mitre_attack,attack_technique,T1563.002,RDP Hijacking,global,lateral-movement,100,unknown,RDP Hijacking
+mitre_attack,attack_technique,T1136,Create Account,global,persistence,100,unknown,Create Account
+mitre_attack,attack_technique,T1547.013,XDG Autostart Entries,global,"persistence,privilege-escalation",100,unknown,XDG Autostart Entries
+mitre_attack,attack_technique,T1584.004,Server,global,resource-development,100,unknown,Server
+mitre_attack,attack_technique,T1526,Cloud Service Discovery,global,discovery,100,unknown,Cloud Service Discovery
+mitre_attack,attack_technique,T1204.004,Malicious Copy and Paste,global,execution,100,unknown,Malicious Copy and Paste
+mitre_attack,attack_technique,T1018,Remote System Discovery,global,discovery,100,unknown,Remote System Discovery
+mitre_attack,attack_technique,T1046,Network Service Discovery,global,discovery,100,unknown,Network Service Discovery
+mitre_attack,attack_technique,T1590.001,Domain Properties,global,reconnaissance,100,unknown,Domain Properties
+mitre_attack,attack_technique,T1518,Software Discovery,global,discovery,100,unknown,Software Discovery
+mitre_attack,attack_technique,T1538,Cloud Service Dashboard,global,discovery,100,unknown,Cloud Service Dashboard
+mitre_attack,attack_technique,T1055.005,Thread Local Storage,global,"stealth,privilege-escalation",100,unknown,Thread Local Storage
+mitre_attack,attack_technique,T1622,Debugger Evasion,global,"stealth,discovery",100,unknown,Debugger Evasion
+mitre_attack,attack_technique,T1036.006,Space after Filename,global,stealth,100,unknown,Space after Filename
+mitre_attack,attack_technique,T1547.007,Re-opened Applications,global,"persistence,privilege-escalation",100,unknown,Re-opened Applications
+mitre_attack,attack_technique,T1608.006,SEO Poisoning,global,resource-development,100,unknown,SEO Poisoning
+mitre_attack,attack_technique,T1550.002,Pass the Hash,global,lateral-movement,100,unknown,Pass the Hash
+mitre_attack,attack_technique,T1052,Exfiltration Over Physical Medium,global,exfiltration,100,unknown,Exfiltration Over Physical Medium
+mitre_attack,attack_technique,T1105,Ingress Tool Transfer,global,command-and-control,100,unknown,Ingress Tool Transfer
+mitre_attack,attack_technique,T1216.002,SyncAppvPublishingServer,global,stealth,100,unknown,SyncAppvPublishingServer
+mitre_attack,attack_technique,T1098.002,Additional Email Delegate Permissions,global,"persistence,privilege-escalation",100,unknown,Additional Email Delegate Permissions
+mitre_attack,attack_technique,T1588.003,Code Signing Certificates,global,resource-development,100,unknown,Code Signing Certificates
+mitre_attack,attack_technique,T1648,Serverless Execution,global,execution,100,unknown,Serverless Execution
+mitre_attack,attack_technique,T1548.006,TCC Manipulation,global,privilege-escalation,100,unknown,TCC Manipulation
+mitre_attack,attack_technique,T1027.018,Invisible Unicode,global,stealth,100,unknown,Invisible Unicode
+mitre_attack,attack_technique,T1055.008,Ptrace System Calls,global,"stealth,privilege-escalation",100,unknown,Ptrace System Calls
+mitre_attack,attack_technique,T1653,Power Settings,global,persistence,100,unknown,Power Settings
+mitre_attack,attack_technique,T1027.007,Dynamic API Resolution,global,stealth,100,unknown,Dynamic API Resolution
+mitre_attack,attack_technique,T1021.001,Remote Desktop Protocol,global,lateral-movement,100,unknown,Remote Desktop Protocol
+mitre_attack,attack_technique,T1037.001,Logon Script (Windows),global,"persistence,privilege-escalation",100,unknown,Logon Script (Windows)
+mitre_attack,attack_technique,T1055.015,ListPlanting,global,"stealth,privilege-escalation",100,unknown,ListPlanting
+mitre_attack,attack_technique,T1665,Hide Infrastructure,global,command-and-control,100,unknown,Hide Infrastructure
+mitre_attack,attack_technique,T1484,Domain or Tenant Policy Modification,global,"defense-impairment,privilege-escalation",100,unknown,Domain or Tenant Policy Modification
+mitre_attack,attack_technique,T1220,XSL Script Processing,global,stealth,100,unknown,XSL Script Processing
+mitre_attack,attack_technique,T1596.005,Scan Databases,global,reconnaissance,100,unknown,Scan Databases
+mitre_attack,attack_technique,T1564.001,Hidden Files and Directories,global,stealth,100,unknown,Hidden Files and Directories
+mitre_attack,attack_technique,T1578.001,Create Snapshot,global,defense-impairment,100,unknown,Create Snapshot
+mitre_attack,attack_technique,T1591.001,Determine Physical Locations,global,reconnaissance,100,unknown,Determine Physical Locations
+mitre_attack,attack_technique,T1137.002,Office Test,global,persistence,100,unknown,Office Test
+mitre_attack,attack_technique,T1587,Develop Capabilities,global,resource-development,100,unknown,Develop Capabilities
+mitre_attack,attack_technique,T1003.003,NTDS,global,credential-access,100,unknown,NTDS
+mitre_attack,attack_technique,T1686.001,Cloud Firewall,global,defense-impairment,100,unknown,Cloud Firewall
+mitre_attack,attack_technique,T1602.001,SNMP (MIB Dump),global,collection,100,unknown,SNMP (MIB Dump)
+mitre_attack,attack_technique,T1686,Disable or Modify System Firewall,global,defense-impairment,100,unknown,Disable or Modify System Firewall
+mitre_attack,attack_technique,T1001.002,Steganography,global,command-and-control,100,unknown,Steganography
+mitre_attack,attack_technique,T1204.001,Malicious Link,global,execution,100,unknown,Malicious Link
+mitre_attack,attack_technique,T1550.001,Application Access Token,global,lateral-movement,100,unknown,Application Access Token
+mitre_attack,attack_technique,T1547.008,LSASS Driver,global,"persistence,privilege-escalation",100,unknown,LSASS Driver
+mitre_attack,attack_technique,T1569.002,Service Execution,global,execution,100,unknown,Service Execution
+mitre_attack,attack_technique,T1078.004,Cloud Accounts,global,"stealth,persistence,privilege-escalation,initial-access",100,unknown,Cloud Accounts
+mitre_attack,attack_technique,T1480.001,Environmental Keying,global,stealth,100,unknown,Environmental Keying
+mitre_attack,attack_technique,T1008,Fallback Channels,global,command-and-control,100,unknown,Fallback Channels
+mitre_attack,attack_technique,T1680,Local Storage Discovery,global,discovery,100,unknown,Local Storage Discovery
+mitre_attack,attack_technique,T1564.004,NTFS File Attributes,global,stealth,100,unknown,NTFS File Attributes
+mitre_attack,attack_technique,T1558.003,Kerberoasting,global,credential-access,100,unknown,Kerberoasting
+mitre_attack,attack_technique,T1003.006,DCSync,global,credential-access,100,unknown,DCSync
+mitre_attack,attack_technique,T1124,System Time Discovery,global,discovery,100,unknown,System Time Discovery
+mitre_attack,attack_technique,T1053.002,At,global,"execution,persistence,privilege-escalation",100,unknown,At
+mitre_attack,attack_technique,T1055.001,Dynamic-link Library Injection,global,"stealth,privilege-escalation",100,unknown,Dynamic-link Library Injection
+mitre_attack,attack_technique,T1588.005,Exploits,global,resource-development,100,unknown,Exploits
+mitre_attack,attack_technique,T1556,Modify Authentication Process,global,"defense-impairment,persistence,credential-access",100,unknown,Modify Authentication Process
+mitre_attack,attack_technique,T1546.017,Udev Rules,global,"persistence,privilege-escalation",100,unknown,Udev Rules
+mitre_attack,attack_technique,T1056.004,Credential API Hooking,global,"collection,credential-access",100,unknown,Credential API Hooking
+mitre_attack,attack_technique,T1495,Firmware Corruption,global,impact,100,unknown,Firmware Corruption
+mitre_attack,attack_technique,T1490,Inhibit System Recovery,global,impact,100,unknown,Inhibit System Recovery
+mitre_attack,attack_technique,T1546.007,Netsh Helper DLL,global,"privilege-escalation,persistence",100,unknown,Netsh Helper DLL
+mitre_attack,attack_technique,T1566.003,Spearphishing via Service,global,initial-access,100,unknown,Spearphishing via Service
+mitre_attack,attack_technique,T1090.001,Internal Proxy,global,command-and-control,100,unknown,Internal Proxy
+mitre_attack,attack_technique,T1216,System Script Proxy Execution,global,stealth,100,unknown,System Script Proxy Execution
+mitre_attack,attack_technique,T1102.001,Dead Drop Resolver,global,command-and-control,100,unknown,Dead Drop Resolver
+mitre_attack,attack_technique,T1001.001,Junk Data,global,command-and-control,100,unknown,Junk Data
+mitre_attack,attack_technique,T1598.001,Spearphishing Service,global,reconnaissance,100,unknown,Spearphishing Service
+mitre_attack,attack_technique,T1043,Commonly Used Port,global,command-and-control,100,unknown,Commonly Used Port
+mitre_attack,attack_technique,T1505.006,vSphere Installation Bundles,global,persistence,100,unknown,vSphere Installation Bundles
+mitre_attack,attack_technique,T1552.007,Container API,global,credential-access,100,unknown,Container API
+mitre_attack,attack_technique,T1584.001,Domains,global,resource-development,100,unknown,Domains
+mitre_attack,attack_technique,T1505.001,SQL Stored Procedures,global,persistence,100,unknown,SQL Stored Procedures
+mitre_attack,attack_technique,T1556.004,Network Device Authentication,global,"defense-impairment,persistence,credential-access",100,unknown,Network Device Authentication
+mitre_attack,attack_technique,T1561.001,Disk Content Wipe,global,impact,100,unknown,Disk Content Wipe
+mitre_attack,attack_technique,T1213.005,Messaging Applications,global,collection,100,unknown,Messaging Applications
+mitre_attack,attack_technique,T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,global,exfiltration,100,unknown,Exfiltration Over Unencrypted Non-C2 Protocol
+mitre_attack,attack_technique,T1027.015,Compression,global,stealth,100,unknown,Compression
+mitre_attack,attack_technique,T1574.004,Dylib Hijacking,global,"stealth,execution",100,unknown,Dylib Hijacking
+mitre_attack,attack_technique,T1601.002,Downgrade System Image,global,defense-impairment,100,unknown,Downgrade System Image
+mitre_attack,attack_technique,T1684.002,Email Spoofing,global,stealth,100,unknown,Email Spoofing
+mitre_attack,attack_technique,T1078.003,Local Accounts,global,"stealth,persistence,privilege-escalation,initial-access",100,unknown,Local Accounts
+mitre_attack,attack_technique,T1669,Wi-Fi Networks,global,initial-access,100,unknown,Wi-Fi Networks
+mitre_attack,attack_technique,T1211,Exploitation for Stealth,global,stealth,100,unknown,Exploitation for Stealth
+mitre_attack,attack_technique,T1127,Trusted Developer Utilities Proxy Execution,global,"stealth,execution",100,unknown,Trusted Developer Utilities Proxy Execution
+mitre_attack,attack_technique,T1529,System Shutdown/Reboot,global,impact,100,unknown,System Shutdown/Reboot
+mitre_attack,attack_technique,T1218.014,MMC,global,stealth,100,unknown,MMC
+mitre_attack,attack_technique,T1564.010,Process Argument Spoofing,global,stealth,100,unknown,Process Argument Spoofing
+mitre_attack,attack_technique,T1574.012,COR_PROFILER,global,"stealth,execution",100,unknown,COR_PROFILER

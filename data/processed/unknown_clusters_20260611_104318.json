@@ -1,0 +1,643 @@
+[
+  {
+    "cluster_id": 9,
+    "size": 52,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 52
+    },
+    "threat_types": {
+      "domain": 52
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "js.clearfake": 52
+    },
+    "dominant_malware": "js.clearfake",
+    "tags": {
+      "ClearFake": 52
+    },
+    "avg_anomaly_score": -0.4116,
+    "sample_values": [
+      "1cihg2b5.anodaz.vip",
+      "iznukhb.hesabdari2.xyz",
+      "zo4t1q36.moarefeslami.xyz",
+      "m2bu2yf9.ansuyemarg.xyz",
+      "aolbzrji.red90.casino"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.435789"
+  },
+  {
+    "cluster_id": 10,
+    "size": 79,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 99,
+    "sources": {
+      "threatfox": 79
+    },
+    "threat_types": {
+      "domain": 79
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "js.clearfake": 52,
+      "unknown": 11,
+      "elf.mirai": 5,
+      "osx.amos": 2,
+      "js.kongtuke": 2,
+      "js.smartapesg": 2,
+      "js.fakeupdates": 1,
+      "elf.xmrig": 1,
+      "win.acr_stealer": 1,
+      "unknown_rat": 1,
+      "win.castleloader": 1
+    },
+    "dominant_malware": "js.clearfake",
+    "tags": {
+      "ClearFake": 52,
+      "ClickFix": 10,
+      "katana": 5,
+      "Amos,osx": 2,
+      "Kongtuke": 2
+    },
+    "avg_anomaly_score": -0.4179,
+    "sample_values": [
+      "mocauhxe.mabanishimi.xyz",
+      "kpeahfhd.rial.bet",
+      "verccbf.hesabdarinoravesh.xyz",
+      "lwywtkki.winxbet.co",
+      "ewnwfae.hesabdaripishrafte.xyz"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.438971"
+  },
+  {
+    "cluster_id": 19,
+    "size": 7,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 92.8,
+    "sources": {
+      "threatfox": 7
+    },
+    "threat_types": {
+      "url": 7
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "unknown": 4,
+      "js.kongtuke": 2,
+      "win.darkvision_rat": 1
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "ClickFix": 3,
+      "Kongtuke": 2,
+      "honeypot": 1,
+      "DarkVisionRat,RAT": 1
+    },
+    "avg_anomaly_score": -0.5379,
+    "sample_values": [
+      "http://5.83.134.26/ssh",
+      "https://sharsaruba.com/",
+      "https://vanderaeijden.lol/file.js",
+      "https://captcha-code.lol/o",
+      "https://www.mhsbm.gi/"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.454958"
+  },
+  {
+    "cluster_id": 11,
+    "size": 172,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 91.2,
+    "sources": {
+      "threatfox": 172
+    },
+    "threat_types": {
+      "ip:port": 172
+    },
+    "dominant_type": "ip:port",
+    "malware_families": {
+      "win.cobalt_strike": 38,
+      "win.remcos": 22,
+      "win.remus": 20,
+      "win.vshell": 12,
+      "win.asyncrat": 11,
+      "win.adaptix_c2": 11,
+      "elf.mirai": 7,
+      "win.dcrat": 6,
+      "elf.evilginx": 6,
+      "unknown": 6,
+      "unknown_rat": 6,
+      "elf.redtail": 5,
+      "win.havoc": 4,
+      "win.meterpreter": 4,
+      "win.valley_rat": 3,
+      "win.purelogs": 3,
+      "win.quasar_rat": 2,
+      "win.njrat": 2,
+      "elf.xmrig": 2,
+      "win.eye_pyramid": 1,
+      "win.sliver": 1
+    },
+    "dominant_malware": "win.cobalt_strike",
+    "tags": {
+      "Remus": 20,
+      "CobaltStrike": 13,
+      "drb-ra,RAT,RemcosRAT": 13,
+      "Vshell": 12,
+      "CobaltStrike,drb-ra": 11
+    },
+    "avg_anomaly_score": -0.4311,
+    "sample_values": [
+      "43.160.193.90:6666",
+      "18.162.74.188:112",
+      "34.92.128.98:8080",
+      "34.92.128.98:443",
+      "47.92.206.63:80"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.438971"
+  },
+  {
+    "cluster_id": 18,
+    "size": 9,
+    "anomaly_percentage": 22.2,
+    "cosmos_confidence": 91.0,
+    "sources": {
+      "threatfox": 9
+    },
+    "threat_types": {
+      "url": 9
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "js.smartapesg": 5,
+      "js.kongtuke": 3,
+      "unknown": 1
+    },
+    "dominant_malware": "js.smartapesg",
+    "tags": {
+      "SmartApeSG": 5,
+      "Kongtuke": 3,
+      "ClickFix": 1
+    },
+    "avg_anomaly_score": -0.5607,
+    "sample_values": [
+      "https://carreobilder.com/vaetnwuiznatbkoa",
+      "https://vanderaeijden.lol/api/v1/session",
+      "https://vanderaeijden.lol/api/v1/verify",
+      "https://vanderaeijden.lol/api/v1/status",
+      "https://marblejunction.top/redirect/callback-effect.js"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.454958"
+  },
+  {
+    "cluster_id": 14,
+    "size": 11,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 89.6,
+    "sources": {
+      "threatfox": 11
+    },
+    "threat_types": {
+      "domain": 11
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.remcos": 7,
+      "win.vidar": 3,
+      "win.strelastealer": 1
+    },
+    "dominant_malware": "win.remcos",
+    "tags": {
+      "unknown": 4,
+      "remcos": 3,
+      "gr0u4,Vidar": 2,
+      "StrelaStealer": 1,
+      "Vidar": 1
+    },
+    "avg_anomaly_score": -0.5,
+    "sample_values": [
+      "bat.glamisdunesrentals.com",
+      "kik.glamisdunesrentals.com",
+      "www.highgradebastard.com",
+      "ninarober.accesscam.org",
+      "newgold.co.zw"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.438971"
+  },
+  {
+    "cluster_id": 13,
+    "size": 6,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 83.8,
+    "sources": {
+      "threatfox": 6
+    },
+    "threat_types": {
+      "url": 6
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "win.vidar": 6
+    },
+    "dominant_malware": "win.vidar",
+    "tags": {
+      "gr0u4,Vidar": 4,
+      "Vidar": 2
+    },
+    "avg_anomaly_score": -0.5552,
+    "sample_values": [
+      "https://bat.glamisdunesrentals.com/",
+      "https://bat.gagahsm188.top/",
+      "https://kik.glamisdunesrentals.com/",
+      "https://kik.gagahsm188.top/",
+      "https://sam.glamisdunesrentals.com/"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.438971"
+  },
+  {
+    "cluster_id": 15,
+    "size": 3,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 83.6,
+    "sources": {
+      "threatfox": 3
+    },
+    "threat_types": {
+      "domain": 3
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.vidar": 3
+    },
+    "dominant_malware": "win.vidar",
+    "tags": {
+      "gr0u4,Vidar": 2,
+      "Vidar": 1
+    },
+    "avg_anomaly_score": -0.5201,
+    "sample_values": [
+      "bat.gagahsm188.top",
+      "kik.gagahsm188.top",
+      "sam.gagahsm188.top"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.454958"
+  },
+  {
+    "cluster_id": 16,
+    "size": 48,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 78.6,
+    "sources": {
+      "threatfox": 48
+    },
+    "threat_types": {
+      "url": 48
+    },
+    "dominant_type": "url",
+    "malware_families": {
+      "win.remus": 48
+    },
+    "dominant_malware": "win.remus",
+    "tags": {
+      "Remus": 48
+    },
+    "avg_anomaly_score": -0.446,
+    "sample_values": [
+      "http://daisyz.shop:4219",
+      "http://mascard.biz:8768",
+      "http://zsigmu.shop:7673",
+      "http://tryjellie.com:5747",
+      "http://thequarterlymethod.com:6584"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.454958"
+  },
+  {
+    "cluster_id": 17,
+    "size": 4,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 75.3,
+    "sources": {
+      "threatfox": 4
+    },
+    "threat_types": {
+      "domain": 4
+    },
+    "dominant_type": "domain",
+    "malware_families": {
+      "win.remcos": 4
+    },
+    "dominant_malware": "win.remcos",
+    "tags": {
+      "remcos": 4
+    },
+    "avg_anomaly_score": -0.5106,
+    "sample_values": [
+      "www.highgradebastardbackup3.com",
+      "www.highgradebastardbackup1.com",
+      "www.highgradebastardbackup2.com",
+      "llegando09328.ydns.eu"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.454958"
+  },
+  {
+    "cluster_id": 12,
+    "size": 29,
+    "anomaly_percentage": 20.7,
+    "cosmos_confidence": 59.5,
+    "sources": {
+      "threatfox": 29
+    },
+    "threat_types": {
+      "sha256_hash": 29
+    },
+    "dominant_type": "sha256_hash",
+    "malware_families": {
+      "unknown": 26,
+      "osx.amos": 3
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "unknown": 19,
+      "ClickFix,Electron,remote-eval,trojanized-app": 4,
+      "Amos,osx": 3,
+      "Azalea,Azday1,duckdns,OriginLogger": 2,
+      "a-dl,ClickFix,garble,golang,Loader": 1
+    },
+    "avg_anomaly_score": -0.5354,
+    "sample_values": [
+      "7c69d70092676725b6e9269e08f842b22a21eff319240a31b2dfc44147d05d05",
+      "b56a2ccafe31b6c664c021ec418a660661e5d6d87e1c339beba3b7a4b684d067",
+      "01e33f12a8ee57c89624aeeeb97e57896927483d1442eea22ec6bfddc12f8879",
+      "9a2869a42f54beb07d4d56a16cd56f507a1ae5a9df2e4d816776472cbf4438c6",
+      "8eac8373cb9b6a8004942871ebc691d900a8116c9dede5e3a222392227033245"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.438971"
+  },
+  {
+    "cluster_id": 3,
+    "size": 22,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 51.1,
+    "sources": {
+      "alienvault": 22
+    },
+    "threat_types": {
+      "FileHash-MD5": 11,
+      "FileHash-SHA1": 11
+    },
+    "dominant_type": "FileHash-MD5",
+    "malware_families": {
+      "AMOS Stealer": 22
+    },
+    "dominant_malware": "AMOS Stealer",
+    "tags": {
+      "amos stealer,clawhub,openclaw,hugging face,trojanized skills,cryptominer,ai supply chain,indirect prompt injection": 22
+    },
+    "avg_anomaly_score": -0.5294,
+    "sample_values": [
+      "a37f6403fbf28fa0b48863287f4c5a5d",
+      "a396ec79d8e33ca984c7ffc7ee4d7d2caa8412ee",
+      "b488d8d0cb6ee18af9e5800b66ff1ed9",
+      "93b3d3925ccc201ab0f16017153a79ef05b8f5c2",
+      "41f581f7d2c09ab0edfea850b9db506f"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.404556"
+  },
+  {
+    "cluster_id": 5,
+    "size": 18,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 50.9,
+    "sources": {
+      "alienvault": 18
+    },
+    "threat_types": {
+      "hostname": 11,
+      "domain": 7
+    },
+    "dominant_type": "hostname",
+    "malware_families": {
+      "unknown": 18
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "credential harvesting,voicemail phishing,phishing-as-a-service,sso exploitation,microsoft 365,oauth hijacking": 18
+    },
+    "avg_anomaly_score": -0.5055,
+    "sample_values": [
+      "valid.boostedengagement.de",
+      "log.evergreenhostingoptions.de",
+      "vvu.digitaladvantagehub.de",
+      "accounts.tnfirm.icu",
+      "accounts.gxcwfe.icu"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.422308"
+  },
+  {
+    "cluster_id": 4,
+    "size": 12,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 50.6,
+    "sources": {
+      "alienvault": 12
+    },
+    "threat_types": {
+      "FileHash-SHA256": 12
+    },
+    "dominant_type": "FileHash-SHA256",
+    "malware_families": {
+      "AMOS Stealer": 12
+    },
+    "dominant_malware": "AMOS Stealer",
+    "tags": {
+      "amos stealer,clawhub,openclaw,hugging face,trojanized skills,cryptominer,ai supply chain,indirect prompt injection": 12
+    },
+    "avg_anomaly_score": -0.5262,
+    "sample_values": [
+      "f0a54f2b44e557854b0a5001c4e10185884af945814786f78b86539014f78a16",
+      "d781d5cabaf5f305bbb8afcd9a54d7ba616bfa7aef5c4d16f6bce3d2bf3b4073",
+      "c7b93b6facfc23f49e35e81dc9c30cc69401b8245eeb7c032fc13656cd7e101f",
+      "122bea967f4c194fd5820123d13b7b71422c31f92b9fc0b0fa05aac3ff03dfaa",
+      "462af0a3a9094d44c30cc65544ec1171a62365cff09e67f5e87e061a3d604bd0"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.422308"
+  },
+  {
+    "cluster_id": 7,
+    "size": 8,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 50.4,
+    "sources": {
+      "alienvault": 8
+    },
+    "threat_types": {
+      "hostname": 8
+    },
+    "dominant_type": "hostname",
+    "malware_families": {
+      "unknown": 8
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "credential harvesting,voicemail phishing,phishing-as-a-service,sso exploitation,microsoft 365,oauth hijacking": 8
+    },
+    "avg_anomaly_score": -0.5522,
+    "sample_values": [
+      "login.av7551.com",
+      "gsbauwu1hsa.legalaro.com",
+      "ewo7pdwau5.memorablemark.de",
+      "yxmh7yx50d.easytecdigital.de",
+      "vht0p9fsyg.balanceandperformance.de"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.422308"
+  },
+  {
+    "cluster_id": 8,
+    "size": 6,
+    "anomaly_percentage": 0.0,
+    "cosmos_confidence": 50.3,
+    "sources": {
+      "alienvault": 6
+    },
+    "threat_types": {
+      "hostname": 6
+    },
+    "dominant_type": "hostname",
+    "malware_families": {
+      "unknown": 6
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "credential harvesting,voicemail phishing,phishing-as-a-service,sso exploitation,microsoft 365,oauth hijacking": 6
+    },
+    "avg_anomaly_score": -0.5227,
+    "sample_values": [
+      "solutionntechtheepiscopalcenterforit.snnfhawmedia.vu",
+      "globalagencerevenucanadasolutions.aquimisasnmll.vu",
+      "cloudbradshawautomotivesystems.finelinesettpmxingsinc.vu",
+      "cloudadventurecredituniongroup.globahonlcarg.vu",
+      "servicedptechnologypteltdsolutions.sudmanagementhztgroupe.vu"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.422308"
+  },
+  {
+    "cluster_id": 6,
+    "size": 16,
+    "anomaly_percentage": 37.5,
+    "cosmos_confidence": 43.3,
+    "sources": {
+      "alienvault": 16
+    },
+    "threat_types": {
+      "URL": 16
+    },
+    "dominant_type": "URL",
+    "malware_families": {
+      "unknown": 16
+    },
+    "dominant_malware": "unknown",
+    "tags": {
+      "credential harvesting,voicemail phishing,phishing-as-a-service,sso exploitation,microsoft 365,oauth hijacking": 16
+    },
+    "avg_anomaly_score": -0.5591,
+    "sample_values": [
+      "http://log.evergreenhostingoptions.de/UO95w/",
+      "http://valid.boostedengagement.de/LFmtS/",
+      "http://vvu.digitaladvantagehub.de/xiMwR",
+      "http://gsbauwu1hsa.legalaro.com/nmasn/",
+      "http://www.realdecorralejo.com/cgi-admin/signer.html"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.422308"
+  },
+  {
+    "cluster_id": 0,
+    "size": 5,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 30.2,
+    "sources": {
+      "alienvault": 5
+    },
+    "threat_types": {
+      "FileHash-SHA256": 5
+    },
+    "dominant_type": "FileHash-SHA256",
+    "malware_families": {
+      "SilabRAT": 4,
+      "Gentlemen": 1
+    },
+    "dominant_malware": "SilabRAT",
+    "tags": {
+      "darkweb forums,credential theft,hijackloader,asmcrypt,browser profile cloning,hvnc,session hijacking,silabrat,maas,cryptocurrency wallet,clickfix": 4,
+      "double extortion,gentlemen,anydesk,storm-2697,ransomware-as-a-service,cve-2024-55591,lateral movement,go binary,systembc,cobalt strike,breachforums partnership,larva-368,xchacha20 encryption": 1
+    },
+    "avg_anomaly_score": -0.6123,
+    "sample_values": [
+      "3a6adbe0081b2488e0f137496e92591e0c29148154b2d99faadab9cc435b879b",
+      "79f8da9f9fb4ac7c16d9c210f1f6ef418357a3e7bf602b1dd03a490596fa58c5",
+      "fb56e66920c84ef9e51db0ea23144f5755daef97cbff8613b05ab56d0dc9d623",
+      "fbce30a0c852972fdc24f1b6a7c270512a50ef1a7c6c88c88b92a2dcbdfdd023",
+      "3ab9575225e00a83a4ac2b534da5a710bdcf6eb72884944c437b5fbe5c5c9235"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.404556"
+  },
+  {
+    "cluster_id": 1,
+    "size": 4,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 30.2,
+    "sources": {
+      "alienvault": 4
+    },
+    "threat_types": {
+      "FileHash-MD5": 2,
+      "FileHash-SHA1": 2
+    },
+    "dominant_type": "FileHash-MD5",
+    "malware_families": {
+      "Gentlemen": 4
+    },
+    "dominant_malware": "Gentlemen",
+    "tags": {
+      "double extortion,gentlemen,anydesk,storm-2697,ransomware-as-a-service,cve-2024-55591,lateral movement,go binary,systembc,cobalt strike,breachforums partnership,larva-368,xchacha20 encryption": 4
+    },
+    "avg_anomaly_score": -0.6302,
+    "sample_values": [
+      "4200b46a93c6ab059e2b34ce200c4a5b",
+      "42bcc743c71a9ea083c1c750a398110582796762",
+      "ead0d7a8ae0a6ffb7f0a5873fec4ff5e",
+      "39bd9c888d3e8110c127ba60cc727d2538bf7da2"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.404556"
+  },
+  {
+    "cluster_id": 2,
+    "size": 5,
+    "anomaly_percentage": 100.0,
+    "cosmos_confidence": 30.2,
+    "sources": {
+      "alienvault": 5
+    },
+    "threat_types": {
+      "URL": 5
+    },
+    "dominant_type": "URL",
+    "malware_families": {
+      "AMOS Stealer": 5
+    },
+    "dominant_malware": "AMOS Stealer",
+    "tags": {
+      "amos stealer,clawhub,openclaw,hugging face,trojanized skills,cryptominer,ai supply chain,indirect prompt injection": 5
+    },
+    "avg_anomaly_score": -0.6256,
+    "sample_values": [
+      "https://install.app-distribution.net/setup/",
+      "http://91.92.242.30/1v07y9e1m6v7thl6",
+      "http://91.92.242.30/6wioz8285kcbax6v",
+      "https://glot.io/snippets/hfd3x9ueu5",
+      "https://glot.io/snippets/hfdxv8uyaf"
+    ],
+    "discovered_at": "2026-06-11T10:43:18.404556"
+  }
+]
