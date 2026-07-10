@@ -43,7 +43,7 @@ class CyberTelescope:
         try:
             url = "https://urlhaus-api.abuse.ch/v1/urls/recent/"
             headers = {"Auth-Key": self.abuse_key}
-            response = requests.post(url, headers=headers, timeout=10)
+            response = requests.get(url, headers=headers, timeout=10)
             if response.status_code == 200:
                 data = response.json()
                 urls = data.get("urls", [])

@@ -112,8 +112,22 @@ class UnknownUnknownEngine:
         """Use Isolation Forest to detect anomalous threats"""
         print("[ENGINE] Running Isolation Forest anomaly detection...")
         scaled = self.scaler.fit_transform(features)
+        # Calculate adaptive contamination based on data characteristics
+        n_samples = len(features)
+# Use smaller contamination for larger datasets, larger for smaller
+        if n_samples > 1500:
+            contamination = 0.05
+        elif n_samples > 1000:
+            contamination = 0.08
+        elif n_samples > 500:
+            contamination = 0.10
+        else:
+            contamination = 0.15
+
+        print(f"[ENGINE] Adaptive contamination rate: {contamination} ({round(contamination*100,1)}%)")
+
         iso_forest = IsolationForest(
-            contamination=0.1,
+            contamination=contamination,
             random_state=42,
             n_estimators=200,
             max_samples="auto"
@@ -135,7 +149,19 @@ class UnknownUnknownEngine:
         print(f"[ENGINE] PCA variance explained: {variance_explained}%")
 
         print("[ENGINE] Running DBSCAN clustering...")
-        dbscan = DBSCAN(eps=0.9, min_samples=3, metric="euclidean")
+        # Auto-tune eps using k-distance graph
+        from sklearn.neighbors import NearestNeighbors
+        import numpy as np
+        k = 3
+        nbrs = NearestNeighbors(n_neighbors=k).fit(reduced)
+        distances, _ = nbrs.kneighbors(reduced)
+        distances = np.sort(distances[:, k-1])
+        # Use 95th percentile for better cluster cohesion
+        eps = float(np.percentile(distances, 97))
+        eps = round(max(min(eps, 2.0), 0.5), 2)
+        print(f"[ENGINE] Auto-tuned eps: {eps}")
+
+        dbscan = DBSCAN(eps=eps, min_samples=3, metric="euclidean")
         labels = dbscan.fit_predict(reduced)
 
         n_clusters = len(set(labels)) - (1 if -1 in labels else 0)

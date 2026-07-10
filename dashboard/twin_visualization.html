@@ -326,7 +326,7 @@
     </div>
     <div class="status">
         <div class="status-dot"></div>
-        SIMULATION READY — 2026-06-13 13:18:48
+        SIMULATION READY — 2026-07-10 09:48:20
     </div>
 </header>
 
@@ -426,11 +426,11 @@
 </div>
 
 <footer>
-    COSMOS Digital Twin Lab — Simulated Enterprise Network — 2026-06-13 13:18:48
+    COSMOS Digital Twin Lab — Simulated Enterprise Network — 2026-07-10 09:48:20
 </footer>
 
 <script>
-const simulations = [{"cluster_id": 10, "malware": "win.strelastealer", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1189 \u2014 Drive-by Compromise", "description": "User visited malicious domain serving win.strelastealer payload", "success": false, "detected": true, "detected_by": "email_filter", "target_host": "WS001", "ioc": "win_strelastealer_dropper_8818"}]}, {"cluster_id": 12, "malware": "js.clearfake", "original_confidence": 99, "validated_confidence": 99.9, "confidence_change": 0.9, "success_rate": 50.0, "detection_rate": 50.0, "verdict": "MEDIUM \u2014 Hypothesis PARTIALLY CONFIRMED. Further investigation recommended.", "steps": [{"stage": "Initial Access", "technique": "T1059 \u2014 Command and Scripting Interpreter", "description": "Attacker used scripting to deploy js.clearfake components", "success": true, "detected": false, "detected_by": null, "target_host": "WS001", "ioc": "js_clearfake_dropper_8484"}, {"stage": "Execution", "technique": "T1059.001 \u2014 PowerShell / T1106 \u2014 Native API", "description": "js.clearfake executed on WS001 via memory injection", "success": false, "detected": true, "detected_by": "antivirus", "target_host": "WS001", "ioc": "proc_injection_4712.log"}]}, {"cluster_id": 20, "malware": "Windows Management Instrumentation", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1059 \u2014 Command and Scripting Interpreter", "description": "Attacker used scripting to deploy Windows Management Instrumentation components", "success": false, "detected": true, "detected_by": "edr", "target_host": "WS001", "ioc": "windows management instrumentation_dropper_2202"}]}];
+const simulations = [{"cluster_id": 0, "malware": "win.cobalt_strike", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1190 \u2014 Exploit Public-Facing Application", "description": "Attacker exploited exposed service on win.cobalt_strike C2 infrastructure", "success": false, "detected": true, "detected_by": "firewall", "target_host": "SRV002", "ioc": "win_cobalt_strike_dropper_3887"}]}, {"cluster_id": 1, "malware": "unknown_stealer", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1189 \u2014 Drive-by Compromise", "description": "User visited malicious domain serving unknown_stealer payload", "success": false, "detected": true, "detected_by": "email_filter", "target_host": "WS001", "ioc": "unknown_stealer_dropper_2394"}]}, {"cluster_id": 3, "malware": "elf.aisuru", "original_confidence": 99, "validated_confidence": 99.0, "confidence_change": 0.0, "success_rate": 0.0, "detection_rate": 100.0, "verdict": "LOW \u2014 Hypothesis PARTIALLY REFUTED. Current controls provide adequate protection.", "steps": [{"stage": "Initial Access", "technique": "T1190 \u2014 Exploit Public-Facing Application", "description": "Attacker exploited exposed service on elf.aisuru C2 infrastructure", "success": false, "detected": true, "detected_by": "firewall", "target_host": "SRV002", "ioc": "elf_aisuru_dropper_3738"}]}];
 let currentSim = 0;
 let simRunning = false;
 let animFrame;

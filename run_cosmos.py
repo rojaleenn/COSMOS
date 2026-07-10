@@ -48,8 +48,16 @@ def main():
         print("[COSMOS] Processor failed. Exiting.")
         sys.exit(1)
 
-    # Step 3 — Detect Unknown Clusters
-    step(3, "UNKNOWN UNKNOWN ENGINE — Discovering Clusters")
+    # Step 3 — Deduplication
+    step(3, "DEDUPLICATOR — Identifying New vs Recurring Threats")
+    from engine.deduplicator import ThreatDeduplicator
+    deduplicator = ThreatDeduplicator()
+    new_threats_df, recurring_df, persistent = deduplicator.run()
+    if new_threats_df is not None and not new_threats_df.empty:
+        print(f"[COSMOS] {len(new_threats_df)} brand new threats discovered today")
+
+    # Step 4 — Detect Unknown Clusters
+    step(4, "UNKNOWN UNKNOWN ENGINE — Discovering Clusters")
     from engine.detector import UnknownUnknownEngine
     engine = UnknownUnknownEngine()
     clusters = engine.run()
@@ -57,36 +65,36 @@ def main():
         print("[COSMOS] Engine found no clusters.")
         clusters = []
 
-    # Step 4 — Graph Analysis
-    step(4, "GRAPH ANALYZER — Mapping Threat Relationships")
+    # Step 5 — Graph Analysis
+    step(5, "GRAPH ANALYZER — Mapping Threat Relationships")
     from engine.graph_analyzer import GraphAnalyzer
     graph_analyzer = GraphAnalyzer()
     graph_results = graph_analyzer.run()
 
-    # Step 5 — Hypothesise
-    step(5, "AI HYPOTHESIS ENGINE — Generating Threat Theories")
+    # Step 6 — Hypothesise
+    step(6, "AI HYPOTHESIS ENGINE — Generating Threat Theories")
     from hypothesis.generator import HypothesisEngine
     hypothesis_engine = HypothesisEngine()
     hypotheses = hypothesis_engine.run()
     if not hypotheses:
         hypotheses = []
 
-    # Step 6 — Digital Twin Lab
-    step(6, "DIGITAL TWIN LAB — Validating Hypotheses")
+    # Step 7 — Digital Twin Lab
+    step(7, "DIGITAL TWIN LAB — Validating Hypotheses")
     from digital_twin.lab import DigitalTwinLab
     lab = DigitalTwinLab()
     twin_results = lab.run()
     if not twin_results:
         twin_results = []
 
-    # Step 7 — Dashboard
-    step(7, "DASHBOARD — Building Visual Interface")
+    # Step 8 — Dashboard
+    step(8, "DASHBOARD — Building Visual Interface")
     from dashboard.app import COSMOSDashboard
     dashboard = COSMOSDashboard()
     dashboard_path = dashboard.run()
 
-    # Step 8 — Digital Twin Visualization
-    step(8, "DIGITAL TWIN VISUALIZATION — Building Live Simulation")
+    # Step 9 — Digital Twin Visualization
+    step(9, "DIGITAL TWIN VISUALIZATION — Building Live Simulation")
     from dashboard.twin_viz import DigitalTwinVisualizer
     twin_viz = DigitalTwinVisualizer()
     twin_viz.run()
