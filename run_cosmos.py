@@ -85,22 +85,31 @@ def main():
     if not hypotheses:
         hypotheses = []
 
-    # Step 8 — Digital Twin Lab
-    step(8, "DIGITAL TWIN LAB — Validating Hypotheses")
+    # Step 8 — Alert System
+    step(8, "ALERT SYSTEM — Sending Critical Threat Notifications")
+    from engine.alert_system import COSMOSAlertSystem
+    alert_system = COSMOSAlertSystem()
+    critical = alert_system.run(
+        total_threats=len(threats_df),
+        new_threats=len(new_threats_df) if new_threats_df is not None and not new_threats_df.empty else 0
+    )
+    
+    # Step 9 — Digital Twin Lab
+    step(9, "DIGITAL TWIN LAB — Validating Hypotheses")
     from digital_twin.lab import DigitalTwinLab
     lab = DigitalTwinLab()
     twin_results = lab.run()
     if not twin_results:
         twin_results = []
 
-    # Step 9 — Dashboard
-    step(9, "DASHBOARD — Building Visual Interface")
+    # Step 10 — Dashboard
+    step(10, "DASHBOARD — Building Visual Interface")
     from dashboard.app import COSMOSDashboard
     dashboard = COSMOSDashboard()
     dashboard_path = dashboard.run()
 
-    # Step 10 — Digital Twin Visualization
-    step(10, "DIGITAL TWIN VISUALIZATION — Building Live Simulation")
+    # Step 11 — Digital Twin Visualization
+    step(11, "DIGITAL TWIN VISUALIZATION — Building Live Simulation")
     from dashboard.twin_viz import DigitalTwinVisualizer
     twin_viz = DigitalTwinVisualizer()
     twin_viz.run()
