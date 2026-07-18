@@ -93,7 +93,7 @@ def main():
         total_threats=len(threats_df),
         new_threats=len(new_threats_df) if new_threats_df is not None and not new_threats_df.empty else 0
     )
-    
+
     # Step 9 — Digital Twin Lab
     step(9, "DIGITAL TWIN LAB — Validating Hypotheses")
     from digital_twin.lab import DigitalTwinLab
@@ -145,35 +145,45 @@ def main():
 ║              COSMOS PIPELINE COMPLETE                    ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
-║  STEP 1 — CYBER TELESCOPE                                ║
+║  STEP 1  — CYBER TELESCOPE                               ║
 ║    Threats Collected    : {str(total_threats).ljust(30)}║
 ║    Active Sources       : {str(sources_count).ljust(30)}║
 ║    Malware Families     : {str(malware_families).ljust(30)}║
 ║                                                          ║
-║  STEP 2 — DATA PROCESSOR                                 ║
+║  STEP 2  — DATA PROCESSOR                                ║
 ║    Critical Threats     : {str(critical).ljust(30)}║
 ║    High Threats         : {str(high).ljust(30)}║
 ║    Medium Threats       : {str(medium).ljust(30)}║
 ║                                                          ║
-║  STEP 3 — UNKNOWN UNKNOWN ENGINE                         ║
+║  STEP 3  — DEDUPLICATOR                                  ║
+║    Brand New Threats    : {str(len(new_threats_df) if new_threats_df is not None and not new_threats_df.empty else 0).ljust(30)}║
+║    Known Threat DB      : {str(len(deduplicator.seen_threats)).ljust(30)}║
+║                                                          ║
+║  STEP 4  — CLUSTER TRACKER                               ║
+║    Long-term Threats    : {str(len(long_term)).ljust(30)}║
+║                                                          ║
+║  STEP 5  — UNKNOWN UNKNOWN ENGINE                        ║
 ║    Unknown Clusters     : {str(total_clusters).ljust(30)}║
 ║                                                          ║
-║  STEP 4 — GRAPH ANALYZER                                 ║
+║  STEP 6  — GRAPH ANALYZER                                ║
 ║    Threat Nodes         : {str(graph_nodes).ljust(30)}║
 ║    Relationships        : {str(graph_edges).ljust(30)}║
 ║    Threat Communities   : {str(threat_communities).ljust(30)}║
 ║    Geographic Clusters  : {str(geo_clusters).ljust(30)}║
 ║                                                          ║
-║  STEP 5 — AI HYPOTHESIS ENGINE                           ║
+║  STEP 7  — AI HYPOTHESIS ENGINE                          ║
 ║    Hypotheses Generated : {str(total_hypotheses).ljust(30)}║
 ║    Engine Used          : {str(hypothesis_engine_used).ljust(30)}║
 ║                                                          ║
-║  STEP 6 — DIGITAL TWIN LAB                               ║
+║  STEP 8  — ALERT SYSTEM                                  ║
+║    Critical Alerts Sent : {str(len(critical) if isinstance (critical, list) else 1 if critical else 0).ljust(30)}║
+║                                                          ║
+║  STEP 9  — DIGITAL TWIN LAB                              ║
 ║    Simulations Run      : {str(len(twin_results)).ljust(30)}║
 ║    Hypotheses Confirmed : {str(twin_confirmed).ljust(30)}║
 ║    Critical Findings    : {str(twin_critical).ljust(30)}║
 ║                                                          ║
-║  STEP 7 — DASHBOARD                                      ║
+║  STEP 10 — DASHBOARD                                     ║
 ║    Main Dashboard       : cosmos_dashboard.html          ║
 ║    Twin Visualization   : twin_visualization.html        ║
 ║    Runtime              : {str(f'{runtime}s').ljust(30)}║
